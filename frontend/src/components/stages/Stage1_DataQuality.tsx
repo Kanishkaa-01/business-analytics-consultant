@@ -7,15 +7,17 @@ import {
   Info,
   Scale,
   Percent,
-  Layers
+  Layers,
+  ArrowRight
 } from 'lucide-react';
 import { DataQualityReport } from '../../types';
 
 interface Props {
   report: DataQualityReport;
+  onNavigateNext?: () => void;
 }
 
-export const Stage1_DataQuality: React.FC<Props> = ({ report }) => {
+export const Stage1_DataQuality: React.FC<Props> = ({ report, onNavigateNext }) => {
   const getGradeColor = (grade: string) => {
     switch (grade) {
       case 'A':
@@ -253,6 +255,25 @@ export const Stage1_DataQuality: React.FC<Props> = ({ report }) => {
           </table>
         </div>
       </div>
+      {/* Next Phase Navigation Banner */}
+<div className="p-4 rounded-xl bg-slate-900 text-white flex items-center justify-between gap-4">
+  <div className="min-w-0">
+    <div className="text-xs text-blue-300 font-bold uppercase">
+      Next Stage
+    </div>
+    <div className="text-sm font-semibold">
+      Review Business Performance & Key Metrics
+    </div>
+  </div>
+
+  <button
+    onClick={onNavigateNext}
+    className="inline-flex shrink-0 items-center gap-1.5 px-4 py-2 rounded-lg text-xs font-bold bg-blue-600 hover:bg-blue-500 text-white transition-colors cursor-pointer"
+  >
+    <span>Continue to Business Overview</span>
+    <ArrowRight className="w-4 h-4" />
+  </button>
+</div>
     </div>
   );
 };
