@@ -274,3 +274,218 @@ def test_api_export_endpoints(mock_report_data):
         db.query(Dataset).filter(Dataset.id == dataset.id).delete()
         db.commit()
         db.close()
+
+
+def test_pdf_report_data_quality_mapping_and_no_zero_range():
+    """Verify that Data Quality, Trends, and Anomalies map real pipeline fields without blank cells or [0.0, 0.0]."""
+    import pymupdf
+
+    run = AnalysisRun(
+        id="test-run-pdf-002",
+        dataset_id="test-ds-pdf-002",
+        target_column="Revenue",
+        date_column="Date",
+        status="completed",
+        execution_time_ms=95.0,
+        data_quality={
+            "overall_quality_score": 98.0,
+            "reliability_assessment": "High Reliability",
+            "completeness_ratio": 1.0,
+            "validity_ratio": 1.0,
+            "column_metrics": [
+                {
+                    "column": "Units_Sold",
+                    "completeness_score": 1.0,
+                    "validity_score": 0.985,
+                    "outlier_count": 2,
+                    "outlier_percentage": 1.5,
+                }
+            ],
+            "issues": [
+                {
+                    "column": "Units_Sold",
+                    "dimension": "Distribution",
+                    "severity": "Warning",
+                    "description": "Minor outlier concentration."
+                }
+            ]
+        },
+        business_health={
+            "overall_health_score": 85,
+            "overall_status": "Healthy",
+            "executive_summary": "Solid quarter with growth in core channels.",
+            "kpis": [
+                {
+                    "name": "Revenue",
+                    "current_value": 500000.0,
+                    "target_or_baseline": 480000.0,
+                    "variance_pct": 4.17,
+                    "unit": "$",
+                    "status": "healthy"
+                }
+            ]
+        },
+        diagnostics={
+            "focal_metric": "Revenue",
+            "total_variance": 20000.0,
+            "variance_pct": 4.17,
+            "diagnostic_narrative": "Observed positive growth in wholesale accounts.",
+            "findings": [
+                {
+                    "title": "Strong Wholesale Lift",
+                    "metric": "Revenue",
+                    "observed_value": 500000.0,
+                    "comparison": "Baseline",
+                    "difference": 20000.0
+                }
+            ],
+            "variance_breakdown": [
+                {
+                    "dimension": "Channel",
+                    "segment": "Wholesale",
+                    "baseline_value": 200000.0,
+                    "actual_value": 220000.0,
+                    "variance": 20000.0,
+                    "variance_pct": 10.0,
+                    "contribution_share_pct": 100.0,
+                    "direction": "Lift"
+                }
+            ]
+        },
+        root_cause={
+            "primary_root_cause": "Wholesale contract renewal",
+            "statistical_confidence_level": 92.0,
+            "factor_contributions": [
+                {
+                    "factor_name": "Contract Renewals",
+                    "factor_type": "Commercial",
+                    "attribution_percentage": 85.0,
+                    "direction": "Positive",
+                    "evidence_statement": "Wholesale volume +10%"
+                }
+            ]
+        },
+        risks_opportunities={},
+        evidence_chains=[],
+        recommendations=[]
+    )
+
+    dataset = Dataset(
+        id="test-ds-pdf-002",
+        name="Sales Ledger Q3",
+        filename="sales_ledger.csv",
+        file_path="",
+        file_size_bytes=2048,
+        file_hash="hash456def",
+        row_count=1000,
+        column_count=5,
+        schema_metadata={
+            "columns": [
+                {
+                    "name": "Units_Sold",
+                    "inferred_type": "numeric"
+                }
+            ]
+        }
+    )
+
+    pdf_bytes = ReportGeneratorService.generate_pdf_report(run, dataset, [], [])
+    assert isinstance(pdf_bytes, bytes)
+    assert pdf_bytes.startswith(b"%PDF")
+
+    # Extract text with pymupdf and verify accurate data rendering
+    doc = pymupdf.open(stream=pdf_bytes, filetype="pdf")
+    full_text = "\n".join(page.get_text() for page in doc)
+
+    # 1. Column name and type are populated
+    assert "Units_Sold" in full_text
+    assert "Numeric" in full_text
+    # 2. Completeness and validity are properly formatted (100.0%, 98.5%)
+    assert "100.0%" in full_text
+    assert "98.5%" in full_text
+    # 3. Quality issue is mapped
+    assert "Distribution (Warning)" in full_text
+    # 4. Expected range does not display misleading [0.0, 0.0]
+    assert "[0.0, 0.0]" not in full_text
+    # 5. Segment breakdown columns and values are populated
+    assert "Wholesale" in full_text
+    assert "Positive Gain" in full_text
+
+
+def test_stored_analyses_backend_pagination():
+    """Verify stored analyses endpoint pagination metadata, sorting, and backward compatibility."""
+    client = TestClient(app)
+    db = SessionLocal()
+
+    created_runs = []
+    created_datasets = []
+    try:
+        for i in range(3):
+            ds = Dataset(
+                id=f"test-ds-pg-{i}",
+                name=f"Dataset {chr(65+i)}",
+                filename=f"ds_{i}.csv",
+                file_path="",
+                file_size_bytes=100,
+                file_hash=f"hash_{i}",
+                row_count=50,
+                column_count=3
+            )
+            run = AnalysisRun(
+                id=f"test-run-pg-{i}",
+                dataset_id=ds.id,
+                target_column="Sales",
+                analysis_name=f"Analysis Run {chr(65+i)}",
+                status="completed",
+                execution_time_ms=50.0 + i * 10,
+                business_health={"overall_health_score": 70.0 + i * 5}
+            )
+            db.add(ds)
+            db.add(run)
+            created_datasets.append(ds)
+            created_runs.append(run)
+        db.commit()
+
+        # 1. Paginated request
+        res_p1 = client.get("/api/analyses?page=1&page_size=2&sort_by=name")
+        assert res_p1.status_code == 200
+        data_p1 = res_p1.json()
+        assert "items" in data_p1
+        assert "total" in data_p1
+        assert "page" in data_p1
+        assert "page_size" in data_p1
+        assert "total_pages" in data_p1
+
+        assert data_p1["page"] == 1
+        assert data_p1["page_size"] == 2
+        assert data_p1["total"] >= 3
+        assert len(data_p1["items"]) == 2
+        assert data_p1["total_pages"] >= 2
+
+        # 2. Page 2 request
+        res_p2 = client.get("/api/analyses?page=2&page_size=2&sort_by=name")
+        assert res_p2.status_code == 200
+        data_p2 = res_p2.json()
+        assert data_p2["page"] == 2
+        assert len(data_p2["items"]) >= 1
+
+        # 3. Backward compatibility (unpaginated request returns raw list)
+        res_unp = client.get("/api/analyses")
+        assert res_unp.status_code == 200
+        data_unp = res_unp.json()
+        assert isinstance(data_unp, list)
+        assert len(data_unp) >= 3
+
+        # 4. Alias route works identically
+        res_alias = client.get("/api/analysis/stored?page=1&page_size=2")
+        assert res_alias.status_code == 200
+        assert "items" in res_alias.json()
+
+    finally:
+        for r in created_runs:
+            db.query(AnalysisRun).filter(AnalysisRun.id == r.id).delete()
+        for d in created_datasets:
+            db.query(Dataset).filter(Dataset.id == d.id).delete()
+        db.commit()
+        db.close()
+

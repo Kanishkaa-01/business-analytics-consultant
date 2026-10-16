@@ -404,6 +404,8 @@ class AnomalyFinding(BaseModel):
     method: str  # "IQR", "Z-Score", "Rolling Deviation"
     severity: str  # "High", "Medium", "Low"
     statement: str
+    expected_lower: Optional[float] = None
+    expected_upper: Optional[float] = None
 
 
 class SegmentComparisonFinding(BaseModel):
@@ -535,6 +537,14 @@ class StoredAnalysisSummary(BaseModel):
     completed_at: Optional[datetime] = None
 
     model_config = ConfigDict(from_attributes=True)
+
+
+class PaginatedStoredAnalysesResponse(BaseModel):
+    items: List[StoredAnalysisSummary]
+    total: int
+    page: int
+    page_size: int
+    total_pages: int
 
 
 class AnalysisRenameRequest(BaseModel):

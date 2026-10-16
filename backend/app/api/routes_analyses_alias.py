@@ -1,9 +1,10 @@
-from typing import List, Optional
+from typing import List, Optional, Union
 from fastapi import APIRouter, Depends, Query
 from sqlalchemy.orm import Session
 from app.core.database import get_db
 from app.models.schemas import (
     StoredAnalysisSummary,
+    PaginatedStoredAnalysesResponse,
     AnalysisRenameRequest,
     AnalysisRunResponse,
     DrillDownRequest,
@@ -37,10 +38,16 @@ from app.api.routes_analysis import (
 router = APIRouter(prefix="/analyses", tags=["Analyses History & Workflows"])
 
 
-@router.get("", response_model=List[StoredAnalysisSummary])
-@router.get("/", response_model=List[StoredAnalysisSummary])
-def get_all_analyses(search: Optional[str] = Query(None), db: Session = Depends(get_db)):
-    return list_stored_analyses(search=search, db=db)
+@router.get("", response_model=Union[PaginatedStoredAnalysesResponse, List[StoredAnalysisSummary]])
+@router.get("/", response_model=Union[PaginatedStoredAnalysesResponse, List[StoredAnalysisSummary]])
+def get_all_analyses(
+    search: Optional[str] = Query(None),
+    page: Optional[int] = Query(None, ge=1),
+    page_size: Optional[int] = Query(None, ge=1, le=100),
+    sort_by: Optional[str] = Query("newest"),
+    db: Session = Depends(get_db)
+):
+    return list_stored_analyses(search=search, page=page, page_size=page_size, sort_by=sort_by, db=db)
 
 
 @router.get("/{analysis_id}", response_model=AnalysisRunResponse)

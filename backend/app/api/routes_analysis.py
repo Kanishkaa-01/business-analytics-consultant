@@ -1,6 +1,7 @@
+import math
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import List, Optional
+from typing import List, Optional, Union
 from fastapi import APIRouter, Depends, HTTPException, Query
 from sqlalchemy.orm import Session
 from app.core.database import get_db
@@ -14,6 +15,7 @@ from app.models.schemas import (
     ForecastReport,
     ForecastRequest,
     StoredAnalysisSummary,
+    PaginatedStoredAnalysesResponse,
     AnalysisRenameRequest,
     DrillDownRequest,
     DrillDownResponse,
@@ -120,6 +122,80 @@ def execute_analysis(
         recommendations=analysis_run.recommendations,
         decisions=[]
     )
+
+
+# -------------------------------------------------------------
+# Stored Analyses History & Management
+# -------------------------------------------------------------
+@router.get("/stored", response_model=Union[PaginatedStoredAnalysesResponse, List[StoredAnalysisSummary]])
+def list_stored_analyses(
+    search: Optional[str] = Query(None),
+    page: Optional[int] = Query(None, ge=1),
+    page_size: Optional[int] = Query(None, ge=1, le=100),
+    sort_by: Optional[str] = Query("newest"),
+    db: Session = Depends(get_db)
+):
+    """Retrieves all past analytical runs with search, sorting, and optional pagination."""
+    query = (
+        db.query(AnalysisRun, Dataset.name.label("dataset_name"))
+        .join(Dataset, AnalysisRun.dataset_id == Dataset.id)
+        .order_by(AnalysisRun.created_at.desc())
+    )
+    results = query.all()
+    summaries = []
+    for run, ds_name in results:
+        display_name = run.analysis_name or f"{ds_name} Analysis"
+        if search:
+            s_low = search.lower()
+            if s_low not in display_name.lower() and s_low not in ds_name.lower():
+                continue
+
+        health_score = None
+        if run.business_health and isinstance(run.business_health, dict):
+            health_score = run.business_health.get("overall_health_score")
+
+        summaries.append(StoredAnalysisSummary(
+            id=run.id,
+            analysis_name=display_name,
+            dataset_id=run.dataset_id,
+            dataset_name=ds_name,
+            dataset_version=run.dataset_version,
+            target_column=run.target_column,
+            date_column=run.date_column,
+            status=run.status,
+            execution_time_ms=int(run.execution_time_ms or 0),
+            health_score=health_score,
+            created_at=run.created_at,
+            completed_at=run.completed_at
+        ))
+
+    # Apply sorting
+    if sort_by == "oldest":
+        summaries.sort(key=lambda s: s.created_at)
+    elif sort_by == "health":
+        summaries.sort(key=lambda s: (s.health_score if s.health_score is not None else -1.0), reverse=True)
+    elif sort_by == "name":
+        summaries.sort(key=lambda s: s.analysis_name.lower())
+    else:  # newest
+        summaries.sort(key=lambda s: s.created_at, reverse=True)
+
+    # Return paginated structure if page was specified
+    if page is not None:
+        p_size = page_size if page_size is not None else 10
+        total = len(summaries)
+        total_pages = max(1, math.ceil(total / p_size)) if total > 0 else 1
+        start = (page - 1) * p_size
+        end = start + p_size
+        items = summaries[start:end]
+        return PaginatedStoredAnalysesResponse(
+            items=items,
+            total=total,
+            page=page,
+            page_size=p_size,
+            total_pages=total_pages
+        )
+
+    return summaries
 
 
 @router.get("/{analysis_id}", response_model=AnalysisRunResponse)
@@ -276,50 +352,6 @@ def generate_forecast_for_analysis(
         selected_model_type=req.model_type
     )
     return report
-
-
-# -------------------------------------------------------------
-# Stored Analyses History & Management
-# -------------------------------------------------------------
-@router.get("/stored", response_model=List[StoredAnalysisSummary])
-def list_stored_analyses(
-    search: Optional[str] = Query(None),
-    db: Session = Depends(get_db)
-):
-    """Retrieves all past analytical runs with search and metadata summaries."""
-    query = (
-        db.query(AnalysisRun, Dataset.name.label("dataset_name"))
-        .join(Dataset, AnalysisRun.dataset_id == Dataset.id)
-        .order_by(AnalysisRun.created_at.desc())
-    )
-    results = query.all()
-    summaries = []
-    for run, ds_name in results:
-        display_name = run.analysis_name or f"{ds_name} Analysis"
-        if search:
-            s_low = search.lower()
-            if s_low not in display_name.lower() and s_low not in ds_name.lower():
-                continue
-
-        health_score = None
-        if run.business_health and isinstance(run.business_health, dict):
-            health_score = run.business_health.get("overall_health_score")
-
-        summaries.append(StoredAnalysisSummary(
-            id=run.id,
-            analysis_name=display_name,
-            dataset_id=run.dataset_id,
-            dataset_name=ds_name,
-            dataset_version=run.dataset_version,
-            target_column=run.target_column,
-            date_column=run.date_column,
-            status=run.status,
-            execution_time_ms=int(run.execution_time_ms or 0),
-            health_score=health_score,
-            created_at=run.created_at,
-            completed_at=run.completed_at
-        ))
-    return summaries
 
 
 @router.patch("/{analysis_id}/rename", response_model=StoredAnalysisSummary)

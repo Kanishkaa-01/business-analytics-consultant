@@ -177,9 +177,10 @@ export const HomePage: React.FC<Props> = ({
   const loadRecent = async () => {
     try {
       setLoadingRecent(true);
-      const list = await api.listStoredAnalyses();
+      const data: any = await api.listStoredAnalyses();
+      const list = Array.isArray(data) ? data : (data?.items || []);
       // Keep up to 3 most recent
-      setRecentAnalyses((list || []).slice(0, 3));
+      setRecentAnalyses(list.slice(0, 3));
     } catch (e) {
       console.warn('Could not load recent analyses:', e);
       setRecentAnalyses([]);

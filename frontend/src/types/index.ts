@@ -583,6 +583,14 @@ export interface StoredAnalysisSummary {
   completed_at?: string | null;
 }
 
+export interface PaginatedStoredAnalysesResponse {
+  items: StoredAnalysisSummary[];
+  total: number;
+  page: number;
+  page_size: number;
+  total_pages: number;
+}
+
 // -------------------------------------------------------------
 // KPI Goal Tracking
 // -------------------------------------------------------------

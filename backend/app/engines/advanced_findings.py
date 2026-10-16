@@ -157,6 +157,8 @@ class AdvancedFindingsEngine:
                 period_or_record=period_or_rec,
                 observed_value=obs_val,
                 expected_value=round(median_val, 2),
+                expected_lower=round(lower_bound, 2),
+                expected_upper=round(upper_bound, 2),
                 deviation=dev,
                 deviation_pct=dev_pct,
                 method="IQR (1.5x)",

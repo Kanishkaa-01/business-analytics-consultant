@@ -12,6 +12,7 @@ import {
   ForecastReport,
   ForecastRequest,
   StoredAnalysisSummary,
+  PaginatedStoredAnalysesResponse,
   KpiGoalResponse,
   KpiGoalCreate,
   DrillDownResponse,
@@ -258,8 +259,19 @@ export const api = {
     return res.json();
   },
 
-  async listStoredAnalyses(search?: string): Promise<StoredAnalysisSummary[]> {
-    const url = search ? `${API_BASE}/analyses?search=${encodeURIComponent(search)}` : `${API_BASE}/analyses`;
+  async listStoredAnalyses(
+    search?: string,
+    page?: number,
+    pageSize?: number,
+    sortBy?: string
+  ): Promise<any> {
+    const params = new URLSearchParams();
+    if (search) params.append('search', search);
+    if (page !== undefined && page !== null) params.append('page', String(page));
+    if (pageSize !== undefined && pageSize !== null) params.append('page_size', String(pageSize));
+    if (sortBy) params.append('sort_by', sortBy);
+    const qs = params.toString();
+    const url = qs ? `${API_BASE}/analyses?${qs}` : `${API_BASE}/analyses`;
     const res = await fetch(url);
     if (!res.ok) throw new Error('Failed to fetch stored analyses');
     return res.json();

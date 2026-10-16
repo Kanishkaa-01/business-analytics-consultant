@@ -58,7 +58,7 @@ class NumberedCanvas(canvas.Canvas):
         # Running footer (all pages)
         page_str = f"Page {self._pageNumber} of {page_count}"
         self.drawRightString(8.5 * inch - 54, 34, page_str)
-        self.drawString(54, 34, "Confidential — Explainable Business Decision Support System (MSc IT)")
+        self.drawString(54, 34, "Confidential — Explainable Business Decision Support System")
         self.setStrokeColor(colors.HexColor("#CBD5E1"))
         self.setLineWidth(0.5)
         self.line(54, 44, 8.5 * inch - 54, 44)
@@ -193,7 +193,8 @@ class ReportGeneratorService:
         body_bold = ParagraphStyle(
             'BodyBold',
             parent=body_style,
-            fontName='Helvetica-Bold'
+            fontName='Helvetica-Bold',
+            keepWithNext=True
         )
         cell_style = ParagraphStyle(
             'CellText',
@@ -253,7 +254,7 @@ class ReportGeneratorService:
                 Paragraph("<b>Data Quality Score:</b>", cell_style), Paragraph(f"{dq.get('overall_quality_score', 0):.1f}/100", cell_style)
             ]
         ]
-        meta_table = Table(meta_data, colWidths=[1.3*inch, 2.2*inch, 1.4*inch, 2.1*inch])
+        meta_table = Table(meta_data, colWidths=[1.3*inch, 2.2*inch, 1.4*inch, 2.1*inch], repeatRows=1)
         meta_table.setStyle(TableStyle([
             ('BACKGROUND', (0,0), (-1,-1), colors.HexColor('#F8FAFC')),
             ('BOX', (0,0), (-1,-1), 0.5, colors.HexColor('#CBD5E1')),
@@ -282,16 +283,63 @@ class ReportGeneratorService:
         # 2. Data Quality & Reliability
         # -------------------------------------------------------------
         story.append(Paragraph("2. Data Quality & Reliability", h1_style))
+        
+        # Pre-resolve column data types from schema metadata
+        col_types = {}
+        if dataset and dataset.schema_metadata and isinstance(dataset.schema_metadata, dict):
+            for col_meta in dataset.schema_metadata.get('columns', []):
+                if isinstance(col_meta, dict) and 'name' in col_meta:
+                    itype = col_meta.get('inferred_type') or col_meta.get('dtype') or 'Unknown'
+                    col_types[str(col_meta['name']).strip().lower()] = str(itype).title()
+
+        # Index quality issues by column name
+        issues_by_col = {}
+        for iss in dq.get('issues', []):
+            if isinstance(iss, dict):
+                col_key = str(iss.get('column', '')).strip().lower()
+                if col_key:
+                    dim = iss.get('dimension')
+                    sev = iss.get('severity')
+                    label = f"{dim} ({sev})" if dim and sev else (iss.get('description') or 'Flagged')
+                    if col_key not in issues_by_col:
+                        issues_by_col[col_key] = []
+                    if label not in issues_by_col[col_key]:
+                        issues_by_col[col_key].append(label)
+
         reliability = dq.get('reliability_assessment', 'Satisfactory')
+        comp_overall = dq.get('completeness_pct')
+        if comp_overall is None:
+            c_rat = dq.get('completeness_ratio')
+            comp_overall = (c_rat * 100.0) if c_rat is not None else 100.0
+
+        val_overall = dq.get('validity_pct')
+        if val_overall is None:
+            v_rat = dq.get('validity_ratio')
+            val_overall = (v_rat * 100.0) if v_rat is not None else 100.0
+
         story.append(Paragraph(
             f"<b>Quality Score:</b> {dq.get('overall_quality_score', 0):.1f}/100 &bull; "
             f"<b>Reliability Rating:</b> {reliability} &bull; "
-            f"<b>Completeness:</b> {dq.get('completeness_pct', 100):.1f}% &bull; "
-            f"<b>Validity:</b> {dq.get('validity_pct', 100):.1f}%",
+            f"<b>Completeness:</b> {comp_overall:.1f}% &bull; "
+            f"<b>Validity:</b> {val_overall:.1f}%",
             body_style
         ))
         
-        col_metrics = dq.get('column_metrics', [])[:6]
+        col_metrics = dq.get('column_metrics', [])
+        # If col_metrics is empty, derive from schema_metadata
+        if not col_metrics and dataset and dataset.schema_metadata and isinstance(dataset.schema_metadata, dict):
+            schema_cols = dataset.schema_metadata.get('columns', [])
+            col_metrics = [
+                {
+                    "column": sc.get('name'),
+                    "inferred_type": sc.get('inferred_type') or sc.get('dtype'),
+                    "completeness_score": 1.0 - (sc.get('null_percentage', 0.0) / 100.0),
+                    "validity_score": 1.0,
+                    "potential_issues": []
+                }
+                for sc in schema_cols[:8]
+            ]
+
         if col_metrics:
             dq_rows = [[
                 Paragraph("Column", cell_header_style),
@@ -300,16 +348,44 @@ class ReportGeneratorService:
                 Paragraph("Validity", cell_header_style),
                 Paragraph("Issues / Flags", cell_header_style)
             ]]
-            for c in col_metrics:
-                issues = ", ".join(c.get('potential_issues', [])) or "None detected"
+            for c in col_metrics[:8]:
+                col_name = str(c.get('column') or c.get('column_name') or c.get('name') or '')
+                c_type = (
+                    c.get('inferred_type')
+                    or c.get('data_type')
+                    or c.get('dtype')
+                    or col_types.get(col_name.strip().lower())
+                    or 'Unknown'
+                )
+                if isinstance(c_type, str):
+                    c_type = c_type.title()
+
+                c_comp = c.get('completeness_pct')
+                if c_comp is None:
+                    c_score = c.get('completeness_score')
+                    c_comp = (c_score * 100.0) if (c_score is not None and c_score <= 1.0) else (c_score if c_score is not None else 100.0)
+
+                c_val = c.get('validity_pct')
+                if c_val is None:
+                    v_score = c.get('validity_score')
+                    c_val = (v_score * 100.0) if (v_score is not None and v_score <= 1.0) else (v_score if v_score is not None else 100.0)
+
+                col_iss = c.get('potential_issues') or issues_by_col.get(col_name.strip().lower(), [])
+                if col_iss:
+                    issues_str = ", ".join(col_iss) if isinstance(col_iss, list) else str(col_iss)
+                elif c.get('outlier_count', 0) > 0:
+                    issues_str = f"{c.get('outlier_count')} outliers ({c.get('outlier_percentage', 0):.1f}%)"
+                else:
+                    issues_str = "None detected"
+
                 dq_rows.append([
-                    Paragraph(str(c.get('column_name', '')), cell_style),
-                    Paragraph(str(c.get('inferred_type', '')), cell_style),
-                    Paragraph(f"{c.get('completeness_pct', 0):.1f}%", cell_style),
-                    Paragraph(f"{c.get('validity_pct', 0):.1f}%", cell_style),
-                    Paragraph(issues, cell_style)
+                    Paragraph(col_name, cell_style),
+                    Paragraph(c_type, cell_style),
+                    Paragraph(f"{c_comp:.1f}%", cell_style),
+                    Paragraph(f"{c_val:.1f}%", cell_style),
+                    Paragraph(issues_str, cell_style)
                 ])
-            dq_table = Table(dq_rows, colWidths=[1.8*inch, 1.0*inch, 1.1*inch, 1.1*inch, 2.0*inch])
+            dq_table = Table(dq_rows, colWidths=[1.8*inch, 1.0*inch, 1.1*inch, 1.1*inch, 2.0*inch], repeatRows=1)
             dq_table.setStyle(TableStyle([
                 ('BACKGROUND', (0,0), (-1,0), colors.HexColor('#1E293B')),
                 ('BOX', (0,0), (-1,-1), 0.5, colors.HexColor('#CBD5E1')),
@@ -345,7 +421,7 @@ class ReportGeneratorService:
                     Paragraph(var_p, cell_style),
                     Paragraph(str(k.get('status', '')).upper(), cell_style)
                 ])
-            kpi_table = Table(kpi_rows, colWidths=[2.0*inch, 1.4*inch, 1.4*inch, 1.1*inch, 1.1*inch])
+            kpi_table = Table(kpi_rows, colWidths=[1.8*inch, 1.3*inch, 1.3*inch, 1.3*inch, 1.3*inch], repeatRows=1)
             kpi_table.setStyle(TableStyle([
                 ('BACKGROUND', (0,0), (-1,0), colors.HexColor('#1E293B')),
                 ('BOX', (0,0), (-1,-1), 0.5, colors.HexColor('#CBD5E1')),
@@ -393,7 +469,7 @@ class ReportGeneratorService:
                     Paragraph(str(f.get('comparison', '')), cell_style),
                     Paragraph(diff_str, cell_style)
                 ])
-            find_table = Table(find_rows, colWidths=[2.3*inch, 1.2*inch, 1.2*inch, 1.2*inch, 1.1*inch])
+            find_table = Table(find_rows, colWidths=[2.2*inch, 1.2*inch, 1.2*inch, 1.2*inch, 1.2*inch], repeatRows=1)
             find_table.setStyle(TableStyle([
                 ('BACKGROUND', (0,0), (-1,0), colors.HexColor('#1E293B')),
                 ('BOX', (0,0), (-1,-1), 0.5, colors.HexColor('#CBD5E1')),
@@ -417,19 +493,40 @@ class ReportGeneratorService:
             tr_rows = [[
                 Paragraph("Metric", cell_header_style),
                 Paragraph("Direction", cell_header_style),
-                Paragraph("Slope / Rate", cell_header_style),
-                Paragraph("Consistency", cell_header_style),
+                Paragraph("Shift / Growth", cell_header_style),
+                Paragraph("Analyzed Scope", cell_header_style),
                 Paragraph("Summary", cell_header_style)
             ]]
-            for t in trends[:4]:
+            for t in trends[:5]:
+                metric_name = str(t.get('metric') or t.get('metric_name') or run.target_column or 'Metric')
+                direction = str(t.get('direction', 'Stable')).title()
+                growth_pct = t.get('growth_pct')
+                if growth_pct is not None:
+                    growth_str = f"{growth_pct:+.1f}%"
+                elif t.get('slope_per_period') is not None:
+                    growth_str = f"{t.get('slope_per_period'):+.2f}/period"
+                else:
+                    growth_str = "N/A"
+
+                periods = t.get('periods_analyzed')
+                consistency = t.get('consistency_pct')
+                if periods is not None:
+                    scope_str = f"{periods} periods"
+                elif consistency is not None:
+                    scope_str = f"{consistency:.1f}% consistency"
+                else:
+                    scope_str = "Full series"
+
+                summary_text = str(t.get('summary_statement') or t.get('summary') or f"{direction} pattern observed.")
+
                 tr_rows.append([
-                    Paragraph(str(t.get('metric_name', '')), cell_style),
-                    Paragraph(str(t.get('direction', '')), cell_style),
-                    Paragraph(f"{t.get('slope_per_period', 0):+.2f}/period", cell_style),
-                    Paragraph(f"{t.get('consistency_pct', 0):.1f}%", cell_style),
-                    Paragraph(str(t.get('summary', '')), cell_style)
+                    Paragraph(metric_name, cell_style),
+                    Paragraph(direction, cell_style),
+                    Paragraph(growth_str, cell_style),
+                    Paragraph(scope_str, cell_style),
+                    Paragraph(summary_text, cell_style)
                 ])
-            tr_table = Table(tr_rows, colWidths=[1.4*inch, 1.0*inch, 1.2*inch, 1.0*inch, 2.4*inch])
+            tr_table = Table(tr_rows, colWidths=[1.3*inch, 1.0*inch, 1.1*inch, 1.1*inch, 2.5*inch], repeatRows=1)
             tr_table.setStyle(TableStyle([
                 ('BACKGROUND', (0,0), (-1,0), colors.HexColor('#1E293B')),
                 ('BOX', (0,0), (-1,-1), 0.5, colors.HexColor('#CBD5E1')),
@@ -445,21 +542,37 @@ class ReportGeneratorService:
             story.append(Paragraph("<b>Empirical Anomaly Detection (IQR Method):</b>", body_bold))
             anom_rows = [[
                 Paragraph("Metric", cell_header_style),
-                Paragraph("Dimension / Group", cell_header_style),
+                Paragraph("Period / Record", cell_header_style),
                 Paragraph("Observed", cell_header_style),
                 Paragraph("Expected Range", cell_header_style),
                 Paragraph("Severity", cell_header_style)
             ]]
-            for a in anomalies[:5]:
-                exp_range = f"[{a.get('expected_lower', 0):,.1f}, {a.get('expected_upper', 0):,.1f}]"
+            for a in anomalies[:6]:
+                metric_name = str(a.get('metric') or a.get('metric_name') or run.target_column or 'Metric')
+                group_name = str(a.get('period_or_record') or a.get('dimension_or_group') or 'Global')
+                obs_val = a.get('observed_value', 0)
+                obs_str = f"${obs_val:,.2f}" if isinstance(obs_val, (int, float)) else str(obs_val)
+
+                lower = a.get('expected_lower')
+                upper = a.get('expected_upper')
+                # Never show misleading [0.0, 0.0]
+                if lower is not None and upper is not None and (lower != 0 or upper != 0 or lower != upper):
+                    exp_range = f"[{lower:,.1f}, {upper:,.1f}]"
+                elif a.get('expected_value') is not None and a.get('expected_value') != 0:
+                    exp_range = f"~${a.get('expected_value'):,.1f} (Median)"
+                else:
+                    exp_range = "Unavailable (Single-point baseline)"
+
+                severity = str(a.get('severity', 'Medium')).title()
+
                 anom_rows.append([
-                    Paragraph(str(a.get('metric_name', '')), cell_style),
-                    Paragraph(str(a.get('dimension_or_group', 'Global')), cell_style),
-                    Paragraph(f"{a.get('observed_value', 0):,.2f}", cell_style),
+                    Paragraph(metric_name, cell_style),
+                    Paragraph(group_name, cell_style),
+                    Paragraph(obs_str, cell_style),
                     Paragraph(exp_range, cell_style),
-                    Paragraph(str(a.get('severity', 'Medium')), cell_style)
+                    Paragraph(severity, cell_style)
                 ])
-            anom_table = Table(anom_rows, colWidths=[1.5*inch, 1.6*inch, 1.3*inch, 1.6*inch, 1.0*inch])
+            anom_table = Table(anom_rows, colWidths=[1.4*inch, 1.4*inch, 1.2*inch, 1.8*inch, 1.2*inch], repeatRows=1)
             anom_table.setStyle(TableStyle([
                 ('BACKGROUND', (0,0), (-1,0), colors.HexColor('#1E293B')),
                 ('BOX', (0,0), (-1,-1), 0.5, colors.HexColor('#CBD5E1')),
@@ -477,7 +590,9 @@ class ReportGeneratorService:
         # 6. Segment Comparisons
         # -------------------------------------------------------------
         story.append(Paragraph("6. Segment Comparisons", h1_style))
-        var_breakdown = diag.get('variance_breakdown', [])[:6]
+        var_breakdown = diag.get('variance_breakdown', [])
+        adv_segs = adv_findings.get('segment_comparisons', [])
+
         if var_breakdown:
             seg_rows = [[
                 Paragraph("Dimension", cell_header_style),
@@ -488,18 +603,31 @@ class ReportGeneratorService:
                 Paragraph("Contribution", cell_header_style),
                 Paragraph("Impact Type", cell_header_style)
             ]]
-            for b in var_breakdown:
-                dir_label = "Positive Gain" if b.get('direction') == "Lift" else "Negative Difference"
+            for b in var_breakdown[:8]:
+                dim_str = str(b.get('dimension') or b.get('dimension_name') or 'Dimension')
+                seg_str = str(b.get('segment') or b.get('segment_name') or 'Segment')
+                base_v = b.get('baseline_value') if b.get('baseline_value') is not None else b.get('baseline', 0)
+                act_v = b.get('actual_value') if b.get('actual_value') is not None else b.get('actual', 0)
+                diff_v = b.get('variance') if b.get('variance') is not None else b.get('difference', 0)
+                share_v = b.get('contribution_share_pct') if b.get('contribution_share_pct') is not None else b.get('contribution', 0)
+                direction = b.get('direction') or b.get('impact_type')
+                dir_label = "Positive Gain" if direction == "Lift" else "Negative Difference" if direction == "Drag" else str(direction or "Neutral")
+
+                base_str = f"${base_v:,.2f}" if isinstance(base_v, (int, float)) else str(base_v)
+                act_str = f"${act_v:,.2f}" if isinstance(act_v, (int, float)) else str(act_v)
+                diff_str = f"${diff_v:+,.2f}" if isinstance(diff_v, (int, float)) else str(diff_v)
+                share_str = f"{share_v:.1f}%" if isinstance(share_v, (int, float)) else str(share_v)
+
                 seg_rows.append([
-                    Paragraph(str(b.get('dimension', '')), cell_style),
-                    Paragraph(str(b.get('segment', '')), cell_style),
-                    Paragraph(f"${b.get('baseline_value', 0):,.2f}", cell_style),
-                    Paragraph(f"${b.get('actual_value', 0):,.2f}", cell_style),
-                    Paragraph(f"${b.get('variance', 0):+,.2f}", cell_style),
-                    Paragraph(f"{b.get('contribution_share_pct', 0):.1f}%", cell_style),
+                    Paragraph(dim_str, cell_style),
+                    Paragraph(seg_str, cell_style),
+                    Paragraph(base_str, cell_style),
+                    Paragraph(act_str, cell_style),
+                    Paragraph(diff_str, cell_style),
+                    Paragraph(share_str, cell_style),
                     Paragraph(dir_label, cell_style)
                 ])
-            seg_table = Table(seg_rows, colWidths=[1.1*inch, 1.4*inch, 1.0*inch, 1.0*inch, 1.0*inch, 0.8*inch, 1.2*inch])
+            seg_table = Table(seg_rows, colWidths=[1.1*inch, 1.2*inch, 0.9*inch, 0.9*inch, 0.9*inch, 0.9*inch, 1.1*inch], repeatRows=1)
             seg_table.setStyle(TableStyle([
                 ('BACKGROUND', (0,0), (-1,0), colors.HexColor('#1E293B')),
                 ('BOX', (0,0), (-1,-1), 0.5, colors.HexColor('#CBD5E1')),
@@ -509,8 +637,38 @@ class ReportGeneratorService:
                 ('BOTTOMPADDING', (0,0), (-1,-1), 3),
             ]))
             story.append(seg_table)
+        elif adv_segs:
+            adv_rows = [[
+                Paragraph("Dimension", cell_header_style),
+                Paragraph("Top Segment", cell_header_style),
+                Paragraph("Top Value", cell_header_style),
+                Paragraph("Bottom Segment", cell_header_style),
+                Paragraph("Bottom Value", cell_header_style),
+                Paragraph("Spread %", cell_header_style)
+            ]]
+            for s in adv_segs[:6]:
+                top_v = s.get('top_segment_value', 0)
+                bot_v = s.get('bottom_segment_value', 0)
+                adv_rows.append([
+                    Paragraph(str(s.get('dimension', '')), cell_style),
+                    Paragraph(str(s.get('top_segment', '')), cell_style),
+                    Paragraph(f"${top_v:,.2f}" if isinstance(top_v, (int, float)) else str(top_v), cell_style),
+                    Paragraph(str(s.get('bottom_segment', '')), cell_style),
+                    Paragraph(f"${bot_v:,.2f}" if isinstance(bot_v, (int, float)) else str(bot_v), cell_style),
+                    Paragraph(f"{s.get('spread_pct', 0):.1f}%", cell_style)
+                ])
+            adv_table = Table(adv_rows, colWidths=[1.2*inch, 1.3*inch, 1.1*inch, 1.3*inch, 1.1*inch, 1.0*inch], repeatRows=1)
+            adv_table.setStyle(TableStyle([
+                ('BACKGROUND', (0,0), (-1,0), colors.HexColor('#1E293B')),
+                ('BOX', (0,0), (-1,-1), 0.5, colors.HexColor('#CBD5E1')),
+                ('INNERGRID', (0,0), (-1,-1), 0.5, colors.HexColor('#E2E8F0')),
+                ('ROWBACKGROUNDS', (0,1), (-1,-1), [colors.white, colors.HexColor('#F8FAFC')]),
+                ('TOPPADDING', (0,0), (-1,-1), 3),
+                ('BOTTOMPADDING', (0,0), (-1,-1), 3),
+            ]))
+            story.append(adv_table)
         else:
-            story.append(Paragraph("No segment comparison breakdowns available.", body_style))
+            story.append(Paragraph("No segment comparison breakdowns available for the evaluated dimensions.", body_style))
         story.append(Spacer(1, 8))
 
         # -------------------------------------------------------------
@@ -543,7 +701,7 @@ class ReportGeneratorService:
                     Paragraph(str(f.get('direction', 'Negative Impact')), cell_style),
                     Paragraph(str(f.get('evidence_statement', '')), cell_style)
                 ])
-            fac_table = Table(fac_rows, colWidths=[1.4*inch, 1.1*inch, 1.0*inch, 1.2*inch, 2.3*inch])
+            fac_table = Table(fac_rows, colWidths=[1.4*inch, 1.1*inch, 1.0*inch, 1.2*inch, 2.3*inch], repeatRows=1)
             fac_table.setStyle(TableStyle([
                 ('BACKGROUND', (0,0), (-1,0), colors.HexColor('#1E293B')),
                 ('BOX', (0,0), (-1,-1), 0.5, colors.HexColor('#CBD5E1')),
@@ -622,7 +780,7 @@ class ReportGeneratorService:
                     Paragraph(str(r.get('implementation_effort', 'Medium')), cell_style),
                     Paragraph(str(r.get('decision_status') or r.get('status') or 'Pending Review'), cell_style)
                 ])
-            prio_table = Table(prio_rows, colWidths=[0.6*inch, 2.2*inch, 1.2*inch, 0.9*inch, 1.0*inch, 0.6*inch, 1.0*inch])
+            prio_table = Table(prio_rows, colWidths=[0.5*inch, 2.1*inch, 1.0*inch, 0.6*inch, 1.0*inch, 0.8*inch, 1.0*inch], repeatRows=1)
             prio_table.setStyle(TableStyle([
                 ('BACKGROUND', (0,0), (-1,0), colors.HexColor('#1E293B')),
                 ('BOX', (0,0), (-1,-1), 0.5, colors.HexColor('#CBD5E1')),
@@ -655,7 +813,7 @@ class ReportGeneratorService:
                 Paragraph(f"{sc.profit_margin_pct:.1f}%", cell_style),
                 Paragraph(inc_str, cell_style)
             ])
-        scen_table = Table(scen_rows, colWidths=[2.2*inch, 1.3*inch, 1.3*inch, 1.3*inch, 1.4*inch])
+        scen_table = Table(scen_rows, colWidths=[2.0*inch, 1.25*inch, 1.25*inch, 1.1*inch, 1.4*inch], repeatRows=1)
         scen_table.setStyle(TableStyle([
             ('BACKGROUND', (0,0), (-1,0), colors.HexColor('#1E293B')),
             ('BOX', (0,0), (-1,-1), 0.5, colors.HexColor('#CBD5E1')),
@@ -691,7 +849,7 @@ class ReportGeneratorService:
                     Paragraph(str(d.notes_rationale or "No rationale recorded."), cell_style),
                     Paragraph(str(d.target_date or "TBD"), cell_style)
                 ])
-            dec_table = Table(dec_rows, colWidths=[1.8*inch, 1.1*inch, 1.2*inch, 2.3*inch, 1.1*inch])
+            dec_table = Table(dec_rows, colWidths=[1.7*inch, 0.9*inch, 1.1*inch, 2.3*inch, 1.0*inch], repeatRows=1)
             dec_table.setStyle(TableStyle([
                 ('BACKGROUND', (0,0), (-1,0), colors.HexColor('#1E293B')),
                 ('BOX', (0,0), (-1,-1), 0.5, colors.HexColor('#CBD5E1')),

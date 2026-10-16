@@ -13,11 +13,12 @@ import {
   AlertTriangle,
   AlertCircle,
   ArrowLeft,
+  ChevronLeft,
   ChevronRight,
   Gauge,
 } from 'lucide-react';
 import { api } from '../services/api';
-import { StoredAnalysisSummary } from '../types';
+import { StoredAnalysisSummary, PaginatedStoredAnalysesResponse } from '../types';
 
 interface Props {
   onSelectAnalysis: (analysisId: string) => void;
@@ -101,6 +102,7 @@ const Dialog: React.FC<{
 
 export const StoredAnalysesPage: React.FC<Props> = ({ onSelectAnalysis, onBackToWorkspace }) => {
   const [analyses, setAnalyses] = useState<StoredAnalysisSummary[]>([]);
+  const [allAnalysesForStats, setAllAnalysesForStats] = useState<StoredAnalysisSummary[]>([]);
   const [loading, setLoading] = useState(false);
   const [searchInput, setSearchInput] = useState('');
   const [search, setSearch] = useState('');
@@ -111,21 +113,61 @@ export const StoredAnalysesPage: React.FC<Props> = ({ onSelectAnalysis, onBackTo
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [dialogError, setDialogError] = useState<string | null>(null);
+
+  // Pagination State
+  const [currentPage, setCurrentPage] = useState(1);
+  const [pageSize, setPageSize] = useState(10);
+  const [totalCount, setTotalCount] = useState(0);
+  const [totalPages, setTotalPages] = useState(1);
+  const [isBackendPaginated, setIsBackendPaginated] = useState(false);
+
   const requestId = useRef(0);
 
   // Debounce the search box so we don't hit the API on every keystroke
   useEffect(() => {
-    const t = setTimeout(() => setSearch(searchInput.trim()), 300);
+    const t = setTimeout(() => {
+      setSearch(searchInput.trim());
+      setCurrentPage(1);
+    }, 300);
     return () => clearTimeout(t);
   }, [searchInput]);
 
-  const fetchAnalyses = async () => {
+  const fetchStatsData = async () => {
+    try {
+      const data = await api.listStoredAnalyses();
+      if (Array.isArray(data)) {
+        setAllAnalysesForStats(data);
+      } else if (data && 'items' in data) {
+        setAllAnalysesForStats(data.items);
+      }
+    } catch {
+      // ignore
+    }
+  };
+
+  useEffect(() => {
+    fetchStatsData();
+  }, []);
+
+  const fetchAnalyses = async (pageToFetch: number = currentPage, sizeToFetch: number = pageSize) => {
     const id = ++requestId.current;
     setLoading(true);
     setError(null);
     try {
-      const data = await api.listStoredAnalyses(search);
-      if (id === requestId.current) setAnalyses(data);
+      const data = await api.listStoredAnalyses(search, pageToFetch, sizeToFetch, sortKey);
+      if (id === requestId.current) {
+        if (Array.isArray(data)) {
+          setIsBackendPaginated(false);
+          setAnalyses(data);
+          setTotalCount(data.length);
+          setTotalPages(Math.max(1, Math.ceil(data.length / sizeToFetch)));
+        } else {
+          setIsBackendPaginated(true);
+          setAnalyses(data.items || []);
+          setTotalCount(data.total ?? 0);
+          setTotalPages(data.total_pages ?? 1);
+        }
+      }
     } catch (err: any) {
       if (id === requestId.current) setError(err.message || 'Failed to fetch saved analyses.');
     } finally {
@@ -134,8 +176,24 @@ export const StoredAnalysesPage: React.FC<Props> = ({ onSelectAnalysis, onBackTo
   };
 
   useEffect(() => {
-    fetchAnalyses();
-  }, [search]);
+    fetchAnalyses(currentPage, pageSize);
+  }, [search, sortKey, currentPage, pageSize]);
+
+  const handleSortChange = (newSort: SortKey) => {
+    setSortKey(newSort);
+    setCurrentPage(1);
+  };
+
+  const handlePageSizeChange = (newSize: number) => {
+    setPageSize(newSize);
+    setCurrentPage(1);
+  };
+
+  const handlePageChange = (newPage: number) => {
+    if (newPage >= 1 && newPage <= totalPages && newPage !== currentPage) {
+      setCurrentPage(newPage);
+    }
+  };
 
   const openRename = (item: StoredAnalysisSummary) => {
     setDialogError(null);
@@ -151,7 +209,7 @@ export const StoredAnalysesPage: React.FC<Props> = ({ onSelectAnalysis, onBackTo
     try {
       await api.renameAnalysis(renameTarget.id, newName.trim());
       setRenameTarget(null);
-      await fetchAnalyses();
+      await Promise.all([fetchAnalyses(currentPage, pageSize), fetchStatsData()]);
     } catch (err: any) {
       setDialogError(err.message || 'Failed to rename.');
     } finally {
@@ -166,7 +224,15 @@ export const StoredAnalysesPage: React.FC<Props> = ({ onSelectAnalysis, onBackTo
     try {
       await api.deleteAnalysis(deleteTarget.id);
       setDeleteTarget(null);
-      await fetchAnalyses();
+      fetchStatsData();
+      // If deleting the only item on the current page (and not on page 1), move back one page
+      const willBeEmptyPage = analyses.length === 1 && currentPage > 1;
+      const targetPage = willBeEmptyPage ? currentPage - 1 : currentPage;
+      if (targetPage !== currentPage) {
+        setCurrentPage(targetPage);
+      } else {
+        await fetchAnalyses(currentPage, pageSize);
+      }
     } catch (err: any) {
       setDialogError(err.message || 'Failed to delete.');
     } finally {
@@ -174,37 +240,73 @@ export const StoredAnalysesPage: React.FC<Props> = ({ onSelectAnalysis, onBackTo
     }
   };
 
-  const sorted = useMemo(() => {
+  // If backend provided pre-sorted, paginated items: use directly.
+  // Otherwise, sort and slice client-side.
+  const displayedItems = useMemo(() => {
+    if (isBackendPaginated) {
+      return analyses;
+    }
     const arr = [...analyses];
     switch (sortKey) {
       case 'oldest':
-        return arr.sort((a, b) => new Date(a.created_at).getTime() - new Date(b.created_at).getTime());
+        arr.sort((a, b) => new Date(a.created_at).getTime() - new Date(b.created_at).getTime());
+        break;
       case 'health':
-        return arr.sort((a, b) => (b.health_score ?? -1) - (a.health_score ?? -1));
+        arr.sort((a, b) => (b.health_score ?? -1) - (a.health_score ?? -1));
+        break;
       case 'name':
-        return arr.sort((a, b) => a.analysis_name.localeCompare(b.analysis_name));
+        arr.sort((a, b) => a.analysis_name.localeCompare(b.analysis_name));
+        break;
       default:
-        return arr.sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime());
+        arr.sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime());
+        break;
     }
-  }, [analyses, sortKey]);
+    const start = (currentPage - 1) * pageSize;
+    return arr.slice(start, start + pageSize);
+  }, [analyses, isBackendPaginated, sortKey, currentPage, pageSize]);
+
+  const pageButtons = useMemo(() => {
+    if (totalPages <= 7) {
+      return Array.from({ length: totalPages }, (_, i) => i + 1);
+    }
+    const buttons: (number | string)[] = [];
+    buttons.push(1);
+    if (currentPage > 3) {
+      buttons.push('...');
+    }
+    const start = Math.max(2, currentPage - 1);
+    const end = Math.min(totalPages - 1, currentPage + 1);
+    for (let i = start; i <= end; i++) {
+      buttons.push(i);
+    }
+    if (currentPage < totalPages - 2) {
+      buttons.push('...');
+    }
+    buttons.push(totalPages);
+    return buttons;
+  }, [totalPages, currentPage]);
+
+  const startIdx = totalCount === 0 ? 0 : (currentPage - 1) * pageSize + 1;
+  const endIdx = Math.min(currentPage * pageSize, totalCount);
 
   const stats = useMemo(() => {
-    const scored = analyses.filter((a) => a.health_score !== null && a.health_score !== undefined);
+    const source = allAnalysesForStats.length > 0 ? allAnalysesForStats : analyses;
+    const scored = source.filter((a) => a.health_score !== null && a.health_score !== undefined);
     const avgHealth = scored.length
       ? scored.reduce((sum, a) => sum + (a.health_score as number), 0) / scored.length
       : null;
-    const latest = analyses.length
-      ? analyses.reduce((a, b) => (new Date(b.created_at) > new Date(a.created_at) ? b : a))
+    const latest = source.length
+      ? source.reduce((a, b) => (new Date(b.created_at) > new Date(a.created_at) ? b : a))
       : null;
     return {
-      total: analyses.length,
-      datasets: new Set(analyses.map((a) => a.dataset_name)).size,
+      total: totalCount > 0 && !search ? totalCount : source.length,
+      datasets: new Set(source.map((a) => a.dataset_name)).size,
       avgHealth,
       latest: latest ? formatRelative(latest.created_at) : '—',
     };
-  }, [analyses]);
+  }, [allAnalysesForStats, analyses, totalCount, search]);
 
-  const isInitialLoad = loading && analyses.length === 0;
+  const isInitialLoad = loading && analyses.length === 0 && totalCount === 0;
 
   const summaryTiles = [
     { label: 'Saved analyses', value: String(stats.total), icon: History, tint: 'text-blue-600 bg-blue-50' },
@@ -300,7 +402,7 @@ export const StoredAnalysesPage: React.FC<Props> = ({ onSelectAnalysis, onBackTo
 
         <div className="flex items-center justify-between sm:justify-end gap-4">
           <span className="text-xs text-slate-500">
-            {analyses.length} {analyses.length === 1 ? 'run' : 'runs'}
+            {totalCount} {totalCount === 1 ? 'analysis' : 'analyses'}
             {search && ' found'}
           </span>
           <div className="flex items-center gap-2">
@@ -310,7 +412,7 @@ export const StoredAnalysesPage: React.FC<Props> = ({ onSelectAnalysis, onBackTo
             <select
               id="sort-analyses"
               value={sortKey}
-              onChange={(e) => setSortKey(e.target.value as SortKey)}
+              onChange={(e) => handleSortChange(e.target.value as SortKey)}
               className="px-3 py-2 text-xs font-semibold rounded-lg border border-slate-300 bg-white text-slate-800 focus:outline-none focus:ring-2 focus:ring-blue-500 cursor-pointer"
             >
               <option value="newest">Newest first</option>
@@ -332,7 +434,7 @@ export const StoredAnalysesPage: React.FC<Props> = ({ onSelectAnalysis, onBackTo
             {error}
           </span>
           <button
-            onClick={fetchAnalyses}
+            onClick={() => fetchAnalyses(currentPage, pageSize)}
             className="font-semibold text-red-700 hover:text-red-900 cursor-pointer"
           >
             Try again
@@ -352,7 +454,7 @@ export const StoredAnalysesPage: React.FC<Props> = ({ onSelectAnalysis, onBackTo
             </div>
           ))}
         </div>
-      ) : sorted.length === 0 && !error ? (
+      ) : displayedItems.length === 0 && !error ? (
         <div className="bg-white rounded-2xl border border-slate-200 p-12 text-center space-y-4">
           <div className="w-12 h-12 rounded-full bg-slate-100 text-slate-400 flex items-center justify-center mx-auto">
             <History className="w-6 h-6" />
@@ -388,7 +490,7 @@ export const StoredAnalysesPage: React.FC<Props> = ({ onSelectAnalysis, onBackTo
           className={`grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 transition-opacity ${loading ? 'opacity-60' : ''
             }`}
         >
-          {sorted.map((item) => {
+          {displayedItems.map((item) => {
             const hasHealth = item.health_score !== null && item.health_score !== undefined;
             const tone = hasHealth ? healthTone(item.health_score as number) : null;
             const healthPct = hasHealth ? Math.min(100, Math.max(0, item.health_score as number)) : 0;
@@ -489,6 +591,81 @@ export const StoredAnalysesPage: React.FC<Props> = ({ onSelectAnalysis, onBackTo
               </article>
             );
           })}
+        </div>
+      )}
+
+      {/* Pagination Bar */}
+      {!isInitialLoad && totalCount > 0 && (
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-white px-5 py-3.5 rounded-xl border border-slate-200 shadow-xs">
+          {/* Left: Range and Page Size */}
+          <div className="flex items-center gap-4 flex-wrap text-xs text-slate-500">
+            <span className="font-medium text-slate-700">
+              Showing <span className="font-semibold text-slate-900">{startIdx}–{endIdx}</span> of <span className="font-semibold text-slate-900">{totalCount}</span> {totalCount === 1 ? 'analysis' : 'analyses'}
+            </span>
+            <div className="flex items-center gap-2">
+              <label htmlFor="page-size-select" className="text-slate-500 font-medium">Per page:</label>
+              <select
+                id="page-size-select"
+                value={pageSize}
+                onChange={(e) => handlePageSizeChange(Number(e.target.value))}
+                aria-label="Select page size"
+                className="px-2.5 py-1.5 rounded-lg border border-slate-200 bg-slate-50 text-slate-800 text-xs font-semibold focus:outline-none focus:ring-2 focus:ring-blue-500 cursor-pointer"
+              >
+                <option value={10}>10</option>
+                <option value={20}>20</option>
+                <option value={50}>50</option>
+              </select>
+            </div>
+          </div>
+
+          {/* Right: Page Navigation Controls */}
+          <nav aria-label="Analyses pagination navigation" className="flex items-center gap-1.5 self-center sm:self-auto">
+            <button
+              onClick={() => handlePageChange(currentPage - 1)}
+              disabled={currentPage <= 1 || loading}
+              aria-label="Previous page"
+              className="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg border border-slate-200 text-xs font-semibold text-slate-700 hover:bg-slate-50 disabled:opacity-40 disabled:cursor-not-allowed transition-colors cursor-pointer"
+            >
+              <ChevronLeft className="w-3.5 h-3.5" />
+              <span>Previous</span>
+            </button>
+
+            {/* Numeric page buttons */}
+            <div className="flex items-center gap-1">
+              {pageButtons.map((btn, i) =>
+                btn === '...' ? (
+                  <span key={`ellipsis-${i}`} className="px-2 py-1 text-slate-400 text-xs select-none">
+                    …
+                  </span>
+                ) : (
+                  <button
+                    key={`page-${btn}`}
+                    onClick={() => handlePageChange(Number(btn))}
+                    disabled={loading}
+                    aria-label={`Page ${btn}`}
+                    aria-current={currentPage === btn ? 'page' : undefined}
+                    className={`min-w-8 h-8 px-2 rounded-lg text-xs font-semibold transition-colors cursor-pointer ${
+                      currentPage === btn
+                        ? 'bg-blue-600 text-white shadow-xs'
+                        : 'text-slate-600 hover:bg-slate-100 hover:text-slate-900 border border-transparent'
+                    }`}
+                  >
+                    {btn}
+                  </button>
+                )
+              )}
+            </div>
+
+            <button
+              onClick={() => handlePageChange(currentPage + 1)}
+              disabled={currentPage >= totalPages || loading}
+              aria-label="Next page"
+              className="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg border border-slate-200 text-xs font-semibold text-slate-700 hover:bg-slate-50 disabled:opacity-40 disabled:cursor-not-allowed transition-colors cursor-pointer"
+            >
+              <span>Next</span>
+              <ChevronRight className="w-3.5 h-3.5" />
+            </button>
+          </nav>
         </div>
       )}
 
