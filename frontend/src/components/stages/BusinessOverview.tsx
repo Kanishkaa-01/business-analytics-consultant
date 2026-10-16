@@ -32,7 +32,7 @@ interface Props {
   onOpenDrillDown?: (dimension: string) => void;
 }
 
-export const Stage2_BusinessOverview: React.FC<Props> = ({
+export const BusinessOverview: React.FC<Props> = ({
   health,
   onNavigateNext,
   analysisId,
@@ -454,3 +454,6 @@ export const Stage2_BusinessOverview: React.FC<Props> = ({
     </div>
   );
 };
+
+export { BusinessOverview as Stage2_BusinessOverview };
+

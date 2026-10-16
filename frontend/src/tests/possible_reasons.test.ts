@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { getSupportingEvidence } from '../components/stages/Stage4_PossibleReasons';
+import { getSupportingEvidence } from '../components/stages/PossibleReasons';
 import { FactorContribution } from '../types';
 
 describe('Stage 4 - Possible Reasons Evidence Simplification & Causation Safety', () => {

@@ -123,7 +123,7 @@ const Stat: React.FC<{
 
 /* ---------- Component ---------- */
 
-export const Stage0_DatasetManager: React.FC<Props> = ({
+export const DataUpload: React.FC<Props> = ({
   datasets,
   selectedDataset,
   onSelectDatasetId,
@@ -772,3 +772,5 @@ export const Stage0_DatasetManager: React.FC<Props> = ({
     </div>
   );
 };
+
+export { DataUpload as Stage0_DatasetManager };

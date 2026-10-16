@@ -17,7 +17,7 @@ interface Props {
   onOpenWhyResult?: (resultType: string, resultId: string) => void;
 }
 
-export const Stage5_Recommendations: React.FC<Props> = ({
+export const Recommendations: React.FC<Props> = ({
   recommendations,
   decisions,
   onOpenDecisionModal,
@@ -247,3 +247,6 @@ export const Stage5_Recommendations: React.FC<Props> = ({
     </div>
   );
 };
+
+export { Recommendations as Stage5_Recommendations };
+

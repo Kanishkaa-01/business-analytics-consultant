@@ -11,15 +11,15 @@ import { Header } from './components/Header';
 import { WorkflowStage } from './components/workflow/WorkflowStepper';
 import { WorkspaceSidebar } from './components/workflow/WorkspaceSidebar';
 import { HomePage } from './pages/HomePage';
-import { Stage0_DatasetManager } from './components/stages/Stage0_DatasetManager';
-import { Stage1_DataQuality } from './components/stages/Stage1_DataQuality';
-import { Stage2_BusinessOverview } from './components/stages/Stage2_BusinessOverview';
-import { Stage3_Findings } from './components/stages/Stage3_Findings';
-import { Stage4_PossibleReasons } from './components/stages/Stage4_PossibleReasons';
-import { Stage5_Recommendations } from './components/stages/Stage5_Recommendations';
-import { Stage6_EvidenceTrail } from './components/stages/Stage6_EvidenceTrail';
-import { Stage7_WhatIfAnalysis } from './components/stages/Stage7_WhatIfAnalysis';
-import { Stage8_DecisionNotes } from './components/stages/Stage8_DecisionNotes';
+import { DataUpload } from './components/stages/DataUpload';
+import { DataQuality } from './components/stages/DataQuality';
+import { BusinessOverview } from './components/stages/BusinessOverview';
+import { Findings } from './components/stages/Findings';
+import { PossibleReasons } from './components/stages/PossibleReasons';
+import { Recommendations } from './components/stages/Recommendations';
+import { Evidence } from './components/stages/Evidence';
+import { WhatIfAnalysis } from './components/stages/WhatIfAnalysis';
+import { DecisionNotes } from './components/stages/DecisionNotes';
 import { DecisionModal } from './components/common/DecisionModal';
 import { UploadModal } from './components/common/UploadModal';
 import { WhyThisResultModal } from './components/common/WhyThisResultModal';
@@ -618,7 +618,7 @@ export const App: React.FC = () => {
               <>
                 {/* 1. Data Upload */}
                 {currentStage === 'data' && (
-                  <Stage0_DatasetManager
+                  <DataUpload
                     datasets={datasets}
                     selectedDataset={selectedDataset}
                     onSelectDatasetId={(id) => loadDatasetDetail(id, true)}
@@ -633,7 +633,7 @@ export const App: React.FC = () => {
 
                 {/* 2. Data Quality */}
                 {currentStage === 'quality' && activeAnalysis && (
-                  <Stage1_DataQuality
+                  <DataQuality
                     report={activeAnalysis.data_quality}
                     onNavigateNext={() => navigateTo('workspace', 'overview')}
                   />
@@ -641,7 +641,7 @@ export const App: React.FC = () => {
 
                 {/* 3. Business Overview ("What is happening?") */}
                 {currentStage === 'overview' && activeAnalysis && (
-                  <Stage2_BusinessOverview
+                  <BusinessOverview
                     health={activeAnalysis.business_health}
                     onNavigateNext={() => navigateTo('workspace', 'findings')}
                     analysisId={activeAnalysis.id}
@@ -654,7 +654,7 @@ export const App: React.FC = () => {
 
                 {/* 4. Findings ("What needs attention?") */}
                 {currentStage === 'findings' && activeAnalysis && (
-                  <Stage3_Findings
+                  <Findings
                     diagnostic={activeAnalysis.diagnostics}
                     analysisId={activeAnalysis.id}
                     onNavigateNext={() => navigateTo('workspace', 'reasons')}
@@ -664,7 +664,7 @@ export const App: React.FC = () => {
 
                 {/* 5. Possible Reasons ("Why might it be happening?") */}
                 {currentStage === 'reasons' && activeAnalysis && (
-                  <Stage4_PossibleReasons
+                  <PossibleReasons
                     rootCause={activeAnalysis.root_cause}
                     onNavigateNext={() => navigateTo('workspace', 'recommendations')}
                   />
@@ -672,7 +672,7 @@ export const App: React.FC = () => {
 
                 {/* 6. Recommendations ("What could we do?") */}
                 {currentStage === 'recommendations' && activeAnalysis && (
-                  <Stage5_Recommendations
+                  <Recommendations
                     recommendations={activeAnalysis.recommendations}
                     decisions={activeAnalysis.decisions}
                     onOpenDecisionModal={handleOpenDecisionModal}
@@ -684,7 +684,7 @@ export const App: React.FC = () => {
 
                 {/* 7. Evidence ("How do we know?") */}
                 {currentStage === 'evidence' && activeAnalysis && (
-                  <Stage6_EvidenceTrail
+                  <Evidence
                     chains={activeAnalysis.evidence_chains}
                     onSelectRecommendation={() => {
                       navigateTo('workspace', 'recommendations');
@@ -695,7 +695,7 @@ export const App: React.FC = () => {
 
                 {/* 8. What-If Analysis ("What happens if we change something?") */}
                 {currentStage === 'whatif' && activeAnalysis && (
-                  <Stage7_WhatIfAnalysis
+                  <WhatIfAnalysis
                     analysis={activeAnalysis}
                     onNavigateNext={() => navigateTo('workspace', 'decisions')}
                   />
@@ -703,7 +703,7 @@ export const App: React.FC = () => {
 
                 {/* 9. Decision Notes */}
                 {currentStage === 'decisions' && activeAnalysis && (
-                  <Stage8_DecisionNotes
+                  <DecisionNotes
                     analysis={activeAnalysis}
                     decisions={activeAnalysis.decisions}
                     recommendations={activeAnalysis.recommendations}

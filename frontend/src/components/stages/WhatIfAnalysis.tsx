@@ -33,7 +33,7 @@ interface Props {
   onNavigateNext: () => void;
 }
 
-export const Stage7_WhatIfAnalysis: React.FC<Props> = ({ analysis, onNavigateNext }) => {
+export const WhatIfAnalysis: React.FC<Props> = ({ analysis, onNavigateNext }) => {
   // 4 Core Levers (Live Exploratory Sliders)
   const [priceChange, setPriceChange] = useState<number>(0);
   const [discountAdjust, setDiscountAdjust] = useState<number>(0);
@@ -1049,3 +1049,6 @@ export const Stage7_WhatIfAnalysis: React.FC<Props> = ({ analysis, onNavigateNex
     </div>
   );
 };
+
+export { WhatIfAnalysis as Stage7_WhatIfAnalysis };
+

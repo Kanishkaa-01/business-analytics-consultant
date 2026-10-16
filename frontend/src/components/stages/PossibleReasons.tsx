@@ -48,7 +48,7 @@ interface Props {
   onNavigateNext: () => void;
 }
 
-export const Stage4_PossibleReasons: React.FC<Props> = ({
+export const PossibleReasons: React.FC<Props> = ({
   rootCause,
   onNavigateNext,
 }) => {
@@ -248,3 +248,6 @@ export const Stage4_PossibleReasons: React.FC<Props> = ({
     </div>
   );
 };
+
+export { PossibleReasons as Stage4_PossibleReasons };
+

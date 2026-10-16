@@ -20,7 +20,7 @@ interface Props {
   onNavigateNext: () => void;
 }
 
-export const Stage6_EvidenceTrail: React.FC<Props> = ({
+export const Evidence: React.FC<Props> = ({
   chains,
   onSelectRecommendation,
   onNavigateNext,
@@ -191,3 +191,6 @@ export const Stage6_EvidenceTrail: React.FC<Props> = ({
     </div>
   );
 };
+
+export { Evidence as Stage6_EvidenceTrail, Evidence as EvidenceTrail };
+

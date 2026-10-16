@@ -17,7 +17,7 @@ interface Props {
   onNavigateNext?: () => void;
 }
 
-export const Stage1_DataQuality: React.FC<Props> = ({ report, onNavigateNext }) => {
+export const DataQuality: React.FC<Props> = ({ report, onNavigateNext }) => {
   const getGradeColor = (grade: string) => {
     switch (grade) {
       case 'A':
@@ -277,3 +277,5 @@ export const Stage1_DataQuality: React.FC<Props> = ({ report, onNavigateNext }) 
     </div>
   );
 };
+
+export { DataQuality as Stage1_DataQuality };

@@ -27,7 +27,7 @@ interface Props {
   onOpenDrillDown?: (dimension?: string, metric?: string) => void;
 }
 
-export const Stage3_Findings: React.FC<Props> = ({
+export const Findings: React.FC<Props> = ({
   diagnostic,
   analysisId,
   onNavigateNext,
@@ -382,3 +382,6 @@ export const Stage3_Findings: React.FC<Props> = ({
     </div>
   );
 };
+
+export { Findings as Stage3_Findings };
+

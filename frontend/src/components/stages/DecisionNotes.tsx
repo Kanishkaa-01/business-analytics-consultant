@@ -23,7 +23,7 @@ interface Props {
   onOpenDecisionModal: (rec: RecommendationItem) => void;
 }
 
-export const Stage8_DecisionNotes: React.FC<Props> = ({
+export const DecisionNotes: React.FC<Props> = ({
   analysis,
   decisions,
   recommendations,
@@ -308,3 +308,6 @@ export const Stage8_DecisionNotes: React.FC<Props> = ({
     </div>
   );
 };
+
+export { DecisionNotes as Stage8_DecisionNotes };
+
