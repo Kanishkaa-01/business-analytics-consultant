@@ -380,10 +380,8 @@ def get_complete_decision_report(
 <h1>Complete Business Decision Report</h1>
 
 <div class="meta-box">
-  <b>System:</b> Business Analytics Consultant (Explainable Decision Support System)<br>
   <b>Analysis Title:</b> {run.analysis_name or 'Baseline Business Analysis'}<br>
   <b>Dataset:</b> {dataset.name if dataset else 'Dataset'} ({dataset.filename if dataset else 'N/A'}) &bull; Version: <code>{run.dataset_version or 'v1.0'}</code><br>
-  <b>Data Fingerprint (SHA-256):</b> <code>{dataset.file_hash if dataset else 'N/A'}</code><br>
   <b>Scope:</b> {dataset.row_count if dataset else 0:,} records &times; {dataset.column_count if dataset else 0} dimensions &bull; Run: {run.created_at.strftime('%Y-%m-%d %H:%M UTC')}
 </div>
 

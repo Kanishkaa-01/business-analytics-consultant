@@ -49,8 +49,7 @@ class NumberedCanvas(canvas.Canvas):
 
         # Running header (pages 2+)
         if self._pageNumber > 1:
-            self.drawString(54, 11 * inch - 36, "Business Analytics Consultant — Business Decision Report")
-            self.drawRightString(8.5 * inch - 54, 11 * inch - 36, "Explainable Decision Support System")
+            self.drawString(54, 11 * inch - 36, "Business Analytics Consultant - Business Decision Report")
             self.setStrokeColor(colors.HexColor("#CBD5E1"))
             self.setLineWidth(0.5)
             self.line(54, 11 * inch - 40, 8.5 * inch - 54, 11 * inch - 40)
@@ -58,7 +57,7 @@ class NumberedCanvas(canvas.Canvas):
         # Running footer (all pages)
         page_str = f"Page {self._pageNumber} of {page_count}"
         self.drawRightString(8.5 * inch - 54, 34, page_str)
-        self.drawString(54, 34, "Confidential — Explainable Business Decision Support System")
+        self.drawString(54, 34, "Confidential Business Information")
         self.setStrokeColor(colors.HexColor("#CBD5E1"))
         self.setLineWidth(0.5)
         self.line(54, 44, 8.5 * inch - 54, 44)
@@ -236,7 +235,7 @@ class ReportGeneratorService:
         # Header / Title Block
         # -------------------------------------------------------------
         story.append(Paragraph("Business Decision & Analytics Report", title_style))
-        story.append(Paragraph("Explainable Decision Support System — Deterministic Business Intelligence Report", subtitle_style))
+        story.append(Paragraph("An Evidence-Based Analysis of Business Performance, Findings, and Recommendations", subtitle_style))
         story.append(HRFlowable(width="100%", thickness=1.5, color=colors.HexColor('#2563EB'), spaceAfter=12))
 
         # Meta Info Table
