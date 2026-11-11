@@ -1,0 +1,801 @@
+account_id,industry,subscription_plan,arr_dollars,tenure_months,daily_active_users,support_tickets_raised,nps_satisfaction,feature_adoption_pct,expansion_arr,churn_flag
+ACC-20000,FinTech,Global Scale,186179.49,36,43,4,9,46.8,0.0,0
+ACC-20001,E-Commerce Tech,Starter,16110.1,30,42,4,4,25.8,0.0,0
+ACC-20002,Healthcare IT,Enterprise,226857.35,7,64,7,3,83.7,0.0,1
+ACC-20003,E-Commerce Tech,Starter,15116.3,47,9,4,4,33.8,0.0,1
+ACC-20004,FinTech,Professional,65874.05,33,195,4,8,45.0,0.0,0
+ACC-20005,Logistics,Starter,19602.27,17,38,2,4,27.2,0.0,1
+ACC-20006,Logistics,Professional,46038.01,28,118,4,8,28.5,0.0,0
+ACC-20007,Logistics,Starter,10268.67,32,7,5,5,93.8,1155.12,0
+ACC-20008,FinTech,Starter,11278.79,33,38,1,8,84.5,0.0,1
+ACC-20009,Logistics,Enterprise,100086.44,46,202,2,3,89.4,13117.59,0
+ACC-20010,Healthcare IT,Enterprise,142297.63,34,176,1,4,81.8,0.0,1
+ACC-20011,Healthcare IT,Enterprise,219317.99,27,273,5,9,69.7,0.0,0
+ACC-20012,Logistics,Global Scale,178960.63,12,185,3,2,39.1,0.0,1
+ACC-20013,FinTech,Enterprise,124248.14,40,270,1,1,77.7,0.0,1
+ACC-20014,Healthcare IT,Enterprise,220705.5,25,304,4,2,35.5,0.0,0
+ACC-20015,EdTech,Global Scale,149246.94,5,65,7,5,44.3,0.0,0
+ACC-20016,EdTech,Starter,23530.84,28,25,6,8,91.1,0.0,1
+ACC-20017,EdTech,Enterprise,218884.64,44,234,3,3,31.9,0.0,0
+ACC-20018,FinTech,Professional,37649.99,22,244,4,8,28.6,0.0,0
+ACC-20019,Healthcare IT,Professional,35043.54,17,88,5,1,28.2,0.0,1
+ACC-20020,FinTech,Professional,51103.68,11,181,4,2,88.8,8808.23,0
+ACC-20021,Logistics,Starter,16167.29,25,16,2,2,53.8,0.0,0
+ACC-20022,Logistics,Global Scale,80727.9,45,148,4,4,75.9,17933.68,0
+ACC-20023,FinTech,Global Scale,218798.89,46,56,2,6,33.7,0.0,0
+ACC-20024,Logistics,Enterprise,130849.74,42,46,3,2,64.3,0.0,0
+ACC-20025,E-Commerce Tech,Enterprise,203395.02,31,349,3,6,49.6,0.0,0
+ACC-20026,Healthcare IT,Global Scale,137126.18,24,216,5,6,30.7,0.0,0
+ACC-20027,Healthcare IT,Starter,19366.82,19,42,2,3,69.0,0.0,0
+ACC-20028,EdTech,Starter,9899.09,11,16,1,4,38.9,0.0,0
+ACC-20029,FinTech,Enterprise,120617.9,12,177,1,8,41.4,0.0,0
+ACC-20030,E-Commerce Tech,Professional,40560.27,22,173,3,2,90.3,0.0,1
+ACC-20031,EdTech,Professional,61707.48,11,228,1,1,52.9,0.0,1
+ACC-20032,EdTech,Starter,16453.7,29,11,3,6,87.8,1799.7,0
+ACC-20033,Healthcare IT,Starter,9355.45,10,23,1,4,65.7,0.0,0
+ACC-20034,E-Commerce Tech,Starter,15776.13,32,34,2,8,54.3,0.0,0
+ACC-20035,E-Commerce Tech,Professional,59546.03,15,324,2,4,41.5,0.0,0
+ACC-20036,EdTech,Professional,39575.69,24,281,3,9,40.4,0.0,0
+ACC-20037,Healthcare IT,Starter,15302.41,40,26,3,2,57.5,0.0,1
+ACC-20038,EdTech,Professional,47979.35,23,43,1,3,38.8,0.0,0
+ACC-20039,EdTech,Enterprise,196176.07,44,336,4,9,70.6,0.0,0
+ACC-20040,EdTech,Professional,50494.63,19,232,4,5,42.3,0.0,0
+ACC-20041,FinTech,Enterprise,247309.83,42,234,2,4,60.1,0.0,0
+ACC-20042,EdTech,Global Scale,225217.46,19,198,2,2,86.1,0.0,1
+ACC-20043,E-Commerce Tech,Professional,45303.81,4,251,6,6,25.2,0.0,0
+ACC-20044,EdTech,Professional,64293.34,43,313,3,6,69.4,0.0,0
+ACC-20045,Healthcare IT,Starter,19197.69,40,21,2,5,76.4,3472.94,0
+ACC-20046,FinTech,Global Scale,203079.98,11,89,3,4,73.1,0.0,0
+ACC-20047,Logistics,Professional,57452.22,41,77,2,4,27.6,0.0,1
+ACC-20048,EdTech,Professional,28883.29,7,208,7,2,39.3,0.0,0
+ACC-20049,Healthcare IT,Starter,22831.38,15,12,5,9,52.6,0.0,0
+ACC-20050,EdTech,Global Scale,208338.39,34,175,4,7,66.7,0.0,0
+ACC-20051,EdTech,Professional,66642.15,13,199,3,3,76.4,0.0,1
+ACC-20052,FinTech,Professional,47281.03,6,256,4,8,60.3,0.0,0
+ACC-20053,Logistics,Enterprise,152924.9,5,277,5,2,85.6,18696.47,0
+ACC-20054,E-Commerce Tech,Professional,46879.89,9,268,3,1,89.9,0.0,1
+ACC-20055,EdTech,Global Scale,199475.04,43,199,3,6,47.4,0.0,0
+ACC-20056,Logistics,Global Scale,207087.69,23,261,5,3,94.8,48497.41,0
+ACC-20057,Logistics,Starter,21737.35,21,16,5,1,51.2,0.0,0
+ACC-20058,Healthcare IT,Starter,10824.16,18,6,5,3,49.4,0.0,1
+ACC-20059,Logistics,Enterprise,116795.32,43,322,3,8,52.8,0.0,0
+ACC-20060,EdTech,Professional,45232.77,9,302,4,3,61.9,0.0,0
+ACC-20061,E-Commerce Tech,Professional,29983.04,4,291,10,4,91.1,0.0,1
+ACC-20062,E-Commerce Tech,Starter,22360.0,5,16,9,3,69.8,0.0,0
+ACC-20063,FinTech,Global Scale,113821.45,35,182,3,8,87.2,14422.5,0
+ACC-20064,Logistics,Professional,66327.79,42,216,2,1,45.9,0.0,0
+ACC-20065,Healthcare IT,Professional,45396.77,28,127,0,8,37.7,0.0,0
+ACC-20066,EdTech,Global Scale,233465.88,6,251,3,6,70.2,0.0,0
+ACC-20067,Healthcare IT,Starter,12395.69,46,20,3,5,25.1,0.0,0
+ACC-20068,FinTech,Professional,52847.42,31,343,3,4,73.1,0.0,0
+ACC-20069,E-Commerce Tech,Professional,37721.02,11,47,6,9,87.0,9033.98,0
+ACC-20070,Healthcare IT,Enterprise,167088.41,7,89,3,9,56.4,0.0,0
+ACC-20071,Healthcare IT,Professional,49796.79,7,326,2,1,55.1,0.0,0
+ACC-20072,Healthcare IT,Professional,37345.82,11,143,1,4,46.8,0.0,1
+ACC-20073,E-Commerce Tech,Professional,52844.53,20,97,2,4,91.3,15752.59,0
+ACC-20074,FinTech,Professional,40906.63,37,120,4,2,71.0,0.0,0
+ACC-20075,EdTech,Enterprise,239524.39,9,205,4,2,42.4,0.0,1
+ACC-20076,Healthcare IT,Starter,23187.11,3,20,8,9,80.3,2720.25,0
+ACC-20077,EdTech,Enterprise,146078.68,6,217,9,6,45.8,0.0,0
+ACC-20078,FinTech,Enterprise,213425.13,29,280,2,2,33.8,0.0,0
+ACC-20079,EdTech,Global Scale,178835.43,16,153,2,6,27.6,0.0,0
+ACC-20080,FinTech,Starter,13126.94,45,42,2,3,37.2,0.0,0
+ACC-20081,Healthcare IT,Professional,49416.91,47,57,1,9,69.7,0.0,0
+ACC-20082,EdTech,Professional,37077.14,37,157,1,1,61.2,0.0,0
+ACC-20083,FinTech,Professional,30780.59,29,127,2,1,51.5,0.0,1
+ACC-20084,EdTech,Enterprise,157560.81,9,204,3,1,39.7,0.0,1
+ACC-20085,Healthcare IT,Professional,45413.34,45,236,4,5,26.0,0.0,0
+ACC-20086,E-Commerce Tech,Professional,53458.74,15,168,3,8,91.6,10330.26,0
+ACC-20087,Logistics,Enterprise,213620.08,44,221,2,4,72.8,0.0,0
+ACC-20088,FinTech,Enterprise,203120.93,38,247,3,9,42.8,0.0,0
+ACC-20089,EdTech,Enterprise,199324.85,28,271,3,1,84.4,0.0,1
+ACC-20090,Logistics,Starter,15444.44,40,8,3,6,28.3,0.0,0
+ACC-20091,Healthcare IT,Enterprise,150685.22,33,332,1,7,87.6,0.0,1
+ACC-20092,FinTech,Enterprise,111188.92,45,128,4,1,39.8,0.0,1
+ACC-20093,EdTech,Starter,13693.47,9,20,6,5,48.5,0.0,0
+ACC-20094,E-Commerce Tech,Professional,71675.09,42,51,3,5,61.4,0.0,0
+ACC-20095,E-Commerce Tech,Professional,62208.29,20,272,3,3,84.0,0.0,1
+ACC-20096,Healthcare IT,Enterprise,196038.97,9,86,3,6,38.3,0.0,0
+ACC-20097,E-Commerce Tech,Professional,70784.57,28,49,3,2,59.1,0.0,0
+ACC-20098,EdTech,Professional,74080.53,23,150,3,7,91.1,0.0,1
+ACC-20099,Healthcare IT,Starter,20749.89,7,9,2,7,36.5,0.0,0
+ACC-20100,Logistics,Starter,13541.89,21,5,3,5,56.4,0.0,0
+ACC-20101,Healthcare IT,Enterprise,92515.1,5,43,5,7,72.1,0.0,0
+ACC-20102,FinTech,Professional,58632.44,35,174,4,2,83.9,0.0,1
+ACC-20103,Logistics,Professional,48684.56,42,212,4,8,44.3,0.0,0
+ACC-20104,EdTech,Starter,20498.53,11,39,4,3,40.0,0.0,1
+ACC-20105,Logistics,Enterprise,177754.33,47,131,3,3,61.8,0.0,0
+ACC-20106,FinTech,Professional,45301.71,15,279,2,4,45.8,0.0,0
+ACC-20107,E-Commerce Tech,Enterprise,111611.86,23,338,3,3,77.5,0.0,1
+ACC-20108,E-Commerce Tech,Global Scale,85360.89,45,151,2,4,76.0,10481.67,0
+ACC-20109,EdTech,Professional,62800.83,24,245,3,6,73.1,0.0,0
+ACC-20110,Logistics,Enterprise,171350.82,29,114,2,8,36.0,0.0,0
+ACC-20111,FinTech,Professional,30199.78,25,305,4,4,31.5,0.0,0
+ACC-20112,FinTech,Enterprise,136537.49,3,82,4,5,36.9,0.0,0
+ACC-20113,Logistics,Starter,18113.11,11,30,3,9,94.7,5357.65,0
+ACC-20114,FinTech,Professional,53094.91,9,203,4,1,59.7,0.0,0
+ACC-20115,E-Commerce Tech,Starter,17607.4,38,18,2,1,65.1,0.0,0
+ACC-20116,Healthcare IT,Professional,37828.66,15,272,2,3,36.0,0.0,1
+ACC-20117,EdTech,Professional,45535.47,37,226,6,5,87.6,13441.1,0
+ACC-20118,Logistics,Professional,50488.84,47,206,5,3,37.3,0.0,0
+ACC-20119,Logistics,Starter,21401.3,27,33,5,9,55.2,0.0,0
+ACC-20120,E-Commerce Tech,Professional,60940.71,25,290,3,9,52.0,0.0,0
+ACC-20121,Logistics,Professional,34646.72,16,290,3,4,69.6,0.0,0
+ACC-20122,EdTech,Professional,61891.74,17,180,3,7,51.2,0.0,0
+ACC-20123,E-Commerce Tech,Professional,51681.78,5,89,7,2,58.3,0.0,0
+ACC-20124,E-Commerce Tech,Starter,9680.03,35,35,3,8,26.4,0.0,0
+ACC-20125,E-Commerce Tech,Starter,21802.95,26,17,1,2,50.9,0.0,0
+ACC-20126,FinTech,Professional,43579.29,33,124,6,8,57.0,0.0,0
+ACC-20127,Logistics,Global Scale,217307.41,35,267,0,4,75.4,58468.21,0
+ACC-20128,Healthcare IT,Professional,38584.73,45,287,8,6,37.1,0.0,1
+ACC-20129,E-Commerce Tech,Enterprise,148832.52,34,135,0,5,61.6,0.0,0
+ACC-20130,EdTech,Enterprise,194411.55,22,76,0,1,71.3,0.0,0
+ACC-20131,EdTech,Starter,20931.42,43,11,4,7,25.7,0.0,0
+ACC-20132,EdTech,Professional,71335.64,15,91,1,1,55.1,0.0,1
+ACC-20133,Logistics,Professional,26451.94,20,335,6,5,69.0,0.0,0
+ACC-20134,Healthcare IT,Enterprise,187432.77,9,128,2,5,37.8,0.0,1
+ACC-20135,EdTech,Starter,15838.7,15,44,2,3,69.0,0.0,1
+ACC-20136,E-Commerce Tech,Enterprise,155157.64,45,192,5,3,87.6,32404.79,0
+ACC-20137,FinTech,Starter,14517.87,25,35,4,6,50.5,0.0,1
+ACC-20138,EdTech,Global Scale,218780.95,7,196,5,6,61.1,0.0,0
+ACC-20139,EdTech,Global Scale,245474.46,17,227,1,2,51.6,0.0,1
+ACC-20140,E-Commerce Tech,Global Scale,235005.39,35,320,3,8,42.1,0.0,0
+ACC-20141,EdTech,Professional,63304.0,32,343,3,1,61.7,0.0,1
+ACC-20142,FinTech,Enterprise,141470.35,21,178,2,2,51.5,0.0,0
+ACC-20143,Logistics,Professional,48568.41,7,155,0,6,90.9,6883.77,0
+ACC-20144,EdTech,Professional,50748.69,5,52,8,1,69.7,0.0,0
+ACC-20145,FinTech,Professional,68370.21,43,342,2,6,48.5,0.0,0
+ACC-20146,Logistics,Professional,53333.37,26,106,1,9,84.6,9675.65,0
+ACC-20147,FinTech,Professional,67431.39,33,150,2,2,94.0,17145.29,0
+ACC-20148,FinTech,Starter,22945.4,6,33,5,2,37.6,0.0,1
+ACC-20149,E-Commerce Tech,Enterprise,248368.26,38,56,0,9,66.4,0.0,0
+ACC-20150,Logistics,Professional,71564.93,30,306,6,4,85.2,0.0,1
+ACC-20151,FinTech,Enterprise,224997.14,25,237,3,2,83.6,0.0,1
+ACC-20152,Logistics,Enterprise,122842.5,14,229,3,3,57.5,0.0,0
+ACC-20153,FinTech,Professional,57797.44,43,327,3,7,85.5,8613.59,0
+ACC-20154,FinTech,Professional,63420.53,36,218,6,9,51.0,0.0,0
+ACC-20155,EdTech,Enterprise,195272.33,22,54,5,1,63.7,0.0,0
+ACC-20156,Healthcare IT,Professional,68782.67,6,292,2,2,79.6,0.0,1
+ACC-20157,Healthcare IT,Starter,18289.55,13,28,3,4,91.8,0.0,1
+ACC-20158,E-Commerce Tech,Starter,13058.52,14,7,3,7,39.3,0.0,0
+ACC-20159,Healthcare IT,Professional,54217.57,11,141,3,3,92.7,13902.48,0
+ACC-20160,EdTech,Enterprise,247974.73,19,71,5,9,89.1,53554.25,0
+ACC-20161,Healthcare IT,Starter,15627.8,36,36,3,5,29.3,0.0,0
+ACC-20162,Healthcare IT,Starter,13753.94,43,20,2,8,89.4,3994.36,0
+ACC-20163,E-Commerce Tech,Professional,49584.39,42,167,3,1,86.9,0.0,1
+ACC-20164,Logistics,Professional,73892.98,37,180,3,5,85.8,14988.56,0
+ACC-20165,FinTech,Enterprise,125075.33,19,116,8,5,46.6,0.0,1
+ACC-20166,Logistics,Enterprise,194552.45,45,60,2,7,40.8,0.0,0
+ACC-20167,E-Commerce Tech,Global Scale,103902.99,20,302,5,2,94.7,0.0,1
+ACC-20168,Logistics,Professional,43136.83,30,160,0,5,44.5,0.0,0
+ACC-20169,Logistics,Professional,49243.57,24,112,5,3,37.2,0.0,1
+ACC-20170,FinTech,Enterprise,121883.13,7,264,6,2,49.8,0.0,0
+ACC-20171,E-Commerce Tech,Enterprise,165686.46,16,270,4,2,41.3,0.0,0
+ACC-20172,FinTech,Professional,31204.84,25,248,5,8,66.7,0.0,0
+ACC-20173,EdTech,Professional,48331.72,28,259,2,9,64.5,0.0,1
+ACC-20174,Logistics,Enterprise,92831.25,18,241,4,6,30.4,0.0,0
+ACC-20175,Healthcare IT,Professional,52258.68,40,197,3,2,67.4,0.0,1
+ACC-20176,FinTech,Enterprise,141843.63,15,255,2,7,60.8,0.0,0
+ACC-20177,Healthcare IT,Professional,31379.56,18,114,2,2,89.9,8865.73,0
+ACC-20178,Logistics,Enterprise,142367.63,30,43,2,6,86.9,28802.57,0
+ACC-20179,EdTech,Professional,40031.6,38,133,2,5,86.1,5065.45,0
+ACC-20180,Logistics,Professional,50160.23,17,208,3,5,42.5,0.0,0
+ACC-20181,FinTech,Professional,33142.33,28,323,3,7,56.9,0.0,0
+ACC-20182,E-Commerce Tech,Professional,67085.29,11,242,6,6,94.8,7304.28,0
+ACC-20183,Healthcare IT,Enterprise,122683.43,30,317,2,7,40.4,0.0,0
+ACC-20184,E-Commerce Tech,Enterprise,242845.13,35,154,5,1,38.5,0.0,0
+ACC-20185,EdTech,Starter,22643.65,20,10,2,4,59.1,0.0,1
+ACC-20186,FinTech,Professional,58868.77,29,235,3,7,85.8,12181.83,0
+ACC-20187,E-Commerce Tech,Enterprise,81515.17,5,125,5,2,56.2,0.0,1
+ACC-20188,Logistics,Enterprise,94278.22,37,303,3,1,25.9,0.0,1
+ACC-20189,EdTech,Professional,30000.9,34,212,3,7,30.4,0.0,0
+ACC-20190,Healthcare IT,Professional,27161.16,26,185,1,9,57.9,0.0,0
+ACC-20191,Logistics,Professional,52734.59,38,57,3,8,59.4,0.0,0
+ACC-20192,EdTech,Enterprise,84537.84,29,270,3,2,34.0,0.0,0
+ACC-20193,FinTech,Starter,19777.78,36,21,1,6,89.5,5395.84,0
+ACC-20194,Healthcare IT,Starter,16745.35,15,14,0,4,55.9,0.0,1
+ACC-20195,FinTech,Enterprise,241654.95,41,142,7,2,74.7,0.0,0
+ACC-20196,FinTech,Global Scale,93839.66,10,223,1,2,51.1,0.0,1
+ACC-20197,FinTech,Enterprise,242244.36,28,336,3,6,72.7,0.0,0
+ACC-20198,EdTech,Professional,31285.75,37,244,3,4,58.8,0.0,0
+ACC-20199,Healthcare IT,Enterprise,135548.53,7,278,3,7,61.0,0.0,1
+ACC-20200,Healthcare IT,Starter,8803.07,20,43,1,5,30.1,0.0,0
+ACC-20201,EdTech,Enterprise,231568.69,26,340,3,7,53.5,0.0,0
+ACC-20202,Logistics,Professional,64778.17,23,234,3,1,29.1,0.0,0
+ACC-20203,Healthcare IT,Starter,10328.02,28,24,4,4,35.3,0.0,1
+ACC-20204,EdTech,Professional,46152.62,45,92,12,5,81.6,11992.55,0
+ACC-20205,Logistics,Starter,15306.27,25,17,6,5,83.3,2957.18,0
+ACC-20206,FinTech,Professional,34129.86,24,210,1,4,67.6,0.0,1
+ACC-20207,Healthcare IT,Professional,49300.17,30,89,7,1,53.1,0.0,0
+ACC-20208,FinTech,Global Scale,139245.99,24,43,4,5,68.8,0.0,0
+ACC-20209,FinTech,Professional,56638.54,43,279,4,1,45.2,0.0,0
+ACC-20210,FinTech,Professional,62865.28,27,46,3,1,63.7,0.0,0
+ACC-20211,FinTech,Professional,38849.48,36,64,5,9,55.2,0.0,0
+ACC-20212,Healthcare IT,Professional,38633.4,44,181,1,7,64.5,0.0,0
+ACC-20213,Healthcare IT,Professional,28938.05,15,145,6,7,28.4,0.0,0
+ACC-20214,FinTech,Enterprise,81803.26,36,277,3,5,27.8,0.0,0
+ACC-20215,Healthcare IT,Professional,71299.58,38,114,2,9,90.9,10430.22,0
+ACC-20216,Logistics,Starter,12723.37,23,37,2,2,89.4,2201.27,0
+ACC-20217,FinTech,Professional,59222.45,5,328,8,6,46.7,0.0,0
+ACC-20218,FinTech,Starter,16005.68,32,12,1,4,53.0,0.0,1
+ACC-20219,Healthcare IT,Enterprise,186481.94,32,334,3,4,88.8,20177.19,0
+ACC-20220,EdTech,Enterprise,155704.34,19,311,1,8,87.9,37238.97,0
+ACC-20221,Logistics,Enterprise,220985.67,43,106,3,1,65.1,0.0,1
+ACC-20222,Healthcare IT,Enterprise,83707.15,44,43,7,1,76.9,9287.14,0
+ACC-20223,Healthcare IT,Starter,17749.02,12,38,4,8,39.8,0.0,0
+ACC-20224,FinTech,Starter,6129.14,11,12,3,7,57.2,0.0,1
+ACC-20225,EdTech,Starter,7045.14,33,21,1,3,90.7,1894.2,0
+ACC-20226,Healthcare IT,Professional,52923.6,13,157,5,8,45.2,0.0,0
+ACC-20227,EdTech,Enterprise,81103.22,10,348,3,3,93.9,23199.18,0
+ACC-20228,FinTech,Professional,35271.71,24,331,6,7,77.2,8067.58,0
+ACC-20229,Healthcare IT,Professional,33429.1,15,241,7,5,38.1,0.0,0
+ACC-20230,Logistics,Professional,50749.12,27,100,2,3,38.7,0.0,1
+ACC-20231,FinTech,Starter,14680.98,30,18,3,9,85.2,2947.41,0
+ACC-20232,Healthcare IT,Professional,30560.83,25,83,4,9,84.0,4287.85,0
+ACC-20233,E-Commerce Tech,Global Scale,181007.09,15,295,2,9,58.4,0.0,0
+ACC-20234,FinTech,Professional,42638.42,8,88,3,9,55.0,0.0,0
+ACC-20235,Healthcare IT,Professional,67100.39,22,308,4,9,32.9,0.0,0
+ACC-20236,EdTech,Professional,26302.89,38,250,5,1,90.7,6947.26,0
+ACC-20237,E-Commerce Tech,Professional,45068.37,3,172,7,9,52.7,0.0,0
+ACC-20238,EdTech,Professional,49095.41,3,42,9,1,68.3,0.0,1
+ACC-20239,E-Commerce Tech,Professional,45143.29,19,48,3,5,25.2,0.0,0
+ACC-20240,E-Commerce Tech,Starter,19674.81,34,43,3,3,63.5,0.0,0
+ACC-20241,Healthcare IT,Professional,29159.68,13,322,2,8,59.7,0.0,0
+ACC-20242,Healthcare IT,Starter,22896.79,20,7,2,8,30.5,0.0,0
+ACC-20243,EdTech,Enterprise,181300.22,26,175,0,1,78.0,0.0,1
+ACC-20244,Healthcare IT,Enterprise,200195.76,27,146,1,1,65.2,0.0,1
+ACC-20245,Logistics,Enterprise,213330.1,10,224,2,2,55.0,0.0,0
+ACC-20246,Healthcare IT,Professional,60245.65,17,309,3,8,31.0,0.0,0
+ACC-20247,E-Commerce Tech,Professional,44208.01,43,227,1,7,32.5,0.0,0
+ACC-20248,FinTech,Starter,8452.1,9,18,4,1,75.3,1431.73,0
+ACC-20249,E-Commerce Tech,Global Scale,189266.12,24,53,3,9,52.5,0.0,0
+ACC-20250,FinTech,Professional,41722.31,28,120,5,8,50.6,0.0,0
+ACC-20251,E-Commerce Tech,Professional,57442.42,19,301,2,9,46.8,0.0,0
+ACC-20252,EdTech,Starter,16949.36,6,16,4,3,39.4,0.0,1
+ACC-20253,Logistics,Professional,29183.17,38,93,3,4,45.9,0.0,0
+ACC-20254,EdTech,Enterprise,187494.85,19,126,6,3,75.5,24367.44,0
+ACC-20255,Healthcare IT,Professional,49701.37,4,142,6,5,46.0,0.0,0
+ACC-20256,E-Commerce Tech,Global Scale,146684.56,46,245,2,2,89.8,24694.57,0
+ACC-20257,Logistics,Starter,20945.12,14,12,5,7,47.0,0.0,1
+ACC-20258,EdTech,Professional,49675.85,36,258,1,5,27.6,0.0,0
+ACC-20259,EdTech,Enterprise,205332.29,36,134,1,9,34.7,0.0,0
+ACC-20260,Healthcare IT,Professional,36063.5,34,88,2,2,90.3,9302.22,0
+ACC-20261,FinTech,Professional,41428.37,8,212,1,4,79.5,11833.04,0
+ACC-20262,Logistics,Professional,52513.2,31,135,1,9,50.8,0.0,1
+ACC-20263,Logistics,Professional,32164.92,19,104,6,3,34.9,0.0,1
+ACC-20264,Healthcare IT,Starter,22843.07,15,43,1,1,39.3,0.0,0
+ACC-20265,Healthcare IT,Enterprise,162352.33,30,259,4,5,78.8,26326.79,0
+ACC-20266,E-Commerce Tech,Professional,54210.93,28,55,0,7,89.4,8921.3,0
+ACC-20267,FinTech,Enterprise,227924.31,15,125,5,2,82.6,27655.53,0
+ACC-20268,E-Commerce Tech,Professional,69515.62,9,170,5,2,30.7,0.0,0
+ACC-20269,Healthcare IT,Professional,27233.0,27,225,3,9,80.4,7997.23,0
+ACC-20270,Healthcare IT,Enterprise,98775.33,8,256,3,5,42.3,0.0,0
+ACC-20271,Logistics,Enterprise,173165.62,18,313,2,9,64.3,0.0,0
+ACC-20272,EdTech,Professional,56966.94,21,226,5,8,83.9,9730.01,0
+ACC-20273,FinTech,Global Scale,141350.44,30,280,5,2,39.2,0.0,1
+ACC-20274,E-Commerce Tech,Professional,53594.95,4,178,6,6,54.0,0.0,0
+ACC-20275,Logistics,Professional,37393.78,7,72,2,2,86.0,10815.58,0
+ACC-20276,Healthcare IT,Enterprise,227725.27,13,193,6,8,64.9,0.0,0
+ACC-20277,EdTech,Professional,48600.37,34,177,0,8,74.1,0.0,0
+ACC-20278,E-Commerce Tech,Professional,74908.74,27,251,4,9,72.6,0.0,0
+ACC-20279,Logistics,Professional,51407.0,22,272,6,7,35.4,0.0,0
+ACC-20280,E-Commerce Tech,Professional,34620.55,34,234,2,9,36.1,0.0,0
+ACC-20281,Healthcare IT,Global Scale,174835.15,20,76,3,6,55.3,0.0,0
+ACC-20282,FinTech,Professional,55083.5,34,83,5,8,62.7,0.0,0
+ACC-20283,FinTech,Professional,66186.49,30,45,4,3,88.7,10330.78,0
+ACC-20284,FinTech,Enterprise,125559.15,36,303,3,5,94.3,35178.03,0
+ACC-20285,FinTech,Enterprise,89555.62,3,164,6,4,94.7,0.0,1
+ACC-20286,EdTech,Professional,36548.15,43,80,2,8,47.8,0.0,0
+ACC-20287,Logistics,Starter,15088.03,43,27,3,8,28.2,0.0,0
+ACC-20288,Healthcare IT,Professional,48575.82,5,41,9,4,56.7,0.0,0
+ACC-20289,Healthcare IT,Enterprise,90203.71,35,44,3,3,73.3,0.0,1
+ACC-20290,Logistics,Professional,45116.31,19,121,2,8,47.3,0.0,0
+ACC-20291,E-Commerce Tech,Professional,64339.84,33,56,4,5,48.6,0.0,0
+ACC-20292,FinTech,Global Scale,126178.26,40,242,8,2,80.7,16038.39,0
+ACC-20293,Healthcare IT,Starter,20634.92,14,36,3,2,46.9,0.0,0
+ACC-20294,EdTech,Professional,41983.92,46,74,1,7,50.8,0.0,0
+ACC-20295,Logistics,Enterprise,133211.57,32,65,8,7,56.3,0.0,0
+ACC-20296,EdTech,Global Scale,111779.01,28,168,3,2,49.5,0.0,0
+ACC-20297,E-Commerce Tech,Enterprise,207791.9,6,101,4,1,30.6,0.0,0
+ACC-20298,EdTech,Enterprise,153776.49,32,275,3,6,50.3,0.0,0
+ACC-20299,Logistics,Professional,62493.82,45,169,3,1,66.2,0.0,0
+ACC-20300,Healthcare IT,Global Scale,115031.94,39,134,2,2,33.5,0.0,0
+ACC-20301,EdTech,Professional,68657.96,4,51,7,6,68.2,0.0,0
+ACC-20302,EdTech,Starter,23379.93,32,25,4,4,56.8,0.0,0
+ACC-20303,E-Commerce Tech,Professional,34962.09,19,77,1,2,79.5,6310.34,0
+ACC-20304,FinTech,Global Scale,210022.36,34,70,3,4,72.8,0.0,1
+ACC-20305,E-Commerce Tech,Professional,67294.98,11,44,3,6,74.3,0.0,0
+ACC-20306,EdTech,Professional,37740.88,12,129,4,3,53.6,0.0,0
+ACC-20307,Healthcare IT,Enterprise,165367.21,7,338,5,3,66.2,0.0,1
+ACC-20308,Logistics,Professional,28422.66,39,239,2,7,64.7,0.0,0
+ACC-20309,Healthcare IT,Starter,21179.45,8,30,3,2,35.5,0.0,0
+ACC-20310,Logistics,Professional,26543.41,41,161,2,3,72.1,0.0,1
+ACC-20311,Healthcare IT,Enterprise,131348.31,13,141,3,4,89.7,14964.15,0
+ACC-20312,Logistics,Enterprise,154853.21,20,214,6,7,27.6,0.0,0
+ACC-20313,Logistics,Professional,52722.76,15,83,4,9,47.1,0.0,0
+ACC-20314,FinTech,Professional,25874.78,9,57,2,7,42.0,0.0,0
+ACC-20315,Logistics,Enterprise,167834.99,44,126,1,7,51.8,0.0,0
+ACC-20316,EdTech,Global Scale,203365.28,44,223,3,6,35.9,0.0,0
+ACC-20317,E-Commerce Tech,Enterprise,249408.75,4,100,7,7,35.8,0.0,1
+ACC-20318,EdTech,Enterprise,88185.63,24,215,5,9,84.7,20101.07,0
+ACC-20319,Logistics,Enterprise,191032.21,43,323,1,3,94.1,30221.56,0
+ACC-20320,FinTech,Professional,61127.7,34,189,5,7,87.2,11172.3,0
+ACC-20321,Logistics,Starter,16306.18,18,32,1,4,42.8,0.0,0
+ACC-20322,E-Commerce Tech,Starter,12296.56,43,29,4,3,91.8,3169.73,0
+ACC-20323,FinTech,Starter,12272.92,29,29,3,9,85.3,0.0,1
+ACC-20324,EdTech,Professional,69577.5,33,116,3,9,25.4,0.0,0
+ACC-20325,E-Commerce Tech,Starter,19762.02,20,28,4,1,74.2,0.0,0
+ACC-20326,Logistics,Enterprise,151954.05,40,201,1,7,90.1,17746.89,0
+ACC-20327,Healthcare IT,Starter,13109.29,13,24,4,3,79.8,3102.2,0
+ACC-20328,Healthcare IT,Enterprise,129120.38,16,64,1,5,39.6,0.0,0
+ACC-20329,Healthcare IT,Global Scale,245513.3,36,54,5,6,53.6,0.0,0
+ACC-20330,E-Commerce Tech,Professional,43710.64,28,227,2,9,81.0,7669.71,0
+ACC-20331,Logistics,Starter,10595.65,29,21,7,6,40.3,0.0,1
+ACC-20332,Healthcare IT,Starter,20303.92,47,42,3,7,42.0,0.0,0
+ACC-20333,EdTech,Enterprise,161263.11,40,271,4,2,72.6,0.0,0
+ACC-20334,E-Commerce Tech,Enterprise,232074.86,5,323,9,3,55.5,0.0,1
+ACC-20335,E-Commerce Tech,Professional,39565.37,8,70,3,4,28.0,0.0,0
+ACC-20336,Healthcare IT,Starter,16790.31,41,14,1,2,88.2,4029.54,0
+ACC-20337,FinTech,Enterprise,163108.88,11,195,2,6,72.7,0.0,0
+ACC-20338,EdTech,Professional,54245.58,21,56,4,8,33.4,0.0,0
+ACC-20339,EdTech,Starter,8189.14,12,19,2,6,75.6,0.0,1
+ACC-20340,Logistics,Enterprise,86329.3,4,234,12,1,87.8,0.0,1
+ACC-20341,FinTech,Enterprise,151630.7,41,282,0,6,56.2,0.0,0
+ACC-20342,Healthcare IT,Professional,69320.82,29,97,2,7,43.8,0.0,0
+ACC-20343,E-Commerce Tech,Professional,71809.58,30,167,2,7,81.9,15668.85,0
+ACC-20344,E-Commerce Tech,Professional,39180.15,25,321,5,4,71.3,0.0,1
+ACC-20345,FinTech,Enterprise,223999.89,15,239,3,3,29.4,0.0,0
+ACC-20346,EdTech,Global Scale,192978.5,29,135,0,2,87.1,26898.93,0
+ACC-20347,E-Commerce Tech,Enterprise,107685.91,36,279,5,6,68.5,0.0,0
+ACC-20348,Logistics,Enterprise,161179.09,26,163,2,2,61.1,0.0,0
+ACC-20349,Logistics,Professional,72398.05,44,286,3,7,86.4,14830.55,0
+ACC-20350,FinTech,Enterprise,161698.3,40,245,1,4,78.6,37572.92,0
+ACC-20351,Healthcare IT,Enterprise,170780.39,24,71,2,6,73.8,0.0,0
+ACC-20352,E-Commerce Tech,Starter,20865.4,16,15,5,2,45.8,0.0,1
+ACC-20353,Healthcare IT,Enterprise,121825.99,35,330,1,1,51.4,0.0,1
+ACC-20354,Healthcare IT,Enterprise,199592.47,17,338,6,9,46.0,0.0,0
+ACC-20355,E-Commerce Tech,Starter,23602.41,41,14,5,2,38.3,0.0,1
+ACC-20356,FinTech,Professional,67688.16,38,44,3,9,83.3,7063.13,0
+ACC-20357,Healthcare IT,Professional,60880.87,31,161,2,5,39.5,0.0,0
+ACC-20358,EdTech,Professional,70709.42,43,287,2,9,59.4,0.0,0
+ACC-20359,EdTech,Professional,71647.25,42,270,1,1,55.6,0.0,1
+ACC-20360,Healthcare IT,Enterprise,175508.36,13,320,6,4,49.7,0.0,0
+ACC-20361,E-Commerce Tech,Enterprise,235751.82,18,69,3,9,26.2,0.0,0
+ACC-20362,EdTech,Global Scale,95237.87,21,131,4,3,48.4,0.0,1
+ACC-20363,FinTech,Starter,8464.23,30,43,9,4,42.6,0.0,1
+ACC-20364,Healthcare IT,Professional,38781.77,42,292,2,6,65.2,0.0,0
+ACC-20365,E-Commerce Tech,Professional,53177.58,18,230,1,7,42.0,0.0,0
+ACC-20366,FinTech,Enterprise,88641.55,23,76,3,5,46.3,0.0,1
+ACC-20367,E-Commerce Tech,Professional,74858.14,4,79,9,5,69.4,0.0,0
+ACC-20368,FinTech,Starter,9104.17,40,36,5,6,25.3,0.0,0
+ACC-20369,E-Commerce Tech,Enterprise,198763.74,40,297,2,6,90.4,27693.04,0
+ACC-20370,Healthcare IT,Starter,9549.71,26,25,1,5,35.4,0.0,0
+ACC-20371,Healthcare IT,Starter,21942.97,15,22,2,7,51.4,0.0,0
+ACC-20372,FinTech,Enterprise,221525.75,15,213,2,3,41.7,0.0,1
+ACC-20373,Logistics,Professional,36942.99,30,83,4,7,91.5,10367.33,0
+ACC-20374,E-Commerce Tech,Professional,55586.9,45,56,4,2,91.7,0.0,1
+ACC-20375,EdTech,Starter,9717.86,9,14,5,6,31.8,0.0,0
+ACC-20376,Healthcare IT,Enterprise,113673.11,43,303,4,2,87.9,0.0,1
+ACC-20377,FinTech,Professional,74465.81,18,143,3,7,33.5,0.0,0
+ACC-20378,FinTech,Professional,30498.24,32,165,3,8,63.3,0.0,0
+ACC-20379,Healthcare IT,Professional,48330.31,7,198,1,1,34.0,0.0,1
+ACC-20380,EdTech,Professional,28103.51,46,337,1,6,80.7,0.0,1
+ACC-20381,FinTech,Professional,60882.93,46,46,4,6,53.1,0.0,0
+ACC-20382,E-Commerce Tech,Enterprise,99875.31,36,47,5,4,49.4,0.0,0
+ACC-20383,Logistics,Professional,62466.41,39,346,1,9,68.3,0.0,0
+ACC-20384,FinTech,Enterprise,181384.03,11,339,4,5,56.5,0.0,0
+ACC-20385,EdTech,Professional,38996.48,34,50,4,3,92.7,11643.25,0
+ACC-20386,Healthcare IT,Enterprise,122264.4,28,296,4,6,58.6,0.0,0
+ACC-20387,Logistics,Enterprise,208370.02,8,256,4,1,41.5,0.0,0
+ACC-20388,Healthcare IT,Enterprise,213224.51,23,216,2,6,66.7,0.0,0
+ACC-20389,Healthcare IT,Starter,19741.52,26,29,2,8,49.4,0.0,1
+ACC-20390,E-Commerce Tech,Professional,32057.09,21,215,4,2,86.0,5241.33,0
+ACC-20391,Healthcare IT,Starter,23818.62,36,23,3,4,81.4,5941.27,0
+ACC-20392,E-Commerce Tech,Global Scale,170905.75,20,179,1,2,79.7,32511.06,0
+ACC-20393,FinTech,Starter,6117.02,22,37,4,5,29.5,0.0,0
+ACC-20394,Logistics,Professional,42978.82,11,251,2,5,26.3,0.0,0
+ACC-20395,EdTech,Starter,11626.26,18,15,1,3,46.8,0.0,0
+ACC-20396,EdTech,Starter,16640.79,3,19,7,4,55.0,0.0,0
+ACC-20397,FinTech,Global Scale,238040.99,18,175,2,6,81.6,54031.21,0
+ACC-20398,E-Commerce Tech,Global Scale,120893.3,34,224,4,9,32.2,0.0,0
+ACC-20399,EdTech,Starter,15813.8,32,9,1,9,58.5,0.0,0
+ACC-20400,Healthcare IT,Starter,12022.04,9,14,6,1,88.4,3355.14,0
+ACC-20401,FinTech,Global Scale,130202.06,7,247,2,6,75.0,0.0,0
+ACC-20402,EdTech,Professional,41768.71,39,110,4,5,35.8,0.0,0
+ACC-20403,E-Commerce Tech,Professional,60228.93,44,44,4,3,79.9,17191.55,0
+ACC-20404,Logistics,Starter,16970.04,37,14,1,2,29.7,0.0,0
+ACC-20405,Healthcare IT,Professional,30280.85,23,182,3,9,69.9,0.0,0
+ACC-20406,FinTech,Enterprise,164598.5,7,270,1,4,33.1,0.0,0
+ACC-20407,Healthcare IT,Professional,57909.87,19,100,1,9,30.2,0.0,0
+ACC-20408,Logistics,Professional,56628.97,27,280,1,3,83.1,0.0,1
+ACC-20409,E-Commerce Tech,Global Scale,98506.28,15,273,3,9,70.1,0.0,0
+ACC-20410,Logistics,Professional,33450.07,31,132,4,2,39.4,0.0,0
+ACC-20411,EdTech,Professional,32183.82,35,122,1,7,81.4,7871.01,0
+ACC-20412,Healthcare IT,Professional,53638.83,27,205,1,3,88.5,0.0,1
+ACC-20413,FinTech,Global Scale,190530.28,34,220,4,1,74.9,0.0,1
+ACC-20414,Logistics,Professional,68530.04,36,68,3,2,91.8,16432.71,0
+ACC-20415,FinTech,Enterprise,211580.56,28,256,0,6,29.4,0.0,0
+ACC-20416,E-Commerce Tech,Enterprise,158977.68,42,51,2,5,54.2,0.0,0
+ACC-20417,EdTech,Enterprise,97136.81,17,174,4,3,79.2,14786.7,0
+ACC-20418,Healthcare IT,Global Scale,132204.01,12,89,4,1,53.9,0.0,1
+ACC-20419,Healthcare IT,Professional,57904.63,25,163,3,6,80.2,8027.0,0
+ACC-20420,E-Commerce Tech,Professional,27301.66,9,85,1,5,65.2,0.0,0
+ACC-20421,EdTech,Professional,61243.53,24,340,1,2,76.8,16431.03,0
+ACC-20422,Logistics,Enterprise,163707.17,6,142,5,5,63.9,0.0,0
+ACC-20423,FinTech,Professional,41965.63,27,263,7,1,44.4,0.0,0
+ACC-20424,EdTech,Global Scale,101692.39,21,64,3,2,43.6,0.0,1
+ACC-20425,Healthcare IT,Enterprise,178451.75,16,241,6,1,56.5,0.0,0
+ACC-20426,FinTech,Professional,65867.32,15,151,3,4,37.4,0.0,1
+ACC-20427,EdTech,Professional,62163.91,42,180,2,7,63.9,0.0,0
+ACC-20428,EdTech,Professional,44552.11,4,297,5,4,68.8,0.0,0
+ACC-20429,FinTech,Professional,48425.81,9,49,3,9,53.5,0.0,0
+ACC-20430,Healthcare IT,Professional,32602.99,21,58,1,5,61.0,0.0,0
+ACC-20431,EdTech,Professional,48830.98,12,339,3,5,35.9,0.0,0
+ACC-20432,FinTech,Starter,8936.52,30,10,3,8,73.6,0.0,0
+ACC-20433,Healthcare IT,Starter,18234.76,24,33,3,8,26.5,0.0,0
+ACC-20434,E-Commerce Tech,Professional,70485.48,23,296,2,4,89.5,0.0,1
+ACC-20435,Logistics,Enterprise,152426.15,13,155,2,3,64.3,0.0,0
+ACC-20436,E-Commerce Tech,Professional,40513.89,25,230,5,8,29.1,0.0,0
+ACC-20437,Logistics,Global Scale,229435.44,34,184,4,1,81.4,29127.1,0
+ACC-20438,Healthcare IT,Enterprise,170349.47,4,235,9,7,27.2,0.0,1
+ACC-20439,Logistics,Professional,42948.52,38,43,4,3,69.9,0.0,1
+ACC-20440,E-Commerce Tech,Professional,34929.15,11,72,2,2,35.4,0.0,0
+ACC-20441,FinTech,Professional,32632.08,27,327,2,9,86.0,0.0,1
+ACC-20442,Healthcare IT,Enterprise,198423.09,27,271,3,3,75.2,30645.21,0
+ACC-20443,EdTech,Professional,31992.73,16,255,6,1,45.7,0.0,0
+ACC-20444,FinTech,Professional,38491.88,21,225,8,9,53.6,0.0,0
+ACC-20445,Logistics,Global Scale,159090.68,6,260,3,3,29.3,0.0,0
+ACC-20446,E-Commerce Tech,Enterprise,103553.07,46,251,5,8,29.1,0.0,0
+ACC-20447,EdTech,Enterprise,103403.94,6,202,5,4,88.1,29748.62,0
+ACC-20448,Logistics,Enterprise,233135.1,42,137,4,5,57.7,0.0,0
+ACC-20449,Logistics,Enterprise,156601.51,5,155,12,5,91.6,16167.06,0
+ACC-20450,E-Commerce Tech,Professional,60556.16,38,148,2,8,77.5,6438.3,0
+ACC-20451,E-Commerce Tech,Starter,6837.33,20,6,1,6,85.1,791.1,0
+ACC-20452,EdTech,Enterprise,183429.35,40,62,4,8,80.2,27061.62,0
+ACC-20453,EdTech,Starter,6754.85,46,44,3,4,83.4,1514.79,0
+ACC-20454,FinTech,Enterprise,135582.93,4,186,4,8,87.8,18071.36,0
+ACC-20455,EdTech,Professional,60694.57,5,52,12,4,66.3,0.0,1
+ACC-20456,FinTech,Global Scale,110382.42,24,291,4,2,89.4,0.0,1
+ACC-20457,FinTech,Global Scale,181870.61,23,168,2,5,50.8,0.0,0
+ACC-20458,FinTech,Enterprise,245520.22,13,68,8,3,82.3,0.0,1
+ACC-20459,E-Commerce Tech,Professional,64306.52,38,249,4,5,74.1,0.0,0
+ACC-20460,Logistics,Professional,29679.27,23,194,4,6,93.8,0.0,1
+ACC-20461,FinTech,Starter,18901.43,34,8,1,9,38.1,0.0,0
+ACC-20462,Healthcare IT,Professional,57985.22,10,243,1,9,91.9,15404.16,0
+ACC-20463,Healthcare IT,Enterprise,96811.44,28,199,3,9,37.3,0.0,0
+ACC-20464,EdTech,Enterprise,191920.71,22,329,2,6,69.0,0.0,0
+ACC-20465,E-Commerce Tech,Starter,15819.62,37,23,3,6,31.1,0.0,0
+ACC-20466,FinTech,Professional,27338.86,17,84,3,8,57.3,0.0,0
+ACC-20467,Healthcare IT,Starter,23236.88,29,28,3,6,42.0,0.0,1
+ACC-20468,Healthcare IT,Professional,61367.68,24,107,3,8,54.2,0.0,0
+ACC-20469,FinTech,Starter,23980.97,14,30,3,1,76.6,3504.33,0
+ACC-20470,Healthcare IT,Starter,18219.55,14,39,4,7,39.2,0.0,1
+ACC-20471,EdTech,Enterprise,159591.26,33,216,6,8,87.2,45532.84,0
+ACC-20472,E-Commerce Tech,Enterprise,104586.82,15,288,1,5,59.7,0.0,0
+ACC-20473,EdTech,Professional,33447.2,16,320,2,1,74.7,0.0,0
+ACC-20474,Logistics,Professional,40291.58,46,150,3,9,32.0,0.0,0
+ACC-20475,Healthcare IT,Professional,63101.92,34,212,2,1,92.0,0.0,1
+ACC-20476,Logistics,Starter,10666.11,33,38,0,6,70.8,0.0,1
+ACC-20477,FinTech,Professional,27768.96,22,138,2,4,66.5,0.0,1
+ACC-20478,FinTech,Global Scale,227296.29,3,72,9,8,86.9,63843.21,0
+ACC-20479,E-Commerce Tech,Professional,43705.29,30,184,3,1,60.6,0.0,1
+ACC-20480,FinTech,Enterprise,156967.61,24,239,2,9,47.7,0.0,0
+ACC-20481,EdTech,Professional,69825.41,36,205,0,4,71.5,0.0,1
+ACC-20482,EdTech,Starter,10056.52,21,15,5,5,64.8,0.0,1
+ACC-20483,FinTech,Starter,19663.0,13,17,5,4,65.3,0.0,1
+ACC-20484,E-Commerce Tech,Global Scale,192040.17,30,298,0,2,46.0,0.0,1
+ACC-20485,Logistics,Enterprise,105144.89,15,318,2,8,33.1,0.0,0
+ACC-20486,E-Commerce Tech,Enterprise,206513.92,6,158,3,4,63.2,0.0,0
+ACC-20487,Healthcare IT,Global Scale,219725.95,13,253,2,1,84.4,48096.99,0
+ACC-20488,FinTech,Professional,70122.68,23,145,1,1,93.6,0.0,1
+ACC-20489,E-Commerce Tech,Global Scale,113156.71,14,247,4,8,68.1,0.0,0
+ACC-20490,FinTech,Global Scale,193168.58,24,78,2,6,50.3,0.0,0
+ACC-20491,Logistics,Professional,72852.81,45,127,7,8,87.2,19917.14,0
+ACC-20492,Logistics,Professional,26549.05,30,220,6,4,83.0,3644.16,0
+ACC-20493,Logistics,Professional,42733.14,13,343,5,8,29.1,0.0,1
+ACC-20494,E-Commerce Tech,Professional,32215.12,28,233,2,5,56.8,0.0,1
+ACC-20495,FinTech,Professional,71146.39,36,150,2,5,59.6,0.0,0
+ACC-20496,Healthcare IT,Professional,40320.42,38,215,4,8,35.7,0.0,0
+ACC-20497,Healthcare IT,Global Scale,131656.45,17,197,4,8,27.0,0.0,1
+ACC-20498,E-Commerce Tech,Professional,66568.81,14,217,2,1,84.2,0.0,1
+ACC-20499,EdTech,Global Scale,212069.77,17,60,5,4,27.5,0.0,1
+ACC-20500,FinTech,Professional,55560.34,19,325,6,6,33.4,0.0,0
+ACC-20501,E-Commerce Tech,Enterprise,215628.43,23,58,2,5,75.7,41734.12,0
+ACC-20502,E-Commerce Tech,Enterprise,196402.83,47,61,4,2,77.2,46296.15,0
+ACC-20503,Logistics,Enterprise,87668.53,13,238,2,3,82.7,25728.71,0
+ACC-20504,EdTech,Starter,18839.07,39,25,3,8,93.7,1922.35,0
+ACC-20505,FinTech,Starter,8912.59,7,34,0,4,68.6,0.0,0
+ACC-20506,FinTech,Professional,69451.8,18,93,4,4,46.7,0.0,0
+ACC-20507,E-Commerce Tech,Professional,59084.92,5,216,5,2,45.6,0.0,1
+ACC-20508,FinTech,Professional,36183.76,31,218,3,2,48.2,0.0,0
+ACC-20509,EdTech,Starter,18726.93,19,35,3,4,89.2,0.0,1
+ACC-20510,E-Commerce Tech,Professional,63974.42,41,316,1,8,90.4,11942.47,0
+ACC-20511,Healthcare IT,Enterprise,95542.26,22,252,1,2,73.4,0.0,0
+ACC-20512,Healthcare IT,Professional,38813.27,12,242,2,4,94.0,0.0,1
+ACC-20513,E-Commerce Tech,Enterprise,185439.11,23,107,3,9,32.4,0.0,0
+ACC-20514,FinTech,Professional,69930.59,16,158,7,9,48.2,0.0,0
+ACC-20515,FinTech,Enterprise,82733.11,12,335,11,1,42.0,0.0,0
+ACC-20516,E-Commerce Tech,Starter,18917.31,38,38,2,2,35.5,0.0,0
+ACC-20517,Healthcare IT,Professional,64649.11,19,250,2,6,31.3,0.0,0
+ACC-20518,FinTech,Starter,23833.18,20,42,1,7,88.4,3387.97,0
+ACC-20519,Healthcare IT,Professional,30032.22,24,61,3,1,51.0,0.0,0
+ACC-20520,Healthcare IT,Professional,30688.09,25,164,2,3,91.4,0.0,1
+ACC-20521,Healthcare IT,Professional,46539.0,3,317,8,7,59.6,0.0,0
+ACC-20522,Healthcare IT,Starter,18286.41,40,17,3,9,63.9,0.0,1
+ACC-20523,EdTech,Professional,60448.76,45,280,3,2,88.9,0.0,1
+ACC-20524,Logistics,Professional,72107.33,30,71,2,6,36.2,0.0,0
+ACC-20525,EdTech,Professional,49227.09,36,59,2,5,69.6,0.0,0
+ACC-20526,EdTech,Starter,13414.61,17,41,0,4,62.5,0.0,0
+ACC-20527,E-Commerce Tech,Enterprise,93687.55,25,330,4,2,44.7,0.0,0
+ACC-20528,Healthcare IT,Professional,58066.97,43,150,2,1,31.0,0.0,1
+ACC-20529,EdTech,Professional,67490.11,25,333,2,8,63.7,0.0,0
+ACC-20530,EdTech,Starter,19680.85,30,12,3,5,37.2,0.0,0
+ACC-20531,Logistics,Starter,6217.76,26,22,3,5,89.1,0.0,1
+ACC-20532,Healthcare IT,Global Scale,82553.85,6,315,4,4,48.4,0.0,1
+ACC-20533,Logistics,Enterprise,176187.47,46,81,9,5,25.3,0.0,0
+ACC-20534,Healthcare IT,Global Scale,86691.1,3,78,6,6,84.0,16435.63,0
+ACC-20535,Logistics,Starter,7198.3,36,10,4,1,59.1,0.0,1
+ACC-20536,Healthcare IT,Starter,7786.68,17,36,5,2,84.2,0.0,1
+ACC-20537,FinTech,Starter,20381.33,27,20,4,4,79.0,5812.93,0
+ACC-20538,Logistics,Professional,39350.01,36,180,0,7,68.7,0.0,0
+ACC-20539,EdTech,Professional,66318.17,33,297,4,4,35.7,0.0,1
+ACC-20540,Healthcare IT,Enterprise,222641.66,39,107,3,8,51.5,0.0,0
+ACC-20541,E-Commerce Tech,Professional,51125.78,39,97,6,1,59.5,0.0,0
+ACC-20542,EdTech,Starter,22611.72,32,19,4,2,72.2,0.0,1
+ACC-20543,E-Commerce Tech,Professional,31118.24,41,90,4,4,88.1,0.0,1
+ACC-20544,Logistics,Enterprise,201813.25,39,99,4,2,67.6,0.0,0
+ACC-20545,E-Commerce Tech,Enterprise,177536.52,40,184,5,7,51.2,0.0,0
+ACC-20546,EdTech,Professional,33510.73,6,222,2,5,61.9,0.0,1
+ACC-20547,Logistics,Global Scale,86021.23,34,324,4,6,68.8,0.0,0
+ACC-20548,E-Commerce Tech,Starter,12557.84,8,20,3,2,66.9,0.0,0
+ACC-20549,FinTech,Starter,11975.7,8,27,2,3,40.4,0.0,0
+ACC-20550,E-Commerce Tech,Enterprise,249091.22,46,115,4,6,55.2,0.0,0
+ACC-20551,EdTech,Starter,8715.8,32,13,3,4,28.1,0.0,1
+ACC-20552,Logistics,Enterprise,191429.17,5,146,8,6,89.5,20870.03,0
+ACC-20553,Logistics,Professional,73274.55,9,88,5,6,41.4,0.0,0
+ACC-20554,Healthcare IT,Starter,14990.94,29,25,2,9,83.8,3660.44,0
+ACC-20555,Healthcare IT,Professional,61772.86,38,302,3,5,76.0,15856.13,0
+ACC-20556,E-Commerce Tech,Global Scale,80957.66,30,145,5,2,69.7,0.0,1
+ACC-20557,EdTech,Professional,28780.08,15,239,3,1,93.0,6554.44,0
+ACC-20558,FinTech,Professional,55031.43,37,111,4,2,40.0,0.0,0
+ACC-20559,EdTech,Starter,7386.48,23,27,5,7,45.5,0.0,0
+ACC-20560,FinTech,Enterprise,137744.98,29,199,1,5,40.5,0.0,0
+ACC-20561,E-Commerce Tech,Professional,61107.38,45,47,5,7,25.3,0.0,0
+ACC-20562,Logistics,Global Scale,199465.71,19,343,5,9,49.5,0.0,0
+ACC-20563,EdTech,Professional,53528.54,38,88,3,2,48.9,0.0,0
+ACC-20564,EdTech,Starter,7689.56,6,6,6,5,79.1,1975.78,0
+ACC-20565,FinTech,Professional,43451.49,44,330,2,9,56.0,0.0,1
+ACC-20566,Healthcare IT,Professional,42469.23,10,207,2,4,61.5,0.0,1
+ACC-20567,E-Commerce Tech,Professional,65391.76,3,126,5,3,31.4,0.0,1
+ACC-20568,Healthcare IT,Enterprise,184928.18,34,203,5,1,93.3,0.0,1
+ACC-20569,Logistics,Professional,52196.48,27,303,7,2,35.9,0.0,0
+ACC-20570,Logistics,Professional,36982.61,20,64,4,3,94.9,6452.81,0
+ACC-20571,Logistics,Professional,42879.98,3,185,11,7,25.4,0.0,0
+ACC-20572,EdTech,Starter,9964.44,37,26,2,4,76.9,1577.31,0
+ACC-20573,FinTech,Enterprise,243188.99,46,71,0,2,86.2,0.0,1
+ACC-20574,E-Commerce Tech,Starter,7256.63,41,41,3,8,51.3,0.0,1
+ACC-20575,Healthcare IT,Professional,46480.07,13,177,4,3,71.2,0.0,0
+ACC-20576,Logistics,Professional,42567.95,36,78,1,9,43.3,0.0,0
+ACC-20577,Healthcare IT,Enterprise,94067.08,31,185,5,2,49.4,0.0,1
+ACC-20578,EdTech,Starter,10299.34,10,18,6,5,30.0,0.0,0
+ACC-20579,EdTech,Enterprise,177367.42,39,233,4,5,50.1,0.0,0
+ACC-20580,EdTech,Professional,33107.09,5,223,7,8,37.1,0.0,0
+ACC-20581,Logistics,Professional,36161.47,22,239,4,8,38.4,0.0,0
+ACC-20582,EdTech,Enterprise,150652.25,11,334,4,2,53.4,0.0,1
+ACC-20583,Healthcare IT,Professional,30176.7,36,286,5,3,94.3,5235.0,0
+ACC-20584,E-Commerce Tech,Enterprise,227808.05,14,196,0,5,59.3,0.0,0
+ACC-20585,FinTech,Starter,9068.96,16,38,4,9,25.2,0.0,1
+ACC-20586,Healthcare IT,Starter,23164.02,35,5,3,6,49.1,0.0,0
+ACC-20587,E-Commerce Tech,Global Scale,240567.54,7,320,3,8,42.9,0.0,0
+ACC-20588,E-Commerce Tech,Professional,58341.27,40,331,3,5,48.0,0.0,0
+ACC-20589,Healthcare IT,Professional,74477.09,47,331,0,7,60.0,0.0,0
+ACC-20590,Healthcare IT,Professional,38897.91,8,348,2,8,71.6,0.0,0
+ACC-20591,FinTech,Starter,10260.33,47,39,3,1,53.9,0.0,1
+ACC-20592,Logistics,Professional,69479.82,36,126,2,4,50.1,0.0,1
+ACC-20593,EdTech,Global Scale,150992.89,14,91,6,2,55.5,0.0,1
+ACC-20594,Healthcare IT,Enterprise,142107.67,26,206,1,9,74.7,0.0,0
+ACC-20595,Healthcare IT,Professional,41231.24,44,88,3,6,65.5,0.0,0
+ACC-20596,Logistics,Enterprise,156532.27,33,307,1,6,29.2,0.0,0
+ACC-20597,E-Commerce Tech,Enterprise,130138.35,29,204,2,1,66.8,0.0,1
+ACC-20598,Logistics,Professional,66860.5,33,268,4,8,47.2,0.0,0
+ACC-20599,Healthcare IT,Professional,65279.21,32,296,5,5,38.1,0.0,0
+ACC-20600,E-Commerce Tech,Professional,52189.51,13,76,1,7,52.1,0.0,0
+ACC-20601,E-Commerce Tech,Professional,48674.85,39,131,1,2,55.5,0.0,0
+ACC-20602,EdTech,Professional,44617.8,29,130,2,2,67.2,0.0,0
+ACC-20603,Healthcare IT,Enterprise,238705.59,9,90,5,9,68.5,0.0,0
+ACC-20604,Healthcare IT,Enterprise,162553.98,23,295,5,1,46.9,0.0,1
+ACC-20605,Healthcare IT,Enterprise,106366.03,16,226,2,9,38.0,0.0,0
+ACC-20606,EdTech,Professional,55314.87,3,170,8,3,37.7,0.0,1
+ACC-20607,E-Commerce Tech,Starter,10668.59,15,6,2,4,48.7,0.0,1
+ACC-20608,Healthcare IT,Starter,22563.47,31,44,5,7,41.7,0.0,0
+ACC-20609,Healthcare IT,Enterprise,233116.37,19,341,4,3,32.7,0.0,1
+ACC-20610,EdTech,Starter,14677.46,46,6,4,1,66.7,0.0,0
+ACC-20611,EdTech,Professional,50106.4,15,269,3,3,63.7,0.0,1
+ACC-20612,EdTech,Global Scale,141602.32,30,281,3,4,26.4,0.0,1
+ACC-20613,Logistics,Professional,32726.97,43,65,4,6,41.6,0.0,0
+ACC-20614,FinTech,Enterprise,112545.7,29,94,1,9,28.3,0.0,0
+ACC-20615,Logistics,Starter,23949.16,4,8,6,9,76.7,2953.16,0
+ACC-20616,EdTech,Professional,58075.96,16,222,3,6,66.9,0.0,0
+ACC-20617,EdTech,Professional,41324.72,4,229,5,9,41.3,0.0,0
+ACC-20618,Healthcare IT,Professional,31260.13,43,101,2,8,44.5,0.0,0
+ACC-20619,FinTech,Enterprise,131110.82,42,78,8,3,35.1,0.0,0
+ACC-20620,EdTech,Enterprise,92771.84,30,117,3,2,86.7,0.0,1
+ACC-20621,EdTech,Enterprise,85836.38,32,139,4,7,48.3,0.0,0
+ACC-20622,Healthcare IT,Professional,28353.28,25,49,5,7,70.4,0.0,0
+ACC-20623,E-Commerce Tech,Global Scale,112791.94,20,285,1,9,68.8,0.0,0
+ACC-20624,FinTech,Enterprise,190851.19,20,322,1,8,93.5,35563.49,0
+ACC-20625,E-Commerce Tech,Enterprise,241280.48,44,208,5,1,44.9,0.0,0
+ACC-20626,EdTech,Enterprise,112562.49,39,285,1,8,93.4,24731.88,0
+ACC-20627,EdTech,Enterprise,109553.82,14,121,4,8,52.1,0.0,0
+ACC-20628,E-Commerce Tech,Professional,34511.99,13,189,2,8,87.0,7893.14,0
+ACC-20629,EdTech,Professional,38612.72,4,96,7,1,93.4,0.0,1
+ACC-20630,E-Commerce Tech,Starter,21671.96,10,35,5,3,38.6,0.0,1
+ACC-20631,FinTech,Enterprise,205115.73,9,86,4,1,93.9,42199.42,0
+ACC-20632,E-Commerce Tech,Professional,32323.54,37,192,4,4,46.7,0.0,0
+ACC-20633,Healthcare IT,Enterprise,142286.75,25,315,6,1,29.9,0.0,0
+ACC-20634,Logistics,Professional,36901.29,19,230,4,4,45.7,0.0,1
+ACC-20635,Healthcare IT,Starter,18056.98,4,36,5,5,41.3,0.0,0
+ACC-20636,FinTech,Enterprise,144873.57,33,267,5,2,85.6,41354.52,0
+ACC-20637,Healthcare IT,Professional,41483.98,44,46,5,3,70.8,0.0,0
+ACC-20638,EdTech,Global Scale,188782.39,3,164,7,4,83.4,49608.85,0
+ACC-20639,Healthcare IT,Global Scale,135411.76,39,310,3,9,82.1,30363.76,0
+ACC-20640,Healthcare IT,Professional,70841.53,20,278,3,6,77.7,12296.86,0
+ACC-20641,FinTech,Professional,44110.96,40,147,2,9,45.4,0.0,0
+ACC-20642,E-Commerce Tech,Enterprise,210127.94,47,135,3,7,64.5,0.0,0
+ACC-20643,Healthcare IT,Global Scale,104831.97,33,230,2,2,25.3,0.0,0
+ACC-20644,Logistics,Starter,16788.76,47,12,2,4,54.6,0.0,1
+ACC-20645,E-Commerce Tech,Global Scale,212873.71,22,155,4,7,32.8,0.0,0
+ACC-20646,Healthcare IT,Professional,46596.26,34,190,1,2,82.5,7460.34,0
+ACC-20647,Logistics,Starter,6746.85,12,43,3,3,26.6,0.0,1
+ACC-20648,Logistics,Professional,69153.29,34,103,1,3,68.6,0.0,0
+ACC-20649,Healthcare IT,Professional,72634.91,42,133,5,4,60.1,0.0,0
+ACC-20650,E-Commerce Tech,Starter,12515.6,41,22,6,6,29.9,0.0,1
+ACC-20651,FinTech,Starter,17755.52,10,42,3,2,68.3,0.0,0
+ACC-20652,E-Commerce Tech,Professional,39115.55,45,57,2,4,60.6,0.0,0
+ACC-20653,Healthcare IT,Global Scale,190581.44,33,240,3,6,61.7,0.0,0
+ACC-20654,EdTech,Enterprise,233587.42,10,88,3,6,90.0,62872.2,0
+ACC-20655,EdTech,Enterprise,179614.76,37,274,2,4,41.3,0.0,1
+ACC-20656,Logistics,Enterprise,213449.35,23,119,2,9,92.3,22424.62,0
+ACC-20657,FinTech,Global Scale,198219.42,11,51,1,1,54.8,0.0,0
+ACC-20658,Healthcare IT,Enterprise,229609.63,46,272,0,9,71.0,0.0,0
+ACC-20659,Healthcare IT,Enterprise,207384.77,4,295,8,7,82.3,61255.71,0
+ACC-20660,FinTech,Professional,39433.0,16,324,3,5,71.5,0.0,1
+ACC-20661,Logistics,Enterprise,200280.32,39,159,2,7,65.6,0.0,0
+ACC-20662,E-Commerce Tech,Starter,22315.47,10,34,2,2,42.4,0.0,1
+ACC-20663,Logistics,Professional,59179.04,16,113,1,4,66.4,0.0,1
+ACC-20664,Logistics,Professional,59031.2,43,292,3,3,66.7,0.0,0
+ACC-20665,FinTech,Enterprise,194374.42,43,155,3,6,56.7,0.0,0
+ACC-20666,Healthcare IT,Enterprise,91956.23,13,140,3,9,31.0,0.0,0
+ACC-20667,E-Commerce Tech,Global Scale,149431.66,6,60,4,3,52.4,0.0,1
+ACC-20668,EdTech,Professional,50033.33,20,346,2,4,93.5,9724.87,0
+ACC-20669,Healthcare IT,Starter,10963.84,38,30,1,8,51.5,0.0,0
+ACC-20670,Logistics,Global Scale,218591.13,7,66,2,4,31.5,0.0,1
+ACC-20671,EdTech,Starter,8143.7,44,23,2,6,76.1,1493.56,0
+ACC-20672,EdTech,Professional,35413.39,11,74,3,3,93.1,0.0,1
+ACC-20673,Healthcare IT,Starter,9326.19,7,11,4,1,37.0,0.0,0
+ACC-20674,Logistics,Starter,10804.78,29,9,0,9,65.1,0.0,0
+ACC-20675,Logistics,Professional,38749.56,46,156,3,9,91.3,11489.92,0
+ACC-20676,E-Commerce Tech,Enterprise,89278.65,15,205,2,7,48.0,0.0,0
+ACC-20677,EdTech,Professional,73298.85,33,266,0,3,63.6,0.0,1
+ACC-20678,EdTech,Global Scale,133001.03,9,190,0,4,45.4,0.0,0
+ACC-20679,EdTech,Starter,21703.68,24,38,3,4,90.6,0.0,1
+ACC-20680,Logistics,Professional,51127.24,33,78,1,5,66.9,0.0,0
+ACC-20681,E-Commerce Tech,Enterprise,247043.7,33,260,0,9,58.0,0.0,0
+ACC-20682,E-Commerce Tech,Professional,70332.78,39,57,4,6,85.6,13324.08,0
+ACC-20683,E-Commerce Tech,Starter,23826.42,33,37,4,4,93.9,0.0,1
+ACC-20684,FinTech,Professional,47683.49,43,111,3,9,60.1,0.0,0
+ACC-20685,Healthcare IT,Starter,22250.37,41,40,2,9,79.8,3861.66,0
+ACC-20686,E-Commerce Tech,Professional,43717.03,8,226,3,4,70.3,0.0,0
+ACC-20687,E-Commerce Tech,Professional,52932.65,32,149,2,4,46.1,0.0,0
+ACC-20688,Healthcare IT,Starter,8072.92,24,31,6,3,67.6,0.0,1
+ACC-20689,Healthcare IT,Professional,45279.81,32,124,3,5,45.8,0.0,0
+ACC-20690,EdTech,Global Scale,217891.69,33,297,2,1,53.8,0.0,0
+ACC-20691,Healthcare IT,Global Scale,144730.49,9,96,6,4,31.3,0.0,0
+ACC-20692,FinTech,Professional,64418.15,17,345,1,2,88.9,11143.88,0
+ACC-20693,E-Commerce Tech,Global Scale,122522.77,43,119,2,7,27.8,0.0,0
+ACC-20694,FinTech,Enterprise,143721.73,24,307,0,4,26.8,0.0,1
+ACC-20695,Logistics,Enterprise,219214.21,47,55,3,9,90.5,50543.27,0
+ACC-20696,Logistics,Starter,18775.27,45,41,1,7,77.5,3125.1,0
+ACC-20697,E-Commerce Tech,Global Scale,145435.34,22,147,1,4,87.1,15657.78,0
+ACC-20698,EdTech,Global Scale,192946.88,37,256,0,1,26.8,0.0,0
+ACC-20699,E-Commerce Tech,Professional,74653.19,5,301,7,5,59.3,0.0,0
+ACC-20700,Healthcare IT,Global Scale,215131.94,35,258,5,4,31.2,0.0,0
+ACC-20701,FinTech,Global Scale,137254.77,44,174,5,6,51.0,0.0,0
+ACC-20702,E-Commerce Tech,Professional,60556.35,7,140,1,9,78.9,7006.51,0
+ACC-20703,Logistics,Professional,58459.87,44,309,4,1,49.2,0.0,0
+ACC-20704,Logistics,Professional,60486.76,26,139,2,3,91.3,0.0,1
+ACC-20705,EdTech,Starter,17540.76,26,6,3,6,79.6,4267.92,0
+ACC-20706,Logistics,Enterprise,169115.31,37,62,4,5,46.6,0.0,0
+ACC-20707,EdTech,Enterprise,212144.0,17,259,3,8,86.3,0.0,1
+ACC-20708,E-Commerce Tech,Enterprise,209197.17,39,110,1,6,62.7,0.0,0
+ACC-20709,Healthcare IT,Enterprise,177351.2,45,251,4,4,25.8,0.0,0
+ACC-20710,Logistics,Global Scale,127155.88,13,108,1,8,34.8,0.0,0
+ACC-20711,Healthcare IT,Enterprise,96509.36,19,208,5,3,36.4,0.0,1
+ACC-20712,Logistics,Professional,58318.83,47,345,1,3,79.3,12880.51,0
+ACC-20713,Logistics,Enterprise,149367.7,23,169,1,5,71.5,0.0,0
+ACC-20714,Healthcare IT,Professional,70634.62,11,332,3,5,44.7,0.0,0
+ACC-20715,FinTech,Professional,64873.22,21,67,3,5,92.5,10846.37,0
+ACC-20716,Logistics,Professional,67175.28,20,171,1,3,38.0,0.0,1
+ACC-20717,E-Commerce Tech,Professional,55175.28,21,339,1,9,74.2,0.0,0
+ACC-20718,Logistics,Enterprise,118041.34,38,58,3,7,40.2,0.0,0
+ACC-20719,FinTech,Enterprise,135193.71,38,176,4,4,85.7,37465.52,0
+ACC-20720,Logistics,Starter,21118.27,29,38,6,5,58.1,0.0,0
+ACC-20721,Logistics,Global Scale,107570.89,11,347,1,2,41.9,0.0,1
+ACC-20722,EdTech,Professional,35661.74,43,90,3,7,61.7,0.0,0
+ACC-20723,EdTech,Enterprise,183791.36,29,80,4,8,72.5,0.0,0
+ACC-20724,FinTech,Professional,31490.28,39,48,2,7,78.7,8312.45,0
+ACC-20725,Healthcare IT,Enterprise,81822.88,16,270,7,1,38.0,0.0,1
+ACC-20726,Logistics,Starter,8289.19,42,20,2,9,60.8,0.0,0
+ACC-20727,Logistics,Professional,71599.25,37,108,3,4,62.6,0.0,0
+ACC-20728,E-Commerce Tech,Professional,57596.65,35,140,1,2,25.7,0.0,1
+ACC-20729,EdTech,Enterprise,212005.92,28,272,2,3,46.7,0.0,1
+ACC-20730,Logistics,Professional,51013.97,10,327,2,8,77.7,0.0,1
+ACC-20731,EdTech,Enterprise,100442.8,28,149,1,7,94.3,22356.53,0
+ACC-20732,Healthcare IT,Professional,33356.24,11,80,6,5,88.2,9377.64,0
+ACC-20733,Logistics,Starter,10468.37,31,10,0,9,44.8,0.0,0
+ACC-20734,E-Commerce Tech,Enterprise,173871.58,32,348,2,7,87.1,26003.25,0
+ACC-20735,EdTech,Professional,37799.78,34,166,2,3,26.3,0.0,0
+ACC-20736,Logistics,Professional,47774.01,43,121,4,3,54.2,0.0,0
+ACC-20737,E-Commerce Tech,Professional,56955.76,11,310,1,7,32.7,0.0,0
+ACC-20738,Logistics,Professional,52594.76,31,198,1,9,40.2,0.0,0
+ACC-20739,Healthcare IT,Starter,23198.64,9,41,2,7,75.6,5709.61,0
+ACC-20740,FinTech,Global Scale,197083.58,23,168,6,6,78.2,34500.07,0
+ACC-20741,Logistics,Professional,62083.87,47,254,2,6,91.6,16908.79,0
+ACC-20742,Logistics,Enterprise,162169.61,18,326,3,7,29.8,0.0,0
+ACC-20743,FinTech,Professional,40022.27,36,68,2,2,76.0,0.0,1
+ACC-20744,FinTech,Starter,18840.87,16,31,2,1,75.4,4771.41,0
+ACC-20745,FinTech,Enterprise,122000.95,11,231,3,9,88.5,20979.52,0
+ACC-20746,E-Commerce Tech,Professional,40916.26,28,127,2,5,64.2,0.0,0
+ACC-20747,EdTech,Enterprise,121778.31,11,130,3,1,73.5,0.0,1
+ACC-20748,Healthcare IT,Starter,22288.14,33,21,0,8,43.4,0.0,0
+ACC-20749,FinTech,Enterprise,142334.58,47,182,2,9,67.0,0.0,0
+ACC-20750,FinTech,Starter,22926.79,10,25,0,1,35.3,0.0,0
+ACC-20751,Healthcare IT,Professional,28999.3,12,257,1,7,80.9,5858.47,0
+ACC-20752,EdTech,Global Scale,98802.98,23,200,1,1,66.1,0.0,1
+ACC-20753,Logistics,Enterprise,225758.63,47,336,5,5,78.9,67545.81,0
+ACC-20754,Logistics,Starter,11793.51,29,36,4,9,67.5,0.0,1
+ACC-20755,EdTech,Enterprise,109614.26,33,317,1,3,52.8,0.0,0
+ACC-20756,EdTech,Professional,29531.22,35,128,3,6,86.0,7628.84,0
+ACC-20757,Logistics,Enterprise,184469.95,44,344,5,2,74.2,0.0,0
+ACC-20758,Healthcare IT,Starter,6882.9,28,42,3,5,89.1,0.0,1
+ACC-20759,FinTech,Professional,35419.87,5,171,4,3,61.5,0.0,1
+ACC-20760,Healthcare IT,Enterprise,130512.24,35,341,2,8,76.2,15802.25,0
+ACC-20761,FinTech,Starter,6156.26,37,40,1,1,59.8,0.0,1
+ACC-20762,EdTech,Enterprise,84460.59,38,306,4,7,31.1,0.0,0
+ACC-20763,Healthcare IT,Professional,64393.91,6,130,2,2,83.8,15153.53,0
+ACC-20764,FinTech,Professional,60392.96,17,102,3,4,62.5,0.0,0
+ACC-20765,Logistics,Professional,39428.95,28,319,2,9,37.4,0.0,0
+ACC-20766,Logistics,Professional,43944.08,17,81,3,6,28.8,0.0,0
+ACC-20767,E-Commerce Tech,Enterprise,88641.46,38,231,5,9,28.3,0.0,0
+ACC-20768,E-Commerce Tech,Professional,47486.73,43,64,5,3,94.3,13957.21,0
+ACC-20769,E-Commerce Tech,Professional,60919.52,41,83,3,5,52.7,0.0,0
+ACC-20770,FinTech,Global Scale,129596.68,8,297,1,9,64.2,0.0,0
+ACC-20771,FinTech,Enterprise,110603.79,27,248,3,1,61.8,0.0,1
+ACC-20772,Logistics,Global Scale,249575.43,22,198,4,6,25.8,0.0,0
+ACC-20773,EdTech,Enterprise,217356.23,35,320,7,3,45.4,0.0,0
+ACC-20774,FinTech,Starter,10782.52,3,23,5,2,89.9,1971.1,0
+ACC-20775,E-Commerce Tech,Professional,66514.82,30,201,4,1,40.4,0.0,1
+ACC-20776,Logistics,Professional,55312.45,39,251,4,2,25.2,0.0,0
+ACC-20777,EdTech,Enterprise,132768.05,34,326,3,4,47.5,0.0,1
+ACC-20778,Healthcare IT,Professional,53449.29,9,153,3,6,45.7,0.0,0
+ACC-20779,EdTech,Starter,11014.49,14,34,3,8,46.2,0.0,0
+ACC-20780,Logistics,Starter,19041.41,36,25,7,1,37.8,0.0,0
+ACC-20781,EdTech,Enterprise,219929.19,5,194,6,7,35.4,0.0,0
+ACC-20782,Logistics,Starter,14953.17,45,31,0,9,74.0,0.0,0
+ACC-20783,EdTech,Global Scale,90053.7,25,315,4,9,60.4,0.0,0
+ACC-20784,E-Commerce Tech,Enterprise,190988.43,20,288,4,3,28.8,0.0,0
+ACC-20785,E-Commerce Tech,Professional,31300.32,43,59,4,1,80.7,3694.24,0
+ACC-20786,E-Commerce Tech,Global Scale,116272.93,17,100,4,5,32.6,0.0,0
+ACC-20787,Logistics,Professional,58655.9,18,312,8,1,73.2,0.0,0
+ACC-20788,EdTech,Global Scale,92783.41,38,318,2,6,56.8,0.0,0
+ACC-20789,FinTech,Starter,6712.51,47,30,1,9,42.2,0.0,0
+ACC-20790,Logistics,Enterprise,237603.5,34,270,4,8,65.7,0.0,0
+ACC-20791,Healthcare IT,Professional,45712.21,22,67,4,6,56.8,0.0,0
+ACC-20792,Healthcare IT,Professional,64695.22,4,102,8,3,65.1,0.0,1
+ACC-20793,FinTech,Enterprise,81106.47,44,296,4,7,54.2,0.0,0
+ACC-20794,E-Commerce Tech,Professional,64858.39,43,83,1,5,58.2,0.0,0
+ACC-20795,FinTech,Enterprise,168704.2,17,296,1,3,75.0,0.0,0
+ACC-20796,FinTech,Enterprise,216481.62,46,63,4,7,66.0,0.0,0
+ACC-20797,FinTech,Professional,55228.14,7,84,3,5,75.3,14237.94,0
+ACC-20798,EdTech,Starter,17582.36,21,13,4,3,31.0,0.0,0
+ACC-20799,Healthcare IT,Professional,69613.99,38,90,2,1,56.3,0.0,0

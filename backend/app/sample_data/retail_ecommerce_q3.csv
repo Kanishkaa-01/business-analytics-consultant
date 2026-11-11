@@ -1,0 +1,1201 @@
+order_id,transaction_date,region,category,sales_channel,customer_tier,quantity,unit_price,discount_rate,gross_sales,net_revenue,cost_of_goods,shipping_cost,net_profit,lead_time_days,returned
+ORD-2025-10000,2025-01-01,Latin America,Apparel,Marketplace,Consumer Basic,8,54.5,0.073,436.02,404.02,234.03,36.41,133.58,2.2,0
+ORD-2025-10001,2025-01-01,Asia Pacific,Electronics,Wholesale B2B,Enterprise,58,844.78,0.082,48997.34,44991.9,23710.82,348.64,20932.44,5.8,0
+ORD-2025-10002,2025-01-01,Latin America,Electronics,Direct Online,Enterprise,17,594.32,0.058,10103.42,9514.93,6326.66,139.07,3049.2,18.4,0
+ORD-2025-10003,2025-01-01,Latin America,Electronics,Marketplace,Mid-Market,21,190.7,0.043,4004.65,3832.09,2337.51,156.89,1337.69,3.1,0
+ORD-2025-10004,2025-01-02,North America,Apparel,Marketplace,Consumer Basic,2,60.99,0.135,121.99,105.5,74.63,18.6,12.27,2.1,0
+ORD-2025-10005,2025-01-02,Latin America,Home & Kitchen,Direct Online,Mid-Market,32,33.82,0.049,1082.22,1029.41,618.76,201.71,208.94,3.5,0
+ORD-2025-10006,2025-01-02,North America,Home & Kitchen,Direct Online,Mid-Market,22,28.05,0.064,617.08,577.89,296.78,162.99,118.12,3.5,0
+ORD-2025-10007,2025-01-03,Asia Pacific,Home & Kitchen,Direct Online,Mid-Market,48,47.59,0.129,2284.53,1988.76,1133.63,255.49,599.64,4.9,0
+ORD-2025-10008,2025-01-03,Europe,Home & Kitchen,Direct Online,Consumer Basic,5,99.67,0.146,498.35,425.71,286.76,46.35,92.6,7.7,0
+ORD-2025-10009,2025-01-03,Europe,Apparel,Direct Online,Enterprise,46,38.93,0.145,1790.72,1530.24,1071.28,194.54,264.42,3.1,0
+ORD-2025-10010,2025-01-04,North America,Apparel,Wholesale B2B,Consumer Basic,9,121.85,0.182,1096.63,896.97,546.05,57.4,293.52,4.9,0
+ORD-2025-10011,2025-01-04,Asia Pacific,Apparel,Direct Online,Enterprise,41,79.54,0.186,3261.03,2654.4,1802.07,298.85,553.48,3.0,0
+ORD-2025-10012,2025-01-04,Europe,Electronics,Direct Online,Mid-Market,46,260.31,0.054,11974.25,11330.5,6803.7,331.2,4195.6,16.5,0
+ORD-2025-10013,2025-01-04,Latin America,Footwear,Direct Online,Consumer Basic,1,83.67,0.043,83.67,80.1,54.05,8.52,17.53,2.1,1
+ORD-2025-10014,2025-01-05,Europe,Apparel,Marketplace,Consumer Basic,7,90.97,0.133,636.81,552.16,388.12,39.03,125.01,4.7,0
+ORD-2025-10015,2025-01-05,Europe,Apparel,Marketplace,Consumer Basic,6,46.29,0.175,277.72,229.04,166.16,48.92,13.96,3.2,0
+ORD-2025-10016,2025-01-05,Asia Pacific,Electronics,Wholesale B2B,Mid-Market,53,244.44,0.114,12955.23,11477.66,8281.55,224.34,2971.77,4.0,0
+ORD-2025-10017,2025-01-06,Latin America,Electronics,Wholesale B2B,Mid-Market,16,622.19,0.102,9955.03,8942.38,6464.43,133.37,2344.58,5.2,0
+ORD-2025-10018,2025-01-06,North America,Health & Beauty,Direct Online,Consumer Basic,1,190.1,0.128,190.1,165.68,112.0,9.21,44.47,3.6,0
+ORD-2025-10019,2025-01-06,Europe,Health & Beauty,Direct Online,Enterprise,32,154.38,0.001,4940.25,4936.5,2779.16,180.36,1976.98,2.5,0
+ORD-2025-10020,2025-01-07,North America,Electronics,Marketplace,Mid-Market,47,425.53,0.094,20000.1,18111.75,11444.69,282.77,6384.29,7.1,0
+ORD-2025-10021,2025-01-07,Europe,Apparel,Wholesale B2B,Consumer Basic,1,148.26,0.115,148.26,131.19,85.71,10.66,34.82,3.3,0
+ORD-2025-10022,2025-01-07,North America,Home & Kitchen,Direct Online,Consumer Basic,5,59.54,0.141,297.68,255.69,187.6,51.17,16.92,11.2,0
+ORD-2025-10023,2025-01-07,Europe,Apparel,Marketplace,VIP Retail,1,44.42,0.096,44.42,40.16,23.71,8.22,8.23,2.6,0
+ORD-2025-10024,2025-01-08,Europe,Footwear,Marketplace,Enterprise,41,144.93,0.149,5941.98,5059.55,3150.43,206.69,1702.43,2.5,0
+ORD-2025-10025,2025-01-08,Asia Pacific,Electronics,Marketplace,Mid-Market,21,461.25,0.046,9686.32,9244.42,5475.27,157.61,3611.54,5.8,0
+ORD-2025-10026,2025-01-08,Asia Pacific,Home & Kitchen,Wholesale B2B,Mid-Market,36,98.24,0.014,3536.59,3486.73,1894.86,158.0,1433.87,4.6,0
+ORD-2025-10027,2025-01-09,Asia Pacific,Health & Beauty,Direct Online,Enterprise,22,84.14,0.081,1851.01,1701.89,1130.78,103.15,467.96,3.2,0
+ORD-2025-10028,2025-01-09,North America,Electronics,Marketplace,Consumer Basic,10,607.08,0.093,6070.78,5508.57,3247.28,96.12,2165.17,16.9,0
+ORD-2025-10029,2025-01-09,North America,Apparel,Direct Online,VIP Retail,10,139.5,0.154,1394.98,1179.6,886.63,60.27,232.7,3.6,0
+ORD-2025-10030,2025-01-10,North America,Electronics,Wholesale B2B,Consumer Basic,7,526.19,0.086,3683.31,3367.61,1797.87,48.76,1520.98,4.3,0
+ORD-2025-10031,2025-01-10,North America,Electronics,Direct Online,Enterprise,30,388.65,0.118,11659.41,10284.17,5790.43,175.52,4318.22,2.8,0
+ORD-2025-10032,2025-01-10,Europe,Electronics,Direct Online,Consumer Basic,10,605.51,0.025,6055.13,5906.6,3867.32,67.86,1971.42,6.9,0
+ORD-2025-10033,2025-01-10,Europe,Home & Kitchen,Wholesale B2B,VIP Retail,2,194.1,0.095,388.21,351.15,224.18,18.42,108.55,6.8,0
+ORD-2025-10034,2025-01-11,Europe,Health & Beauty,Wholesale B2B,Consumer Basic,2,65.3,0.041,130.61,125.24,63.56,16.65,45.03,2.7,0
+ORD-2025-10035,2025-01-11,North America,Home & Kitchen,Marketplace,Mid-Market,59,75.84,0.074,4474.29,4141.38,2860.1,225.22,1056.06,5.5,0
+ORD-2025-10036,2025-01-11,Europe,Footwear,Direct Online,Consumer Basic,1,137.31,0.11,137.31,122.24,84.03,8.65,29.56,2.4,0
+ORD-2025-10037,2025-01-12,Europe,Health & Beauty,Marketplace,Consumer Basic,9,45.11,0.135,405.98,351.02,216.96,73.94,60.12,4.1,0
+ORD-2025-10038,2025-01-12,Latin America,Electronics,Direct Online,Mid-Market,30,816.54,0.115,24496.25,21677.69,13625.69,152.7,7899.3,5.4,0
+ORD-2025-10039,2025-01-12,Asia Pacific,Home & Kitchen,Marketplace,Consumer Basic,10,42.79,0.074,427.85,396.12,237.48,78.21,80.43,2.2,0
+ORD-2025-10040,2025-01-13,North America,Electronics,Marketplace,Consumer Basic,10,247.75,0.028,2477.52,2407.13,1356.27,85.38,965.48,6.8,0
+ORD-2025-10041,2025-01-13,North America,Apparel,Marketplace,VIP Retail,4,145.04,0.086,580.18,530.57,313.03,40.47,177.07,9.1,0
+ORD-2025-10042,2025-01-13,Asia Pacific,Apparel,Direct Online,Mid-Market,34,89.31,0.088,3036.42,2769.06,1518.81,142.32,1107.93,3.6,0
+ORD-2025-10043,2025-01-13,Europe,Home & Kitchen,Wholesale B2B,Mid-Market,20,80.71,0.13,1614.28,1403.96,994.98,162.15,246.83,2.8,0
+ORD-2025-10044,2025-01-14,North America,Apparel,Wholesale B2B,VIP Retail,9,66.62,0.154,599.61,507.08,309.91,46.78,150.39,2.2,0
+ORD-2025-10045,2025-01-14,North America,Home & Kitchen,Marketplace,VIP Retail,8,211.95,0.009,1695.58,1680.86,992.63,43.24,644.99,3.5,0
+ORD-2025-10046,2025-01-14,North America,Apparel,Marketplace,Enterprise,31,156.8,0.198,4860.78,3898.68,2564.35,174.25,1160.08,5.6,0
+ORD-2025-10047,2025-01-15,North America,Apparel,Direct Online,VIP Retail,10,87.08,0.137,870.8,751.35,556.06,88.29,107.0,9.5,1
+ORD-2025-10048,2025-01-15,North America,Electronics,Wholesale B2B,VIP Retail,6,280.78,0.079,1684.68,1550.89,1046.12,42.24,462.53,3.9,0
+ORD-2025-10049,2025-01-15,North America,Electronics,Direct Online,Enterprise,17,643.45,0.073,10938.63,10135.36,6283.4,129.64,3722.32,7.5,0
+ORD-2025-10050,2025-01-16,North America,Health & Beauty,Marketplace,Enterprise,54,211.04,0.091,11396.16,10359.95,6667.69,280.2,3412.06,2.8,0
+ORD-2025-10051,2025-01-16,Europe,Home & Kitchen,Marketplace,Consumer Basic,11,191.18,0.083,2102.93,1928.84,1153.65,51.84,723.35,4.5,1
+ORD-2025-10052,2025-01-16,Europe,Health & Beauty,Marketplace,Mid-Market,48,51.59,0.002,2476.44,2471.04,1456.72,292.78,721.54,3.3,0
+ORD-2025-10053,2025-01-16,Europe,Home & Kitchen,Marketplace,VIP Retail,4,83.1,0.079,332.41,306.3,185.51,37.54,83.25,5.6,0
+ORD-2025-10054,2025-01-17,North America,Electronics,Marketplace,Mid-Market,37,320.12,0.078,11844.35,10920.91,5943.11,160.3,4817.5,3.7,0
+ORD-2025-10055,2025-01-17,North America,Home & Kitchen,Direct Online,VIP Retail,10,117.42,0.1,1174.23,1056.65,608.31,75.83,372.51,2.6,0
+ORD-2025-10056,2025-01-17,North America,Apparel,Marketplace,Consumer Basic,10,79.5,0.184,794.99,648.61,474.9,40.39,133.32,2.4,0
+ORD-2025-10057,2025-01-18,North America,Home & Kitchen,Wholesale B2B,VIP Retail,1,36.91,0.042,36.91,35.38,21.46,18.32,-4.4,6.9,0
+ORD-2025-10058,2025-01-18,North America,Footwear,Marketplace,Consumer Basic,3,165.5,0.009,496.5,491.86,298.53,26.3,167.03,2.5,0
+ORD-2025-10059,2025-01-18,North America,Apparel,Direct Online,Consumer Basic,10,65.31,0.09,653.09,594.06,376.1,77.96,140.0,3.4,1
+ORD-2025-10060,2025-01-19,North America,Apparel,Direct Online,Consumer Basic,4,79.39,0.147,317.55,270.77,181.42,30.5,58.85,4.0,0
+ORD-2025-10061,2025-01-19,North America,Apparel,Direct Online,Mid-Market,59,115.74,0.136,6828.64,5902.56,3661.24,459.38,1781.94,3.3,1
+ORD-2025-10062,2025-01-19,North America,Electronics,Marketplace,VIP Retail,9,238.88,0.101,2149.96,1933.7,1061.31,56.09,816.3,2.2,0
+ORD-2025-10063,2025-01-19,North America,Footwear,Direct Online,VIP Retail,8,193.77,0.123,1550.19,1360.2,934.6,61.89,363.71,2.9,0
+ORD-2025-10064,2025-01-20,Europe,Apparel,Wholesale B2B,Mid-Market,34,156.0,0.157,5303.97,4473.14,2764.48,140.57,1568.09,2.7,0
+ORD-2025-10065,2025-01-20,Europe,Apparel,Direct Online,Consumer Basic,10,101.57,0.058,1015.74,957.06,582.29,64.55,310.22,3.2,0
+ORD-2025-10066,2025-01-20,North America,Home & Kitchen,Direct Online,Enterprise,49,47.76,0.071,2340.03,2173.95,1262.0,383.65,528.3,4.8,0
+ORD-2025-10067,2025-01-21,North America,Footwear,Marketplace,VIP Retail,6,60.34,0.01,362.04,358.43,176.74,51.18,130.51,6.1,0
+ORD-2025-10068,2025-01-21,Asia Pacific,Health & Beauty,Wholesale B2B,Mid-Market,39,70.96,0.095,2767.44,2504.36,1741.06,219.1,544.2,9.2,0
+ORD-2025-10069,2025-01-21,North America,Apparel,Marketplace,Mid-Market,47,128.45,0.125,6037.21,5280.1,3299.65,281.18,1699.27,2.8,1
+ORD-2025-10070,2025-01-22,Europe,Electronics,Direct Online,Mid-Market,43,669.47,0.089,28787.12,26214.36,16242.33,302.57,9669.46,5.7,0
+ORD-2025-10071,2025-01-22,Asia Pacific,Footwear,Marketplace,Consumer Basic,5,52.91,0.031,264.55,256.43,166.42,33.83,56.18,5.8,0
+ORD-2025-10072,2025-01-22,Asia Pacific,Electronics,Direct Online,Mid-Market,26,714.19,0.035,18568.89,17919.13,11349.68,96.99,6472.46,3.0,0
+ORD-2025-10073,2025-01-22,Asia Pacific,Home & Kitchen,Marketplace,Consumer Basic,7,212.02,0.051,1484.14,1407.89,828.95,58.5,520.44,2.8,0
+ORD-2025-10074,2025-01-23,Europe,Home & Kitchen,Marketplace,Enterprise,18,195.06,0.14,3511.15,3020.23,2156.95,71.61,791.67,4.5,0
+ORD-2025-10075,2025-01-23,North America,Health & Beauty,Direct Online,Enterprise,15,45.33,0.126,679.92,594.21,339.45,132.85,121.91,9.2,0
+ORD-2025-10076,2025-01-23,Latin America,Electronics,Wholesale B2B,Consumer Basic,9,576.15,0.06,5185.39,4874.78,2670.21,66.74,2137.83,2.2,0
+ORD-2025-10077,2025-01-24,Europe,Electronics,Wholesale B2B,VIP Retail,11,492.02,0.068,5412.21,5043.73,2628.08,106.22,2309.43,15.0,0
+ORD-2025-10078,2025-01-24,North America,Home & Kitchen,Direct Online,Mid-Market,35,177.2,0.042,6201.88,5943.65,3520.06,280.27,2143.32,2.7,0
+ORD-2025-10079,2025-01-24,Asia Pacific,Home & Kitchen,Marketplace,Mid-Market,33,83.42,0.046,2752.9,2624.92,1484.9,190.31,949.71,3.5,0
+ORD-2025-10080,2025-01-25,Asia Pacific,Apparel,Marketplace,Mid-Market,44,124.26,0.129,5467.33,4761.24,3144.47,191.18,1425.59,4.3,0
+ORD-2025-10081,2025-01-25,Latin America,Health & Beauty,Direct Online,Mid-Market,42,150.58,0.061,6324.36,5936.61,3938.58,313.98,1684.05,2.1,0
+ORD-2025-10082,2025-01-25,North America,Home & Kitchen,Direct Online,Consumer Basic,3,141.03,0.051,423.1,401.57,250.04,20.51,131.02,4.5,0
+ORD-2025-10083,2025-01-25,Asia Pacific,Electronics,Wholesale B2B,Consumer Basic,7,446.11,0.087,3122.79,2851.71,1974.78,29.29,847.64,2.9,0
+ORD-2025-10084,2025-01-26,North America,Electronics,Direct Online,Consumer Basic,4,462.35,0.109,1849.42,1647.34,993.32,42.06,611.96,8.8,0
+ORD-2025-10085,2025-01-26,Asia Pacific,Electronics,Direct Online,Consumer Basic,10,423.05,0.106,4230.48,3781.6,2579.8,45.79,1156.01,3.0,0
+ORD-2025-10086,2025-01-26,Asia Pacific,Apparel,Marketplace,Consumer Basic,9,37.81,0.09,340.28,309.55,178.25,43.65,87.65,4.3,0
+ORD-2025-10087,2025-01-27,Europe,Footwear,Direct Online,Mid-Market,50,28.59,0.137,1429.31,1233.29,807.1,193.68,232.51,2.4,0
+ORD-2025-10088,2025-01-27,Asia Pacific,Apparel,Direct Online,Enterprise,48,67.96,0.09,3262.1,2968.59,1898.83,320.58,749.18,6.0,0
+ORD-2025-10089,2025-01-27,Europe,Footwear,Direct Online,Consumer Basic,3,34.16,0.025,102.48,99.92,50.76,29.94,19.22,6.0,0
+ORD-2025-10090,2025-01-28,Europe,Health & Beauty,Wholesale B2B,Consumer Basic,8,144.03,0.142,1152.23,988.16,736.58,59.65,191.93,3.5,0
+ORD-2025-10091,2025-01-28,North America,Electronics,Marketplace,Enterprise,40,512.57,0.08,20502.62,18868.88,11494.19,207.43,7167.26,3.6,0
+ORD-2025-10092,2025-01-28,Asia Pacific,Apparel,Marketplace,Consumer Basic,3,44.49,0.062,133.48,125.25,70.25,21.48,33.52,2.0,0
+ORD-2025-10093,2025-01-28,Latin America,Electronics,Direct Online,VIP Retail,8,478.82,0.039,3830.59,3683.06,2332.55,58.69,1291.82,5.1,0
+ORD-2025-10094,2025-01-29,Europe,Home & Kitchen,Wholesale B2B,VIP Retail,10,151.1,0.104,1511.0,1353.89,735.41,69.99,548.49,2.2,0
+ORD-2025-10095,2025-01-29,Europe,Electronics,Wholesale B2B,Enterprise,37,647.27,0.05,23949.05,22757.95,14733.65,276.55,7747.75,15.3,0
+ORD-2025-10096,2025-01-29,Europe,Apparel,Marketplace,Consumer Basic,3,80.59,0.134,241.76,209.34,144.66,21.04,43.64,4.0,0
+ORD-2025-10097,2025-01-30,North America,Electronics,Marketplace,Consumer Basic,10,393.56,0.083,3935.64,3610.6,2475.65,69.82,1065.13,10.7,0
+ORD-2025-10098,2025-01-30,North America,Footwear,Direct Online,Mid-Market,43,206.86,0.011,8894.77,8801.34,5429.56,231.32,3140.46,2.0,0
+ORD-2025-10099,2025-01-30,Asia Pacific,Home & Kitchen,Wholesale B2B,Consumer Basic,1,106.46,0.063,106.46,99.73,53.1,14.12,32.51,6.0,0
+ORD-2025-10100,2025-01-31,North America,Apparel,Direct Online,Enterprise,38,158.47,0.114,6021.68,5334.21,3017.79,301.73,2014.69,3.5,0
+ORD-2025-10101,2025-01-31,Europe,Apparel,Wholesale B2B,VIP Retail,7,110.1,0.186,770.7,627.69,499.8,55.17,72.72,15.6,0
+ORD-2025-10102,2025-01-31,Europe,Home & Kitchen,Marketplace,Mid-Market,17,59.42,0.033,1010.19,976.78,626.78,124.69,225.31,2.6,0
+ORD-2025-10103,2025-01-31,Europe,Electronics,Marketplace,Consumer Basic,1,354.36,0.072,354.36,329.01,179.36,18.73,130.92,7.7,0
+ORD-2025-10104,2025-02-01,Europe,Electronics,Marketplace,Consumer Basic,9,241.3,0.108,2171.67,1937.68,1058.78,75.37,803.53,6.2,1
+ORD-2025-10105,2025-02-01,Latin America,Apparel,Marketplace,Mid-Market,40,66.58,0.051,2663.25,2528.06,1519.5,321.54,687.02,5.6,1
+ORD-2025-10106,2025-02-01,Latin America,Health & Beauty,Direct Online,VIP Retail,8,125.64,0.136,1005.08,868.41,598.29,55.18,214.94,4.5,0
+ORD-2025-10107,2025-02-02,Asia Pacific,Health & Beauty,Marketplace,VIP Retail,9,194.12,0.106,1747.1,1561.46,1114.85,46.95,399.66,7.4,0
+ORD-2025-10108,2025-02-02,Asia Pacific,Electronics,Wholesale B2B,Consumer Basic,5,768.98,0.021,3844.89,3766.01,2331.53,34.4,1400.08,8.9,0
+ORD-2025-10109,2025-02-02,Europe,Health & Beauty,Direct Online,Mid-Market,45,145.3,0.147,6538.53,5576.2,3557.21,166.83,1852.16,5.0,0
+ORD-2025-10110,2025-02-03,North America,Electronics,Direct Online,Consumer Basic,5,742.88,0.059,3714.41,3494.46,1847.65,42.77,1604.04,2.8,0
+ORD-2025-10111,2025-02-03,North America,Electronics,Marketplace,Enterprise,32,570.05,0.055,18241.73,17245.94,11458.75,261.0,5526.19,5.9,0
+ORD-2025-10112,2025-02-03,North America,Home & Kitchen,Marketplace,Enterprise,25,29.31,0.049,732.85,697.28,436.9,143.68,116.7,4.0,0
+ORD-2025-10113,2025-02-03,Europe,Footwear,Marketplace,Mid-Market,16,179.99,0.104,2879.81,2580.16,1760.66,76.69,742.81,2.7,0
+ORD-2025-10114,2025-02-04,Latin America,Health & Beauty,Direct Online,Consumer Basic,3,202.36,0.129,607.07,529.0,319.69,41.81,167.5,12.0,0
+ORD-2025-10115,2025-02-04,North America,Health & Beauty,Direct Online,Enterprise,30,152.08,0.055,4562.25,4310.05,2611.2,138.49,1560.36,8.0,0
+ORD-2025-10116,2025-02-04,North America,Electronics,Marketplace,Consumer Basic,8,191.97,0.1,1535.74,1382.66,977.57,55.29,349.8,3.4,0
+ORD-2025-10117,2025-02-05,North America,Apparel,Direct Online,Consumer Basic,6,88.79,0.08,532.73,490.07,308.42,34.31,147.34,4.0,0
+ORD-2025-10118,2025-02-05,Europe,Apparel,Direct Online,Enterprise,46,84.06,0.122,3866.84,3395.12,2287.96,324.83,782.33,4.7,0
+ORD-2025-10119,2025-02-05,Asia Pacific,Footwear,Marketplace,Enterprise,36,45.04,0.086,1621.6,1482.73,836.36,185.14,461.23,2.1,0
+ORD-2025-10120,2025-02-06,North America,Footwear,Marketplace,VIP Retail,7,41.09,0.124,287.62,252.05,144.55,47.37,60.13,3.3,0
+ORD-2025-10121,2025-02-06,North America,Health & Beauty,Direct Online,Enterprise,20,149.1,0.106,2982.08,2666.06,1743.99,128.31,793.76,2.1,0
+ORD-2025-10122,2025-02-06,Latin America,Footwear,Marketplace,Consumer Basic,4,144.39,0.073,577.56,535.59,335.89,35.97,163.73,5.2,0
+ORD-2025-10123,2025-02-06,North America,Electronics,Direct Online,Consumer Basic,3,577.5,0.085,1732.49,1585.18,896.16,30.59,658.43,4.6,0
+ORD-2025-10124,2025-02-07,Asia Pacific,Electronics,Marketplace,Consumer Basic,8,552.09,0.092,4416.75,4010.76,2851.96,55.97,1102.83,3.0,0
+ORD-2025-10125,2025-02-07,North America,Home & Kitchen,Direct Online,Mid-Market,38,115.21,0.13,4378.04,3807.84,2418.14,201.0,1188.7,5.9,0
+ORD-2025-10126,2025-02-07,North America,Footwear,Wholesale B2B,Consumer Basic,2,110.53,0.109,221.06,197.01,128.57,20.14,48.3,4.0,0
+ORD-2025-10127,2025-02-08,North America,Footwear,Direct Online,Mid-Market,40,115.83,0.125,4633.34,4052.32,2787.84,307.84,956.64,2.8,0
+ORD-2025-10128,2025-02-08,Latin America,Electronics,Direct Online,VIP Retail,8,509.83,0.045,4078.61,3896.2,2359.48,67.13,1469.59,10.2,0
+ORD-2025-10129,2025-02-08,North America,Home & Kitchen,Direct Online,VIP Retail,4,26.76,0.088,107.04,97.59,69.03,29.28,-0.72,4.7,0
+ORD-2025-10130,2025-02-09,North America,Electronics,Marketplace,Mid-Market,57,735.35,0.063,41915.06,39270.69,26878.42,268.99,12123.28,3.1,0
+ORD-2025-10131,2025-02-09,Europe,Apparel,Direct Online,Consumer Basic,6,132.72,0.156,796.34,672.26,410.11,29.68,232.47,3.8,0
+ORD-2025-10132,2025-02-09,Europe,Electronics,Wholesale B2B,Enterprise,19,261.81,0.065,4974.46,4650.03,2475.1,140.29,2034.64,15.9,0
+ORD-2025-10133,2025-02-09,Europe,Apparel,Marketplace,Enterprise,57,75.39,0.196,4297.31,3455.19,2419.83,377.46,657.9,4.6,1
+ORD-2025-10134,2025-02-10,North America,Electronics,Marketplace,Mid-Market,22,631.2,0.117,13886.39,12261.8,7034.12,103.81,5123.87,2.4,0
+ORD-2025-10135,2025-02-10,Europe,Apparel,Wholesale B2B,Mid-Market,54,37.19,0.087,2008.23,1834.27,1226.32,227.48,380.47,7.3,0
+ORD-2025-10136,2025-02-10,Europe,Footwear,Wholesale B2B,Consumer Basic,2,155.06,0.087,310.12,283.27,201.55,12.36,69.36,3.3,0
+ORD-2025-10137,2025-02-11,Asia Pacific,Apparel,Marketplace,Consumer Basic,4,127.31,0.182,509.22,416.66,302.22,33.87,80.57,3.6,0
+ORD-2025-10138,2025-02-11,Europe,Health & Beauty,Wholesale B2B,Enterprise,26,131.18,0.001,3410.56,3407.61,1990.65,161.69,1255.27,3.2,0
+ORD-2025-10139,2025-02-11,Europe,Apparel,Marketplace,Consumer Basic,10,36.83,0.138,368.33,317.48,224.35,61.35,31.78,2.6,0
+ORD-2025-10140,2025-02-12,Asia Pacific,Footwear,Wholesale B2B,Consumer Basic,4,46.24,0.022,184.96,180.83,107.9,34.13,38.8,4.2,0
+ORD-2025-10141,2025-02-12,Latin America,Home & Kitchen,Direct Online,Mid-Market,39,26.47,0.097,1032.52,932.24,610.53,216.48,105.23,8.8,0
+ORD-2025-10142,2025-02-12,North America,Apparel,Direct Online,Consumer Basic,3,100.39,0.151,301.16,255.83,174.3,26.65,54.88,10.0,0
+ORD-2025-10143,2025-02-12,Latin America,Apparel,Wholesale B2B,Consumer Basic,7,50.4,0.179,352.82,289.7,187.06,59.73,42.91,6.8,0
+ORD-2025-10144,2025-02-13,Europe,Footwear,Direct Online,Consumer Basic,7,97.83,0.079,684.84,630.75,403.0,44.26,183.49,2.4,0
+ORD-2025-10145,2025-02-13,Europe,Health & Beauty,Direct Online,Mid-Market,41,201.65,0.115,8267.6,7312.76,5065.47,200.86,2046.43,4.4,0
+ORD-2025-10146,2025-02-13,Europe,Apparel,Direct Online,Consumer Basic,3,91.47,0.138,274.41,236.54,172.27,20.71,43.56,2.6,0
+ORD-2025-10147,2025-02-14,North America,Electronics,Direct Online,Mid-Market,39,607.43,0.046,23689.92,22607.57,15349.26,169.44,7088.87,6.0,0
+ORD-2025-10148,2025-02-14,Europe,Apparel,Marketplace,Consumer Basic,10,158.91,0.069,1589.07,1479.01,853.85,79.24,545.92,2.3,0
+ORD-2025-10149,2025-02-14,Europe,Apparel,Marketplace,Consumer Basic,1,80.87,0.102,80.87,72.66,50.25,13.83,8.58,4.9,1
+ORD-2025-10150,2025-02-15,North America,Home & Kitchen,Marketplace,Consumer Basic,2,70.01,0.069,140.02,130.42,90.87,16.91,22.64,2.6,0
+ORD-2025-10151,2025-02-15,Europe,Home & Kitchen,Direct Online,Consumer Basic,9,211.74,0.026,1905.63,1855.52,969.93,56.35,829.24,5.5,0
+ORD-2025-10152,2025-02-15,North America,Health & Beauty,Direct Online,VIP Retail,3,117.6,0.057,352.81,332.57,178.49,27.47,126.61,2.4,0
+ORD-2025-10153,2025-02-15,Asia Pacific,Apparel,Marketplace,Consumer Basic,6,46.14,0.163,276.84,231.63,140.38,26.32,64.93,2.4,1
+ORD-2025-10154,2025-02-16,North America,Electronics,Direct Online,Mid-Market,37,340.17,0.071,12586.18,11692.91,8057.75,288.38,3346.78,9.0,0
+ORD-2025-10155,2025-02-16,Europe,Health & Beauty,Marketplace,Mid-Market,59,122.72,0.06,7240.77,6809.39,3944.09,446.09,2419.21,4.3,0
+ORD-2025-10156,2025-02-16,Asia Pacific,Health & Beauty,Direct Online,Enterprise,32,103.58,0.026,3314.6,3228.33,2130.44,202.86,895.03,5.6,0
+ORD-2025-10157,2025-02-17,Europe,Home & Kitchen,Direct Online,Consumer Basic,4,52.14,0.135,208.57,180.47,117.93,32.13,30.41,7.3,0
+ORD-2025-10158,2025-02-17,North America,Apparel,Direct Online,Enterprise,46,155.39,0.132,7147.91,6201.32,4153.15,373.04,1675.13,12.1,0
+ORD-2025-10159,2025-02-17,Asia Pacific,Apparel,Direct Online,Enterprise,19,110.32,0.105,2096.06,1876.56,1284.32,111.01,481.23,3.5,1
+ORD-2025-10160,2025-02-18,North America,Footwear,Marketplace,VIP Retail,3,71.64,0.021,214.92,210.33,109.66,23.42,77.25,2.4,0
+ORD-2025-10161,2025-02-18,North America,Home & Kitchen,Direct Online,Mid-Market,51,58.88,0.098,3002.97,2707.6,1894.04,293.2,520.36,7.7,0
+ORD-2025-10162,2025-02-18,Europe,Apparel,Wholesale B2B,Consumer Basic,11,131.16,0.052,1442.79,1368.26,795.21,83.04,490.01,3.6,0
+ORD-2025-10163,2025-02-18,North America,Home & Kitchen,Marketplace,Mid-Market,51,187.69,0.094,9572.15,8668.59,6156.12,294.46,2218.01,2.7,0
+ORD-2025-10164,2025-02-19,Europe,Apparel,Wholesale B2B,Enterprise,32,96.03,0.073,3072.96,2850.15,1723.69,170.89,955.57,3.2,0
+ORD-2025-10165,2025-02-19,Asia Pacific,Apparel,Wholesale B2B,VIP Retail,1,133.36,0.097,133.36,120.38,83.08,11.92,25.38,5.5,0
+ORD-2025-10166,2025-02-19,Europe,Apparel,Marketplace,VIP Retail,8,114.58,0.142,916.67,786.42,577.52,35.12,173.78,2.2,0
+ORD-2025-10167,2025-02-20,North America,Apparel,Direct Online,Consumer Basic,1,117.38,0.17,117.38,97.39,75.43,10.32,11.64,2.3,0
+ORD-2025-10168,2025-02-20,North America,Apparel,Marketplace,Consumer Basic,6,58.15,0.076,348.9,322.34,212.81,31.62,77.91,2.3,1
+ORD-2025-10169,2025-02-20,Latin America,Electronics,Direct Online,Consumer Basic,1,598.52,0.058,598.52,563.69,313.28,9.05,241.36,2.9,0
+ORD-2025-10170,2025-02-21,Europe,Footwear,Wholesale B2B,Mid-Market,27,49.42,0.071,1334.35,1239.41,772.6,188.94,277.87,2.4,0
+ORD-2025-10171,2025-02-21,North America,Home & Kitchen,Direct Online,VIP Retail,10,68.8,0.056,688.0,649.59,401.93,82.98,164.68,3.7,0
+ORD-2025-10172,2025-02-21,North America,Electronics,Wholesale B2B,Consumer Basic,1,371.56,0.102,371.56,333.81,194.67,20.8,118.34,9.9,0
+ORD-2025-10173,2025-02-21,Latin America,Electronics,Marketplace,Consumer Basic,6,301.0,0.025,1805.99,1760.14,1169.19,51.62,539.33,3.5,0
+ORD-2025-10174,2025-02-22,North America,Electronics,Marketplace,Consumer Basic,6,323.05,0.071,1938.32,1801.5,1109.07,50.96,641.47,9.3,0
+ORD-2025-10175,2025-02-22,Europe,Apparel,Marketplace,VIP Retail,10,114.54,0.164,1145.36,957.33,658.43,75.31,223.59,2.5,0
+ORD-2025-10176,2025-02-22,North America,Health & Beauty,Direct Online,VIP Retail,7,153.22,0.047,1072.57,1022.55,626.97,55.27,340.31,6.1,0
+ORD-2025-10177,2025-02-23,Europe,Apparel,Wholesale B2B,Consumer Basic,5,139.09,0.052,695.43,659.51,377.31,34.09,248.11,6.2,0
+ORD-2025-10178,2025-02-23,Asia Pacific,Apparel,Wholesale B2B,Mid-Market,49,91.08,0.158,4462.74,3756.24,2246.68,330.48,1179.08,8.5,1
+ORD-2025-10179,2025-02-23,North America,Electronics,Direct Online,Mid-Market,43,439.74,0.06,18908.88,17769.95,11141.02,178.49,6450.44,10.3,0
+ORD-2025-10180,2025-02-24,Europe,Home & Kitchen,Marketplace,Consumer Basic,1,181.97,0.04,181.97,174.61,107.04,15.02,52.55,7.2,0
+ORD-2025-10181,2025-02-24,Latin America,Home & Kitchen,Direct Online,Consumer Basic,1,126.46,0.056,126.46,119.38,70.03,7.49,41.86,2.4,0
+ORD-2025-10182,2025-02-24,Asia Pacific,Home & Kitchen,Wholesale B2B,VIP Retail,11,150.3,0.063,1653.3,1548.83,986.37,95.11,467.35,5.0,0
+ORD-2025-10183,2025-02-24,Latin America,Home & Kitchen,Direct Online,Consumer Basic,6,216.03,0.025,1296.19,1264.05,682.34,43.41,538.3,5.6,0
+ORD-2025-10184,2025-02-25,North America,Footwear,Direct Online,VIP Retail,10,189.18,0.028,1891.77,1838.96,1209.5,77.07,552.39,6.9,0
+ORD-2025-10185,2025-02-25,Latin America,Electronics,Wholesale B2B,Consumer Basic,9,184.71,0.026,1662.39,1619.62,1010.29,62.64,546.69,3.0,0
+ORD-2025-10186,2025-02-25,North America,Electronics,Direct Online,Mid-Market,30,345.48,0.111,10364.27,9217.72,5628.89,167.62,3421.21,3.1,0
+ORD-2025-10187,2025-02-26,North America,Apparel,Wholesale B2B,Enterprise,47,112.46,0.134,5285.73,4575.86,3230.72,187.69,1157.45,3.3,0
+ORD-2025-10188,2025-02-26,Europe,Home & Kitchen,Direct Online,VIP Retail,9,101.72,0.124,915.5,801.81,516.4,81.15,204.26,6.6,0
+ORD-2025-10189,2025-02-26,North America,Home & Kitchen,Direct Online,Mid-Market,47,209.67,0.145,9854.58,8424.65,4983.58,216.06,3225.01,2.6,0
+ORD-2025-10190,2025-02-27,Europe,Health & Beauty,Marketplace,Enterprise,36,192.73,0.108,6938.18,6185.93,3977.68,228.61,1979.64,2.2,0
+ORD-2025-10191,2025-02-27,Europe,Health & Beauty,Direct Online,Consumer Basic,3,67.14,0.015,201.41,198.46,118.97,29.78,49.71,7.9,0
+ORD-2025-10192,2025-02-27,Asia Pacific,Apparel,Marketplace,Enterprise,34,133.28,0.08,4531.68,4168.22,2594.95,239.39,1333.88,2.9,0
+ORD-2025-10193,2025-02-27,North America,Electronics,Marketplace,Mid-Market,42,351.18,0.115,14749.58,13058.34,9015.56,160.06,3882.72,5.3,0
+ORD-2025-10194,2025-02-28,Latin America,Apparel,Marketplace,Consumer Basic,2,48.18,0.149,96.37,82.06,47.79,21.74,12.53,7.2,0
+ORD-2025-10195,2025-02-28,North America,Electronics,Direct Online,Consumer Basic,8,365.22,0.051,2921.73,2772.04,1660.81,53.29,1057.94,6.1,0
+ORD-2025-10196,2025-02-28,Europe,Electronics,Direct Online,VIP Retail,7,293.13,0.071,2051.93,1906.85,1049.19,65.63,792.03,8.6,0
+ORD-2025-10197,2025-03-01,Europe,Electronics,Marketplace,Enterprise,30,771.22,0.1,23136.57,20814.58,14993.21,182.25,5639.12,7.8,0
+ORD-2025-10198,2025-03-01,North America,Home & Kitchen,Wholesale B2B,VIP Retail,3,152.95,0.019,458.84,449.9,261.38,28.44,160.08,5.5,0
+ORD-2025-10199,2025-03-01,Asia Pacific,Electronics,Direct Online,VIP Retail,9,728.77,0.074,6558.95,6073.07,3673.66,75.21,2324.2,7.0,0
+ORD-2025-10200,2025-03-02,Europe,Apparel,Wholesale B2B,Mid-Market,47,56.72,0.157,2665.85,2247.84,1388.32,205.4,654.12,7.2,0
+ORD-2025-10201,2025-03-02,Asia Pacific,Apparel,Marketplace,Consumer Basic,11,79.05,0.176,869.52,716.3,511.11,50.62,154.57,3.9,0
+ORD-2025-10202,2025-03-02,Europe,Apparel,Direct Online,Mid-Market,37,141.97,0.084,5252.78,4811.14,2590.16,197.34,2023.64,7.4,0
+ORD-2025-10203,2025-03-02,North America,Electronics,Direct Online,Consumer Basic,1,453.57,0.096,453.57,410.06,276.78,24.08,109.2,11.4,0
+ORD-2025-10204,2025-03-03,Latin America,Apparel,Marketplace,Consumer Basic,4,48.87,0.117,195.49,172.61,106.52,22.1,43.99,3.9,0
+ORD-2025-10205,2025-03-03,Europe,Health & Beauty,Direct Online,Consumer Basic,9,30.3,0.145,272.69,233.17,144.44,72.0,16.73,2.4,0
+ORD-2025-10206,2025-03-03,North America,Health & Beauty,Wholesale B2B,Consumer Basic,4,84.43,0.124,337.71,295.7,168.56,31.15,95.99,3.0,0
+ORD-2025-10207,2025-03-04,North America,Electronics,Direct Online,Consumer Basic,11,381.85,0.08,4200.32,3864.98,2537.59,73.26,1254.13,3.4,0
+ORD-2025-10208,2025-03-04,Asia Pacific,Health & Beauty,Direct Online,Mid-Market,44,217.86,0.094,9585.86,8685.49,5300.61,213.43,3171.45,4.3,0
+ORD-2025-10209,2025-03-04,Europe,Home & Kitchen,Direct Online,Mid-Market,23,120.23,0.111,2765.36,2459.41,1641.97,172.68,644.76,4.2,0
+ORD-2025-10210,2025-03-05,Europe,Home & Kitchen,Direct Online,Mid-Market,40,109.75,0.116,4389.85,3880.27,2230.13,177.85,1472.29,4.8,0
+ORD-2025-10211,2025-03-05,Asia Pacific,Apparel,Marketplace,Consumer Basic,3,51.46,0.085,154.39,141.25,91.23,33.29,16.73,6.6,0
+ORD-2025-10212,2025-03-05,Europe,Home & Kitchen,Marketplace,Enterprise,40,74.61,0.054,2984.25,2822.27,1892.77,188.87,740.63,3.9,0
+ORD-2025-10213,2025-03-05,Europe,Apparel,Marketplace,Consumer Basic,6,90.93,0.121,545.6,479.5,341.11,29.36,109.03,4.7,0
+ORD-2025-10214,2025-03-06,North America,Health & Beauty,Marketplace,Consumer Basic,9,67.61,0.06,608.48,572.26,333.14,38.23,200.89,2.1,0
+ORD-2025-10215,2025-03-06,North America,Electronics,Marketplace,VIP Retail,1,510.68,0.09,510.68,464.6,278.97,39.4,146.23,21.7,0
+ORD-2025-10216,2025-03-06,North America,Home & Kitchen,Marketplace,Mid-Market,39,165.09,0.143,6438.65,5517.25,3787.14,154.23,1575.88,5.8,0
+ORD-2025-10217,2025-03-07,Europe,Electronics,Marketplace,Enterprise,33,437.17,0.066,14426.68,13479.95,8387.31,207.38,4885.26,6.8,0
+ORD-2025-10218,2025-03-07,North America,Apparel,Marketplace,Consumer Basic,10,115.76,0.147,1157.62,987.49,654.48,54.1,278.91,8.6,1
+ORD-2025-10219,2025-03-07,North America,Electronics,Marketplace,Consumer Basic,2,535.09,0.103,1070.19,960.07,515.82,42.24,402.01,21.0,0
+ORD-2025-10220,2025-03-08,Europe,Apparel,Direct Online,Enterprise,52,104.83,0.101,5451.18,4898.02,3400.19,352.92,1144.91,5.9,0
+ORD-2025-10221,2025-03-08,North America,Home & Kitchen,Direct Online,Consumer Basic,9,112.05,0.12,1008.47,887.7,557.95,55.19,274.56,7.2,0
+ORD-2025-10222,2025-03-08,Europe,Apparel,Marketplace,Consumer Basic,4,81.82,0.075,327.28,302.72,159.59,33.25,109.88,3.7,0
+ORD-2025-10223,2025-03-08,Europe,Apparel,Direct Online,Enterprise,52,83.23,0.169,4328.18,3597.76,2700.84,313.35,583.57,4.7,0
+ORD-2025-10224,2025-03-09,Europe,Home & Kitchen,Direct Online,Mid-Market,17,214.54,0.034,3647.26,3522.26,2348.41,108.96,1064.89,13.4,1
+ORD-2025-10225,2025-03-09,North America,Electronics,Direct Online,Enterprise,51,686.66,0.066,35019.82,32713.68,21783.44,268.55,10661.69,3.4,0
+ORD-2025-10226,2025-03-09,Europe,Apparel,Wholesale B2B,Consumer Basic,1,46.03,0.141,46.03,39.54,25.11,8.77,5.66,2.5,0
+ORD-2025-10227,2025-03-10,Europe,Electronics,Marketplace,Consumer Basic,3,738.55,0.064,2215.64,2073.74,1130.24,27.01,916.49,6.4,0
+ORD-2025-10228,2025-03-10,Asia Pacific,Electronics,Marketplace,Mid-Market,48,570.6,0.12,27388.78,24102.91,15422.97,258.76,8421.18,2.7,0
+ORD-2025-10229,2025-03-10,Europe,Health & Beauty,Marketplace,Consumer Basic,1,64.26,0.059,64.26,60.45,38.61,10.76,11.08,2.1,0
+ORD-2025-10230,2025-03-11,Europe,Home & Kitchen,Direct Online,Consumer Basic,5,32.41,0.112,162.03,143.9,99.65,30.29,13.96,4.4,0
+ORD-2025-10231,2025-03-11,North America,Footwear,Marketplace,VIP Retail,10,119.26,0.13,1192.64,1038.15,672.1,65.51,300.54,4.7,0
+ORD-2025-10232,2025-03-11,Europe,Apparel,Wholesale B2B,Mid-Market,42,125.71,0.184,5280.01,4307.6,3277.19,297.24,733.17,3.8,0
+ORD-2025-10233,2025-03-11,North America,Footwear,Direct Online,VIP Retail,3,110.63,0.127,331.9,289.73,176.91,27.02,85.8,8.7,1
+ORD-2025-10234,2025-03-12,North America,Footwear,Marketplace,Consumer Basic,10,206.21,0.005,2062.05,2052.6,1036.91,60.73,954.96,8.2,0
+ORD-2025-10235,2025-03-12,North America,Health & Beauty,Direct Online,VIP Retail,1,26.73,0.15,26.73,22.73,13.24,11.59,-2.1,5.4,0
+ORD-2025-10236,2025-03-12,Europe,Apparel,Direct Online,Enterprise,15,152.14,0.173,2282.05,1886.6,1423.56,104.37,358.67,7.0,1
+ORD-2025-10237,2025-03-13,North America,Apparel,Direct Online,Consumer Basic,2,43.25,0.102,86.5,77.65,41.61,11.44,24.6,2.4,0
+ORD-2025-10238,2025-03-13,North America,Home & Kitchen,Wholesale B2B,Mid-Market,45,118.26,0.022,5321.73,5205.83,2764.67,222.98,2218.18,5.7,0
+ORD-2025-10239,2025-03-13,Europe,Footwear,Wholesale B2B,Mid-Market,27,117.91,0.034,3183.44,3075.51,1854.65,145.58,1075.28,5.1,0
+ORD-2025-10240,2025-03-14,Asia Pacific,Electronics,Marketplace,Consumer Basic,2,572.53,0.082,1145.06,1050.62,596.72,16.87,437.03,2.3,0
+ORD-2025-10241,2025-03-14,Europe,Health & Beauty,Marketplace,Enterprise,28,176.19,0.041,4933.39,4732.54,3107.73,207.89,1416.92,4.1,0
+ORD-2025-10242,2025-03-14,Europe,Apparel,Direct Online,Mid-Market,31,132.88,0.157,4119.19,3471.42,2021.11,232.64,1217.67,4.7,1
+ORD-2025-10243,2025-03-14,Asia Pacific,Electronics,Direct Online,Enterprise,58,421.36,0.047,24438.69,23289.11,14106.2,453.88,8729.03,9.4,0
+ORD-2025-10244,2025-03-15,North America,Apparel,Wholesale B2B,Consumer Basic,11,49.5,0.056,544.53,513.85,339.53,78.7,95.62,4.5,1
+ORD-2025-10245,2025-03-15,Asia Pacific,Apparel,Direct Online,Mid-Market,23,51.2,0.151,1177.6,999.29,586.34,177.39,235.56,10.6,0
+ORD-2025-10246,2025-03-15,North America,Electronics,Wholesale B2B,Consumer Basic,3,469.93,0.066,1409.79,1317.07,765.33,15.61,536.13,2.9,0
+ORD-2025-10247,2025-03-16,Asia Pacific,Apparel,Wholesale B2B,Mid-Market,47,117.17,0.121,5506.95,4841.48,3388.76,336.52,1116.2,8.4,1
+ORD-2025-10248,2025-03-16,Latin America,Apparel,Direct Online,Consumer Basic,6,156.82,0.058,940.94,886.53,483.52,53.19,349.82,5.4,0
+ORD-2025-10249,2025-03-16,North America,Apparel,Direct Online,Consumer Basic,5,68.45,0.175,342.25,282.25,217.29,39.43,25.53,2.0,0
+ORD-2025-10250,2025-03-17,North America,Footwear,Marketplace,Mid-Market,39,201.68,0.04,7865.63,7550.99,5063.85,236.4,2250.74,5.9,0
+ORD-2025-10251,2025-03-17,Asia Pacific,Apparel,Marketplace,Consumer Basic,11,157.0,0.069,1727.02,1608.14,941.29,59.78,607.07,2.1,0
+ORD-2025-10252,2025-03-17,North America,Apparel,Direct Online,Consumer Basic,11,62.91,0.146,691.99,590.77,410.15,72.45,108.17,4.5,0
+ORD-2025-10253,2025-03-17,Europe,Home & Kitchen,Wholesale B2B,Consumer Basic,8,81.77,0.031,654.19,633.87,321.32,39.96,272.59,2.5,0
+ORD-2025-10254,2025-03-18,Asia Pacific,Apparel,Marketplace,Enterprise,46,154.72,0.191,7117.29,5754.98,4203.92,304.35,1246.71,6.6,0
+ORD-2025-10255,2025-03-18,North America,Health & Beauty,Marketplace,Consumer Basic,3,199.73,0.127,599.2,523.05,302.59,26.15,194.31,3.1,0
+ORD-2025-10256,2025-03-18,Europe,Apparel,Direct Online,Mid-Market,45,149.69,0.094,6735.86,6105.55,4043.62,175.95,1885.98,3.9,0
+ORD-2025-10257,2025-03-19,Europe,Electronics,Direct Online,Enterprise,35,821.82,0.073,28763.56,26664.8,18512.02,229.45,7923.33,6.1,0
+ORD-2025-10258,2025-03-19,Europe,Health & Beauty,Direct Online,Consumer Basic,11,134.37,0.13,1478.08,1286.53,878.92,51.24,356.37,4.0,0
+ORD-2025-10259,2025-03-19,North America,Apparel,Marketplace,Enterprise,40,114.57,0.125,4582.69,4011.07,2606.78,184.79,1219.5,3.6,0
+ORD-2025-10260,2025-03-20,North America,Footwear,Direct Online,Enterprise,48,27.77,0.124,1332.82,1167.01,797.98,262.29,106.74,6.0,0
+ORD-2025-10261,2025-03-20,North America,Footwear,Wholesale B2B,Consumer Basic,1,85.45,0.035,85.45,82.48,43.38,11.8,27.3,3.8,0
+ORD-2025-10262,2025-03-20,North America,Apparel,Direct Online,Mid-Market,38,150.77,0.084,5729.42,5246.42,3537.19,170.95,1538.28,5.0,0
+ORD-2025-10263,2025-03-20,North America,Health & Beauty,Direct Online,Consumer Basic,6,199.46,0.0,1196.73,1196.65,655.37,59.25,482.03,8.9,0
+ORD-2025-10264,2025-03-21,Asia Pacific,Electronics,Direct Online,Mid-Market,41,685.36,0.112,28099.66,24956.92,14804.11,279.35,9873.46,14.1,0
+ORD-2025-10265,2025-03-21,Europe,Apparel,Direct Online,Consumer Basic,7,147.78,0.182,1034.46,846.6,585.52,50.95,210.13,13.0,1
+ORD-2025-10266,2025-03-21,North America,Electronics,Wholesale B2B,Mid-Market,35,816.81,0.078,28588.27,26353.75,16233.53,248.45,9871.77,4.3,0
+ORD-2025-10267,2025-03-22,Asia Pacific,Apparel,Wholesale B2B,VIP Retail,2,87.43,0.167,174.86,145.65,90.02,18.23,37.4,3.9,0
+ORD-2025-10268,2025-03-22,Asia Pacific,Apparel,Direct Online,Enterprise,17,43.63,0.191,741.64,599.9,367.97,128.93,103.0,4.1,1
+ORD-2025-10269,2025-03-22,Asia Pacific,Home & Kitchen,Direct Online,Consumer Basic,4,125.55,0.069,502.21,467.31,277.36,17.89,172.06,2.1,0
+ORD-2025-10270,2025-03-23,North America,Health & Beauty,Direct Online,Consumer Basic,6,35.65,0.146,213.92,182.7,103.05,36.97,42.68,2.8,0
+ORD-2025-10271,2025-03-23,North America,Electronics,Direct Online,Consumer Basic,10,609.23,0.062,6092.26,5717.01,3238.03,61.18,2417.8,7.7,0
+ORD-2025-10272,2025-03-23,North America,Health & Beauty,Direct Online,VIP Retail,5,182.31,0.148,911.53,776.87,521.6,30.18,225.09,6.2,0
+ORD-2025-10273,2025-03-23,Asia Pacific,Apparel,Direct Online,Mid-Market,36,99.7,0.09,3589.18,3264.98,1884.7,230.91,1149.37,5.0,0
+ORD-2025-10274,2025-03-24,Asia Pacific,Home & Kitchen,Direct Online,Consumer Basic,8,124.23,0.055,993.87,938.82,503.93,49.65,385.24,10.1,0
+ORD-2025-10275,2025-03-24,North America,Health & Beauty,Direct Online,VIP Retail,9,92.2,0.005,829.78,825.94,447.01,48.33,330.6,2.2,0
+ORD-2025-10276,2025-03-24,Asia Pacific,Health & Beauty,Marketplace,Consumer Basic,4,209.68,0.074,838.73,776.3,514.69,32.37,229.24,3.4,0
+ORD-2025-10277,2025-03-25,Asia Pacific,Electronics,Direct Online,Consumer Basic,11,830.07,0.064,9130.79,8548.55,5160.58,78.06,3309.91,3.1,0
+ORD-2025-10278,2025-03-25,Europe,Apparel,Direct Online,Consumer Basic,3,49.81,0.194,149.43,120.41,81.8,20.92,17.69,5.8,0
+ORD-2025-10279,2025-03-25,North America,Electronics,Direct Online,VIP Retail,8,630.71,0.1,5045.69,4542.8,3224.2,63.35,1255.25,3.2,0
+ORD-2025-10280,2025-03-26,North America,Home & Kitchen,Direct Online,Mid-Market,26,28.86,0.059,750.36,706.39,439.43,134.04,132.92,2.6,0
+ORD-2025-10281,2025-03-26,North America,Apparel,Marketplace,Mid-Market,16,89.1,0.153,1425.53,1207.69,734.03,88.28,385.38,3.2,0
+ORD-2025-10282,2025-03-26,Asia Pacific,Health & Beauty,Direct Online,Consumer Basic,8,178.13,0.09,1425.02,1296.53,750.95,67.44,478.14,15.9,0
+ORD-2025-10283,2025-03-26,Europe,Electronics,Direct Online,VIP Retail,10,255.91,0.06,2559.13,2404.66,1481.66,59.73,863.27,10.4,0
+ORD-2025-10284,2025-03-27,Europe,Electronics,Marketplace,Consumer Basic,10,602.57,0.075,6025.69,5574.0,3510.68,52.99,2010.33,9.7,0
+ORD-2025-10285,2025-03-27,North America,Footwear,Direct Online,Consumer Basic,2,146.61,0.097,293.22,264.7,175.83,14.76,74.11,2.9,0
+ORD-2025-10286,2025-03-27,Europe,Apparel,Marketplace,Consumer Basic,3,66.19,0.05,198.57,188.58,98.89,16.45,73.24,2.6,0
+ORD-2025-10287,2025-03-28,Asia Pacific,Home & Kitchen,Direct Online,Consumer Basic,1,161.72,0.102,161.72,145.22,88.23,13.07,43.92,3.6,0
+ORD-2025-10288,2025-03-28,North America,Footwear,Marketplace,Consumer Basic,10,169.18,0.032,1691.85,1637.37,814.48,62.43,760.46,5.3,0
+ORD-2025-10289,2025-03-28,Latin America,Home & Kitchen,Direct Online,Mid-Market,42,109.71,0.109,4607.76,4107.74,2692.13,270.56,1145.05,2.0,0
+ORD-2025-10290,2025-03-29,North America,Home & Kitchen,Direct Online,VIP Retail,9,169.05,0.002,1521.46,1518.32,734.39,38.91,745.02,2.9,0
+ORD-2025-10291,2025-03-29,Europe,Apparel,Direct Online,Consumer Basic,2,109.35,0.106,218.7,195.55,134.91,19.23,41.41,3.2,0
+ORD-2025-10292,2025-03-29,North America,Apparel,Marketplace,Consumer Basic,10,127.24,0.128,1272.4,1109.26,703.22,47.6,358.44,2.2,0
+ORD-2025-10293,2025-03-29,Asia Pacific,Apparel,Wholesale B2B,VIP Retail,10,39.38,0.168,393.76,327.57,205.63,72.13,49.81,3.6,0
+ORD-2025-10294,2025-03-30,Europe,Apparel,Wholesale B2B,Enterprise,27,138.09,0.094,3728.51,3378.56,1980.5,161.21,1236.85,3.8,1
+ORD-2025-10295,2025-03-30,Latin America,Apparel,Direct Online,Consumer Basic,6,86.21,0.148,517.25,440.55,258.12,39.3,143.13,2.9,0
+ORD-2025-10296,2025-03-30,Asia Pacific,Footwear,Marketplace,Consumer Basic,11,112.01,0.121,1232.1,1083.17,699.28,68.05,315.84,2.0,0
+ORD-2025-10297,2025-03-31,Asia Pacific,Apparel,Marketplace,Mid-Market,56,149.22,0.193,8356.52,6744.36,4541.76,269.2,1933.4,3.2,0
+ORD-2025-10298,2025-03-31,Latin America,Apparel,Direct Online,Consumer Basic,7,78.61,0.128,550.28,479.71,342.52,61.67,75.52,6.7,0
+ORD-2025-10299,2025-03-31,Europe,Apparel,Direct Online,Consumer Basic,7,57.41,0.154,401.85,339.93,222.24,52.0,65.69,2.8,0
+ORD-2025-10300,2025-04-01,Asia Pacific,Apparel,Direct Online,Consumer Basic,3,78.15,0.112,234.46,208.17,122.17,24.22,61.78,6.0,1
+ORD-2025-10301,2025-04-01,Europe,Electronics,Marketplace,Mid-Market,29,218.68,0.059,6341.74,5966.92,3851.95,185.24,1929.73,6.1,0
+ORD-2025-10302,2025-04-01,Asia Pacific,Apparel,Wholesale B2B,Consumer Basic,2,86.48,0.163,172.97,144.77,95.14,18.86,30.77,2.7,0
+ORD-2025-10303,2025-04-01,North America,Apparel,Marketplace,Enterprise,21,77.15,0.071,1620.17,1504.45,809.16,154.07,541.22,5.5,0
+ORD-2025-10304,2025-04-02,Latin America,Health & Beauty,Marketplace,Consumer Basic,5,192.18,0.101,960.88,863.84,497.47,38.94,327.43,3.6,0
+ORD-2025-10305,2025-04-02,Europe,Home & Kitchen,Marketplace,Consumer Basic,6,195.46,0.031,1172.78,1136.99,720.75,36.8,379.44,2.4,0
+ORD-2025-10306,2025-04-02,Asia Pacific,Health & Beauty,Marketplace,Enterprise,16,100.63,0.121,1610.02,1415.96,791.14,132.61,492.21,9.0,0
+ORD-2025-10307,2025-04-03,Latin America,Apparel,Direct Online,Consumer Basic,4,44.26,0.106,177.05,158.23,115.0,34.39,8.84,6.9,0
+ORD-2025-10308,2025-04-03,North America,Electronics,Direct Online,Enterprise,45,427.61,0.066,19242.66,17964.49,11555.03,169.89,6239.57,7.1,0
+ORD-2025-10309,2025-04-03,Europe,Home & Kitchen,Direct Online,Consumer Basic,8,175.7,0.082,1405.58,1289.95,776.49,51.04,462.42,2.2,0
+ORD-2025-10310,2025-04-04,Europe,Apparel,Marketplace,Enterprise,42,60.91,0.157,2558.02,2156.45,1312.64,320.49,523.32,3.5,0
+ORD-2025-10311,2025-04-04,Asia Pacific,Footwear,Marketplace,Consumer Basic,10,198.38,0.087,1983.8,1811.56,1055.73,61.18,694.65,5.0,0
+ORD-2025-10312,2025-04-04,Europe,Apparel,Direct Online,Consumer Basic,11,142.69,0.18,1569.58,1286.59,803.54,51.11,431.94,5.9,0
+ORD-2025-10313,2025-04-04,Asia Pacific,Apparel,Marketplace,Consumer Basic,6,68.99,0.154,413.96,350.27,251.36,31.46,67.45,2.9,0
+ORD-2025-10314,2025-04-05,Europe,Health & Beauty,Direct Online,Consumer Basic,4,185.63,0.009,742.54,735.51,414.68,41.45,279.38,6.5,0
+ORD-2025-10315,2025-04-05,Asia Pacific,Health & Beauty,Direct Online,Mid-Market,46,115.48,0.04,5311.99,5101.63,2769.55,281.78,2050.3,3.6,1
+ORD-2025-10316,2025-04-05,North America,Home & Kitchen,Wholesale B2B,VIP Retail,6,88.43,0.135,530.59,458.88,263.19,69.22,126.47,18.7,0
+ORD-2025-10317,2025-04-06,Latin America,Home & Kitchen,Wholesale B2B,VIP Retail,3,207.05,0.12,621.14,546.48,403.49,21.81,121.18,5.4,0
+ORD-2025-10318,2025-04-06,North America,Apparel,Direct Online,Mid-Market,49,132.97,0.135,6515.4,5636.3,3144.83,179.97,2311.5,3.1,0
+ORD-2025-10319,2025-04-06,North America,Home & Kitchen,Direct Online,Consumer Basic,10,26.04,0.141,260.43,223.77,142.3,43.53,37.94,3.6,0
+ORD-2025-10320,2025-04-07,Europe,Home & Kitchen,Direct Online,Consumer Basic,2,136.05,0.13,272.1,236.66,146.42,16.89,73.35,3.4,0
+ORD-2025-10321,2025-04-07,Latin America,Footwear,Marketplace,Consumer Basic,11,164.44,0.089,1808.89,1647.95,1124.37,59.69,463.89,2.2,0
+ORD-2025-10322,2025-04-07,Latin America,Electronics,Marketplace,Enterprise,36,611.65,0.117,22019.47,19433.84,11154.08,232.46,8047.3,2.3,0
+ORD-2025-10323,2025-04-07,Asia Pacific,Electronics,Marketplace,Consumer Basic,1,741.04,0.037,741.04,713.64,432.51,9.76,271.37,2.1,0
+ORD-2025-10324,2025-04-08,Latin America,Health & Beauty,Marketplace,Consumer Basic,6,103.37,0.023,620.21,605.91,365.45,29.95,210.51,4.6,0
+ORD-2025-10325,2025-04-08,Europe,Electronics,Marketplace,Enterprise,30,334.63,0.112,10038.97,8918.95,5997.44,198.81,2722.7,8.8,0
+ORD-2025-10326,2025-04-08,Europe,Footwear,Direct Online,Consumer Basic,5,197.49,0.019,987.47,968.92,624.63,35.52,308.77,2.7,0
+ORD-2025-10327,2025-04-09,Asia Pacific,Apparel,Direct Online,Mid-Market,56,43.38,0.196,2429.12,1952.28,1553.31,228.09,170.88,7.1,0
+ORD-2025-10328,2025-04-09,North America,Electronics,Direct Online,Consumer Basic,5,359.94,0.03,1799.68,1745.51,1025.96,43.77,675.78,2.7,0
+ORD-2025-10329,2025-04-09,North America,Electronics,Direct Online,Mid-Market,24,602.49,0.042,14459.74,13852.85,7571.1,125.5,6156.25,2.1,0
+ORD-2025-10330,2025-04-10,North America,Electronics,Wholesale B2B,Enterprise,37,409.57,0.106,15154.17,13540.77,7527.97,271.59,5741.21,2.7,0
+ORD-2025-10331,2025-04-10,North America,Home & Kitchen,Marketplace,Consumer Basic,7,84.21,0.047,589.45,561.89,291.18,41.99,228.72,2.0,0
+ORD-2025-10332,2025-04-10,North America,Health & Beauty,Direct Online,Consumer Basic,8,166.38,0.086,1331.01,1216.35,789.17,43.12,384.06,5.3,0
+ORD-2025-10333,2025-04-10,Europe,Electronics,Marketplace,VIP Retail,9,190.6,0.072,1715.41,1591.43,967.04,62.39,562.0,7.5,0
+ORD-2025-10334,2025-04-11,Asia Pacific,Apparel,Direct Online,Mid-Market,27,91.75,0.164,2477.22,2070.05,1563.82,197.48,308.75,2.4,0
+ORD-2025-10335,2025-04-11,Europe,Home & Kitchen,Wholesale B2B,Consumer Basic,11,214.2,0.14,2356.15,2026.65,1187.52,75.85,763.28,6.1,0
+ORD-2025-10336,2025-04-11,North America,Apparel,Direct Online,Consumer Basic,8,70.71,0.189,565.71,458.75,307.24,75.05,76.46,12.5,0
+ORD-2025-10337,2025-04-12,Asia Pacific,Footwear,Direct Online,Consumer Basic,9,136.78,0.051,1231.01,1168.66,643.76,75.67,449.23,15.4,0
+ORD-2025-10338,2025-04-12,Asia Pacific,Home & Kitchen,Marketplace,Consumer Basic,4,35.44,0.056,141.74,133.73,79.08,24.51,30.14,2.8,0
+ORD-2025-10339,2025-04-12,Latin America,Apparel,Direct Online,Mid-Market,53,60.94,0.086,3229.96,2953.08,1553.91,383.5,1015.67,9.2,0
+ORD-2025-10340,2025-04-13,Asia Pacific,Home & Kitchen,Marketplace,Consumer Basic,2,207.36,0.056,414.72,391.34,211.1,15.82,164.42,5.7,0
+ORD-2025-10341,2025-04-13,Europe,Apparel,Marketplace,VIP Retail,4,98.73,0.125,394.93,345.49,208.26,32.59,104.64,2.2,0
+ORD-2025-10342,2025-04-13,Asia Pacific,Footwear,Marketplace,Mid-Market,22,90.52,0.07,1991.47,1852.36,1051.05,103.86,697.45,6.5,0
+ORD-2025-10343,2025-04-13,North America,Health & Beauty,Marketplace,Enterprise,35,175.69,0.036,6149.16,5930.62,3824.54,276.65,1829.43,5.4,0
+ORD-2025-10344,2025-04-14,Asia Pacific,Apparel,Direct Online,Enterprise,35,70.35,0.113,2462.25,2184.54,1584.34,232.25,367.95,3.0,0
+ORD-2025-10345,2025-04-14,Europe,Apparel,Marketplace,Mid-Market,18,141.01,0.192,2538.25,2050.72,1369.56,149.67,531.49,8.5,0
+ORD-2025-10346,2025-04-14,Europe,Apparel,Marketplace,Mid-Market,54,89.46,0.169,4830.6,4013.4,2575.86,399.9,1037.64,3.0,1
+ORD-2025-10347,2025-04-15,Europe,Footwear,Wholesale B2B,VIP Retail,8,113.3,0.03,906.39,879.4,526.78,37.23,315.39,2.5,0
+ORD-2025-10348,2025-04-15,Europe,Apparel,Direct Online,Consumer Basic,10,117.74,0.163,1177.39,985.86,600.61,57.55,327.7,6.2,1
+ORD-2025-10349,2025-04-15,Asia Pacific,Footwear,Marketplace,VIP Retail,2,73.64,0.108,147.29,131.45,93.12,26.91,11.42,7.8,0
+ORD-2025-10350,2025-04-16,North America,Home & Kitchen,Direct Online,Mid-Market,36,91.71,0.064,3301.6,3088.67,1682.06,215.7,1190.91,7.3,0
+ORD-2025-10351,2025-04-16,Latin America,Home & Kitchen,Direct Online,Consumer Basic,6,148.29,0.088,889.72,811.83,563.56,35.51,212.76,3.5,0
+ORD-2025-10352,2025-04-16,Latin America,Home & Kitchen,Wholesale B2B,Consumer Basic,9,153.12,0.135,1378.09,1192.38,882.32,40.15,269.91,3.5,0
+ORD-2025-10353,2025-04-16,North America,Health & Beauty,Direct Online,Mid-Market,16,42.97,0.088,687.56,627.22,416.39,62.49,148.34,2.8,0
+ORD-2025-10354,2025-04-17,North America,Apparel,Direct Online,Consumer Basic,10,72.04,0.191,720.45,583.03,443.01,47.12,92.9,7.1,0
+ORD-2025-10355,2025-04-17,North America,Electronics,Direct Online,Enterprise,15,530.8,0.042,7962.04,7629.02,4164.03,121.79,3343.2,20.2,0
+ORD-2025-10356,2025-04-17,Asia Pacific,Health & Beauty,Marketplace,Mid-Market,40,95.7,0.121,3827.97,3365.33,1938.97,295.02,1131.34,3.2,0
+ORD-2025-10357,2025-04-18,Europe,Footwear,Direct Online,Enterprise,45,137.41,0.114,6183.55,5476.88,3286.92,356.19,1833.77,6.6,0
+ORD-2025-10358,2025-04-18,Europe,Footwear,Marketplace,Enterprise,32,117.74,0.061,3767.72,3537.28,2021.23,249.44,1266.61,2.5,0
+ORD-2025-10359,2025-04-18,North America,Electronics,Marketplace,Consumer Basic,4,209.51,0.089,838.03,763.17,480.7,30.53,251.94,6.2,0
+ORD-2025-10360,2025-04-19,Europe,Health & Beauty,Direct Online,Mid-Market,28,45.65,0.053,1278.07,1210.03,673.9,130.74,405.39,3.6,0
+ORD-2025-10361,2025-04-19,North America,Home & Kitchen,Wholesale B2B,Mid-Market,17,67.92,0.078,1154.59,1064.83,599.62,106.51,358.7,5.7,0
+ORD-2025-10362,2025-04-19,North America,Footwear,Wholesale B2B,VIP Retail,3,203.7,0.095,611.11,552.86,302.83,22.22,227.81,5.0,0
+ORD-2025-10363,2025-04-19,North America,Health & Beauty,Direct Online,VIP Retail,4,153.32,0.001,613.28,612.54,374.46,38.91,199.17,10.6,0
+ORD-2025-10364,2025-04-20,Europe,Electronics,Direct Online,VIP Retail,10,324.19,0.108,3241.87,2890.34,1559.61,91.44,1239.29,8.3,0
+ORD-2025-10365,2025-04-20,Asia Pacific,Apparel,Direct Online,Consumer Basic,7,135.68,0.192,949.75,767.39,498.82,61.0,207.57,3.5,1
+ORD-2025-10366,2025-04-20,Europe,Home & Kitchen,Marketplace,Enterprise,19,208.01,0.027,3952.25,3844.84,2103.49,120.61,1620.74,4.9,0
+ORD-2025-10367,2025-04-21,North America,Electronics,Direct Online,Consumer Basic,7,781.64,0.028,5471.45,5315.99,3375.03,32.15,1908.81,4.0,0
+ORD-2025-10368,2025-04-21,North America,Apparel,Direct Online,Consumer Basic,2,153.53,0.096,307.06,277.68,195.75,15.16,66.77,2.9,1
+ORD-2025-10369,2025-04-21,Europe,Electronics,Direct Online,Enterprise,56,570.78,0.021,31963.63,31288.23,18539.54,313.01,12435.68,11.2,0
+ORD-2025-10370,2025-04-22,North America,Apparel,Marketplace,Mid-Market,54,148.03,0.106,7993.64,7144.65,3963.59,295.34,2885.72,4.4,0
+ORD-2025-10371,2025-04-22,North America,Electronics,Direct Online,Enterprise,26,240.24,0.039,6246.34,6000.7,3303.35,127.04,2570.31,2.2,0
+ORD-2025-10372,2025-04-22,Asia Pacific,Home & Kitchen,Marketplace,Consumer Basic,10,119.46,0.104,1194.56,1070.24,615.75,54.96,399.53,4.4,0
+ORD-2025-10373,2025-04-22,Asia Pacific,Apparel,Direct Online,Consumer Basic,3,50.7,0.076,152.09,140.58,91.03,24.02,25.53,7.3,0
+ORD-2025-10374,2025-04-23,Asia Pacific,Apparel,Wholesale B2B,Mid-Market,29,63.75,0.112,1848.73,1642.24,1147.01,193.58,301.65,2.8,0
+ORD-2025-10375,2025-04-23,North America,Apparel,Marketplace,Mid-Market,56,118.91,0.091,6658.9,6055.63,3699.48,326.55,2029.6,2.3,1
+ORD-2025-10376,2025-04-23,North America,Electronics,Marketplace,Consumer Basic,11,607.39,0.119,6681.34,5889.48,3674.08,71.43,2143.97,7.8,0
+ORD-2025-10377,2025-04-24,Asia Pacific,Home & Kitchen,Direct Online,VIP Retail,4,159.37,0.123,637.49,558.77,371.37,30.08,157.32,4.4,0
+ORD-2025-10378,2025-04-24,Europe,Apparel,Direct Online,Consumer Basic,4,132.61,0.169,530.46,440.96,263.89,23.42,153.65,4.8,0
+ORD-2025-10379,2025-04-24,Asia Pacific,Home & Kitchen,Direct Online,Consumer Basic,6,140.88,0.09,845.26,768.79,467.38,36.61,264.8,5.4,0
+ORD-2025-10380,2025-04-25,Europe,Electronics,Direct Online,Consumer Basic,6,680.54,0.042,4083.25,3912.28,2044.65,47.81,1819.82,5.2,0
+ORD-2025-10381,2025-04-25,North America,Footwear,Marketplace,Consumer Basic,9,49.65,0.004,446.81,444.94,234.11,40.01,170.82,4.9,0
+ORD-2025-10382,2025-04-25,Europe,Apparel,Direct Online,Mid-Market,26,117.98,0.195,3067.43,2469.91,1781.08,113.64,575.19,2.2,1
+ORD-2025-10383,2025-04-25,Europe,Apparel,Wholesale B2B,Enterprise,20,135.03,0.179,2700.52,2215.91,1624.37,100.14,491.4,2.5,0
+ORD-2025-10384,2025-04-26,Latin America,Home & Kitchen,Marketplace,Consumer Basic,11,157.53,0.142,1732.81,1486.94,855.81,88.83,542.3,3.1,0
+ORD-2025-10385,2025-04-26,Europe,Electronics,Direct Online,Consumer Basic,1,784.81,0.104,784.81,703.4,487.65,15.95,199.8,5.5,0
+ORD-2025-10386,2025-04-26,Europe,Electronics,Marketplace,Consumer Basic,1,259.21,0.02,259.21,254.03,148.85,19.14,86.04,10.0,0
+ORD-2025-10387,2025-04-27,Asia Pacific,Health & Beauty,Wholesale B2B,VIP Retail,2,132.86,0.122,265.71,233.34,154.97,15.68,62.69,3.5,0
+ORD-2025-10388,2025-04-27,North America,Electronics,Direct Online,Mid-Market,40,841.52,0.064,33660.61,31492.52,16533.69,307.99,14650.84,5.0,0
+ORD-2025-10389,2025-04-27,Europe,Apparel,Direct Online,Consumer Basic,1,142.44,0.139,142.44,122.66,83.68,12.42,26.56,5.6,0
+ORD-2025-10390,2025-04-28,Asia Pacific,Home & Kitchen,Marketplace,VIP Retail,9,122.49,0.11,1102.43,981.67,582.49,56.79,342.39,4.9,0
+ORD-2025-10391,2025-04-28,North America,Health & Beauty,Direct Online,VIP Retail,9,46.07,0.072,414.62,384.86,205.08,40.77,139.01,4.6,0
+ORD-2025-10392,2025-04-28,Europe,Home & Kitchen,Direct Online,Consumer Basic,6,184.91,0.006,1109.48,1102.56,580.14,35.41,487.01,4.1,0
+ORD-2025-10393,2025-04-28,Asia Pacific,Health & Beauty,Marketplace,Consumer Basic,9,96.14,0.096,865.26,782.07,518.35,68.53,195.19,3.9,0
+ORD-2025-10394,2025-04-29,Europe,Footwear,Marketplace,VIP Retail,4,215.16,0.125,860.64,753.08,511.96,25.75,215.37,3.1,0
+ORD-2025-10395,2025-04-29,Europe,Apparel,Wholesale B2B,Mid-Market,40,50.06,0.138,2002.24,1726.57,1238.75,242.69,245.13,12.5,1
+ORD-2025-10396,2025-04-29,North America,Electronics,Marketplace,Enterprise,39,256.47,0.114,10002.48,8861.15,5506.57,219.83,3134.75,10.2,0
+ORD-2025-10397,2025-04-30,Europe,Apparel,Direct Online,Consumer Basic,9,152.56,0.147,1373.07,1170.8,701.21,59.04,410.55,11.3,0
+ORD-2025-10398,2025-04-30,Asia Pacific,Electronics,Direct Online,Mid-Market,40,632.67,0.024,25306.65,24704.13,13071.79,156.36,11475.98,5.9,0
+ORD-2025-10399,2025-04-30,North America,Electronics,Direct Online,Mid-Market,32,535.08,0.088,17122.56,15618.53,8719.74,246.93,6651.86,5.6,0
+ORD-2025-10400,2025-05-01,North America,Health & Beauty,Marketplace,Consumer Basic,6,87.23,0.07,523.37,486.48,293.64,44.15,148.69,4.1,0
+ORD-2025-10401,2025-05-01,North America,Health & Beauty,Wholesale B2B,Enterprise,20,195.65,0.146,3913.02,3343.12,2279.6,146.03,917.49,2.6,0
+ORD-2025-10402,2025-05-01,Latin America,Apparel,Direct Online,VIP Retail,7,53.64,0.168,375.5,312.46,242.96,34.54,34.96,4.9,0
+ORD-2025-10403,2025-05-01,North America,Apparel,Direct Online,Consumer Basic,11,82.62,0.058,908.81,855.93,507.19,82.85,265.89,4.7,0
+ORD-2025-10404,2025-05-02,North America,Health & Beauty,Direct Online,Mid-Market,16,76.57,0.076,1225.15,1132.61,760.09,104.78,267.74,2.2,0
+ORD-2025-10405,2025-05-02,Europe,Home & Kitchen,Wholesale B2B,Consumer Basic,9,142.99,0.033,1286.93,1244.37,622.33,72.12,549.92,4.9,0
+ORD-2025-10406,2025-05-02,North America,Health & Beauty,Wholesale B2B,Consumer Basic,3,97.89,0.094,293.68,266.13,150.18,16.29,99.66,2.0,0
+ORD-2025-10407,2025-05-03,North America,Electronics,Marketplace,Consumer Basic,4,436.47,0.104,1745.86,1564.44,840.19,18.41,705.84,2.6,0
+ORD-2025-10408,2025-05-03,Latin America,Apparel,Direct Online,Mid-Market,48,49.19,0.188,2361.24,1918.2,1207.77,294.68,415.75,6.5,0
+ORD-2025-10409,2025-05-03,Latin America,Electronics,Wholesale B2B,Mid-Market,40,231.72,0.037,9268.63,8925.8,5641.34,266.32,3018.14,2.5,0
+ORD-2025-10410,2025-05-04,Europe,Electronics,Marketplace,Enterprise,42,801.79,0.029,33675.38,32694.95,19838.48,234.16,12622.31,6.3,0
+ORD-2025-10411,2025-05-04,North America,Apparel,Direct Online,Mid-Market,30,47.3,0.194,1419.09,1144.48,913.52,127.61,103.35,4.7,0
+ORD-2025-10412,2025-05-04,North America,Electronics,Marketplace,Mid-Market,26,573.76,0.031,14917.68,14451.7,7344.94,129.25,6977.51,3.6,0
+ORD-2025-10413,2025-05-04,Latin America,Health & Beauty,Direct Online,VIP Retail,3,186.97,0.034,560.91,542.01,339.77,24.06,178.18,3.5,1
+ORD-2025-10414,2025-05-05,Asia Pacific,Electronics,Direct Online,Consumer Basic,1,429.32,0.072,429.32,398.33,275.93,10.93,111.47,2.3,0
+ORD-2025-10415,2025-05-05,Europe,Apparel,Marketplace,Consumer Basic,8,42.4,0.145,339.18,290.03,171.96,71.77,46.3,6.4,0
+ORD-2025-10416,2025-05-05,Latin America,Footwear,Direct Online,Mid-Market,44,155.5,0.073,6841.9,6345.38,4375.89,228.71,1740.78,3.6,0
+ORD-2025-10417,2025-05-06,North America,Home & Kitchen,Direct Online,Mid-Market,21,38.48,0.124,808.18,707.86,495.12,131.11,81.63,2.9,0
+ORD-2025-10418,2025-05-06,Europe,Home & Kitchen,Marketplace,Consumer Basic,5,143.97,0.073,719.86,667.15,457.13,22.51,187.51,2.4,0
+ORD-2025-10419,2025-05-06,North America,Electronics,Direct Online,VIP Retail,2,342.53,0.029,685.05,665.09,438.47,13.87,212.75,3.5,0
+ORD-2025-10420,2025-05-07,Europe,Electronics,Marketplace,Consumer Basic,1,529.32,0.11,529.32,471.28,331.61,14.91,124.76,5.9,0
+ORD-2025-10421,2025-05-07,Asia Pacific,Home & Kitchen,Direct Online,Consumer Basic,2,203.04,0.086,406.09,371.24,207.43,18.01,145.8,2.6,0
+ORD-2025-10422,2025-05-07,Europe,Apparel,Marketplace,Enterprise,24,138.94,0.077,3334.62,3079.19,1894.31,115.89,1068.99,5.9,0
+ORD-2025-10423,2025-05-07,Asia Pacific,Apparel,Direct Online,Consumer Basic,3,118.61,0.17,355.83,295.41,204.52,35.19,55.7,10.1,0
+ORD-2025-10424,2025-05-08,Asia Pacific,Health & Beauty,Wholesale B2B,Enterprise,17,168.5,0.031,2864.57,2775.02,1398.96,80.82,1295.24,2.4,0
+ORD-2025-10425,2025-05-08,North America,Apparel,Direct Online,VIP Retail,8,97.51,0.151,780.06,662.09,379.77,50.67,231.65,2.8,0
+ORD-2025-10426,2025-05-08,Europe,Footwear,Wholesale B2B,Enterprise,45,100.26,0.056,4511.62,4258.55,2696.06,365.83,1196.66,8.5,0
+ORD-2025-10427,2025-05-09,Europe,Electronics,Marketplace,Consumer Basic,2,318.57,0.07,637.14,592.26,328.2,19.56,244.5,6.5,0
+ORD-2025-10428,2025-05-09,North America,Apparel,Marketplace,VIP Retail,7,136.51,0.174,955.57,789.51,582.98,39.14,167.39,6.8,0
+ORD-2025-10429,2025-05-09,North America,Home & Kitchen,Marketplace,VIP Retail,4,77.15,0.122,308.58,270.98,173.59,27.21,70.18,2.3,0
+ORD-2025-10430,2025-05-10,Asia Pacific,Health & Beauty,Direct Online,VIP Retail,7,44.01,0.128,308.1,268.66,174.11,49.63,44.92,3.2,0
+ORD-2025-10431,2025-05-10,North America,Electronics,Wholesale B2B,VIP Retail,8,271.99,0.115,2175.93,1925.18,1131.61,67.36,726.21,3.6,0
+ORD-2025-10432,2025-05-10,Asia Pacific,Apparel,Wholesale B2B,VIP Retail,3,109.73,0.062,329.19,308.68,206.87,20.46,81.35,5.1,1
+ORD-2025-10433,2025-05-10,Europe,Home & Kitchen,Wholesale B2B,Mid-Market,50,57.81,0.125,2890.72,2528.03,1671.5,250.85,605.68,4.4,0
+ORD-2025-10434,2025-05-11,Latin America,Health & Beauty,Wholesale B2B,VIP Retail,1,103.43,0.07,103.43,96.16,55.0,12.63,28.53,5.7,0
+ORD-2025-10435,2025-05-11,North America,Apparel,Direct Online,Mid-Market,27,142.81,0.085,3855.93,3528.33,2046.37,197.07,1284.89,5.6,0
+ORD-2025-10436,2025-05-11,North America,Electronics,Marketplace,VIP Retail,2,427.32,0.056,854.64,807.02,434.56,16.69,355.77,3.7,1
+ORD-2025-10437,2025-05-12,Europe,Electronics,Direct Online,Mid-Market,44,497.58,0.065,21893.7,20467.84,12054.12,257.3,8156.42,13.1,0
+ORD-2025-10438,2025-05-12,Asia Pacific,Electronics,Marketplace,Consumer Basic,5,486.88,0.046,2434.4,2323.23,1441.98,45.66,835.59,7.6,0
+ORD-2025-10439,2025-05-12,North America,Health & Beauty,Direct Online,Mid-Market,16,136.3,0.072,2180.78,2024.19,1046.86,133.79,843.54,7.9,0
+ORD-2025-10440,2025-05-13,North America,Home & Kitchen,Direct Online,Enterprise,38,166.19,0.139,6315.06,5435.24,3361.57,179.95,1893.72,3.7,0
+ORD-2025-10441,2025-05-13,Asia Pacific,Home & Kitchen,Direct Online,Consumer Basic,2,203.98,0.016,407.96,401.35,208.99,11.54,180.82,2.8,0
+ORD-2025-10442,2025-05-13,North America,Health & Beauty,Direct Online,Consumer Basic,3,124.23,0.129,372.7,324.54,180.91,29.77,113.86,8.0,1
+ORD-2025-10443,2025-05-13,North America,Health & Beauty,Marketplace,Mid-Market,57,177.59,0.133,10122.49,8776.45,5318.38,341.93,3116.14,3.5,0
+ORD-2025-10444,2025-05-14,Latin America,Apparel,Direct Online,Enterprise,38,148.02,0.06,5624.64,5285.49,3213.86,189.29,1882.34,16.4,0
+ORD-2025-10445,2025-05-14,North America,Electronics,Direct Online,Consumer Basic,10,834.92,0.101,8349.22,7507.73,4159.22,88.93,3259.58,7.3,0
+ORD-2025-10446,2025-05-14,North America,Apparel,Direct Online,Mid-Market,33,132.9,0.068,4385.54,4085.68,2348.32,126.12,1611.24,5.0,0
+ORD-2025-10447,2025-05-15,Asia Pacific,Electronics,Direct Online,Mid-Market,54,499.27,0.094,26960.73,24432.14,13914.12,220.98,10297.04,2.6,0
+ORD-2025-10448,2025-05-15,North America,Apparel,Wholesale B2B,VIP Retail,4,110.74,0.126,442.96,387.34,269.44,34.5,83.4,8.3,0
+ORD-2025-10449,2025-05-15,North America,Home & Kitchen,Direct Online,Consumer Basic,5,152.67,0.062,763.36,716.28,418.52,43.24,254.52,5.3,0
+ORD-2025-10450,2025-05-16,Latin America,Electronics,Direct Online,Mid-Market,41,829.64,0.093,34015.35,30835.91,21808.01,179.77,8848.13,6.8,0
+ORD-2025-10451,2025-05-16,Latin America,Electronics,Direct Online,Consumer Basic,2,409.54,0.083,819.07,751.28,455.85,16.06,279.37,2.9,0
+ORD-2025-10452,2025-05-16,Europe,Health & Beauty,Wholesale B2B,Consumer Basic,10,134.56,0.101,1345.63,1210.11,679.87,76.58,453.66,9.8,0
+ORD-2025-10453,2025-05-16,North America,Apparel,Direct Online,Mid-Market,55,72.49,0.146,3986.8,3403.06,2270.22,387.56,745.28,4.8,0
+ORD-2025-10454,2025-05-17,Europe,Electronics,Marketplace,Mid-Market,36,526.59,0.061,18957.12,17794.84,9332.35,228.11,8234.38,5.9,0
+ORD-2025-10455,2025-05-17,North America,Home & Kitchen,Direct Online,Mid-Market,38,131.37,0.031,4992.08,4837.03,3169.17,140.57,1527.29,4.4,0
+ORD-2025-10456,2025-05-17,North America,Electronics,Wholesale B2B,Mid-Market,35,827.11,0.041,28948.77,27774.05,16079.34,178.09,11516.62,7.4,0
+ORD-2025-10457,2025-05-18,Asia Pacific,Health & Beauty,Direct Online,Consumer Basic,4,64.25,0.134,256.99,222.67,164.95,30.83,26.89,2.4,0
+ORD-2025-10458,2025-05-18,North America,Health & Beauty,Direct Online,Consumer Basic,9,69.26,0.112,623.35,553.79,372.48,56.42,124.89,9.5,0
+ORD-2025-10459,2025-05-18,North America,Health & Beauty,Wholesale B2B,Consumer Basic,3,83.35,0.065,250.05,233.89,138.46,26.64,68.79,3.1,0
+ORD-2025-10460,2025-05-19,Latin America,Health & Beauty,Marketplace,Consumer Basic,1,181.99,0.127,181.99,158.92,87.97,9.04,61.91,3.5,0
+ORD-2025-10461,2025-05-19,Europe,Home & Kitchen,Marketplace,Consumer Basic,7,154.03,0.033,1078.23,1042.79,606.39,28.89,407.51,2.4,0
+ORD-2025-10462,2025-05-19,Europe,Electronics,Direct Online,Consumer Basic,1,719.75,0.05,719.75,683.79,432.02,31.77,220.0,18.1,0
+ORD-2025-10463,2025-05-19,North America,Electronics,Direct Online,Enterprise,16,834.78,0.044,13356.48,12765.65,6758.84,117.96,5888.85,6.4,0
+ORD-2025-10464,2025-05-20,Asia Pacific,Home & Kitchen,Wholesale B2B,Consumer Basic,4,91.62,0.097,366.48,330.83,183.35,23.22,124.26,2.2,0
+ORD-2025-10465,2025-05-20,North America,Home & Kitchen,Marketplace,VIP Retail,7,91.3,0.13,639.11,555.74,398.86,33.64,123.24,2.3,0
+ORD-2025-10466,2025-05-20,Asia Pacific,Electronics,Marketplace,Consumer Basic,5,311.65,0.041,1558.23,1494.07,969.55,36.6,487.92,2.2,0
+ORD-2025-10467,2025-05-21,North America,Home & Kitchen,Direct Online,Consumer Basic,10,62.61,0.014,626.1,617.39,377.81,46.88,192.7,4.3,0
+ORD-2025-10468,2025-05-21,Europe,Apparel,Marketplace,Mid-Market,19,82.47,0.143,1566.88,1343.48,785.16,95.63,462.69,12.5,0
+ORD-2025-10469,2025-05-21,North America,Electronics,Marketplace,Enterprise,50,346.71,0.061,17335.44,16281.64,8903.21,361.13,7017.3,3.3,0
+ORD-2025-10470,2025-05-22,Europe,Electronics,Marketplace,Consumer Basic,7,365.43,0.076,2557.98,2364.04,1616.33,46.77,700.94,6.7,0
+ORD-2025-10471,2025-05-22,Asia Pacific,Home & Kitchen,Wholesale B2B,Mid-Market,52,191.18,0.006,9941.43,9880.39,5591.59,205.21,4083.59,2.2,0
+ORD-2025-10472,2025-05-22,Europe,Apparel,Direct Online,Consumer Basic,10,88.64,0.061,886.44,832.16,454.87,61.23,316.06,2.3,0
+ORD-2025-10473,2025-05-22,Europe,Electronics,Direct Online,Enterprise,21,215.34,0.103,4522.11,4054.45,2507.25,161.51,1385.69,5.5,0
+ORD-2025-10474,2025-05-23,North America,Apparel,Direct Online,Consumer Basic,5,106.36,0.1,531.82,478.71,264.27,39.45,174.99,3.1,0
+ORD-2025-10475,2025-05-23,Asia Pacific,Footwear,Marketplace,Consumer Basic,3,80.62,0.095,241.85,218.97,124.37,19.82,74.78,3.8,0
+ORD-2025-10476,2025-05-23,Europe,Electronics,Direct Online,Mid-Market,33,546.71,0.036,18041.35,17383.56,9712.68,249.93,7420.95,5.3,0
+ORD-2025-10477,2025-05-24,North America,Apparel,Direct Online,VIP Retail,5,82.12,0.14,410.62,352.94,224.61,40.02,88.31,2.2,0
+ORD-2025-10478,2025-05-24,Asia Pacific,Electronics,Wholesale B2B,Mid-Market,55,540.02,0.039,29701.0,28536.85,14919.38,279.77,13337.7,7.1,0
+ORD-2025-10479,2025-05-24,Asia Pacific,Footwear,Marketplace,Mid-Market,25,60.89,0.113,1522.22,1349.5,910.72,199.62,239.16,3.9,0
+ORD-2025-10480,2025-05-25,North America,Apparel,Direct Online,Consumer Basic,4,60.75,0.193,243.0,196.15,151.28,33.44,11.43,3.3,0
+ORD-2025-10481,2025-05-25,North America,Electronics,Direct Online,Enterprise,42,518.59,0.06,21780.98,20467.52,13526.56,181.31,6759.65,6.0,0
+ORD-2025-10482,2025-05-25,Latin America,Health & Beauty,Marketplace,Mid-Market,55,207.95,0.041,11436.99,10964.24,6977.75,427.34,3559.15,3.2,0
+ORD-2025-10483,2025-05-25,Asia Pacific,Health & Beauty,Direct Online,Mid-Market,32,80.14,0.046,2564.46,2447.33,1251.43,182.11,1013.79,14.2,0
+ORD-2025-10484,2025-05-26,Europe,Electronics,Marketplace,VIP Retail,2,676.38,0.074,1352.76,1252.31,823.23,24.4,404.68,9.2,0
+ORD-2025-10485,2025-05-26,Asia Pacific,Apparel,Direct Online,Enterprise,40,72.49,0.121,2899.65,2548.37,1450.12,315.54,782.71,2.6,0
+ORD-2025-10486,2025-05-26,Europe,Home & Kitchen,Direct Online,Mid-Market,18,180.15,0.012,3242.77,3205.08,1834.72,68.09,1302.27,3.0,0
+ORD-2025-10487,2025-05-27,North America,Home & Kitchen,Direct Online,VIP Retail,10,107.04,0.075,1070.44,989.84,619.73,84.73,285.38,9.2,0
+ORD-2025-10488,2025-05-27,Europe,Apparel,Direct Online,VIP Retail,7,122.15,0.062,855.02,801.6,472.45,39.94,289.21,8.0,1
+ORD-2025-10489,2025-05-27,Asia Pacific,Home & Kitchen,Direct Online,Mid-Market,35,37.13,0.123,1299.55,1139.18,688.05,201.11,250.02,3.1,0
+ORD-2025-10490,2025-05-28,North America,Apparel,Direct Online,Mid-Market,58,132.51,0.121,7685.35,6757.39,3787.35,305.26,2664.78,2.8,0
+ORD-2025-10491,2025-05-28,Europe,Electronics,Direct Online,Enterprise,35,481.66,0.045,16858.04,16091.42,8368.97,246.07,7476.38,6.7,0
+ORD-2025-10492,2025-05-28,North America,Electronics,Direct Online,Consumer Basic,6,270.07,0.067,1620.42,1512.22,903.71,37.42,571.09,5.7,0
+ORD-2025-10493,2025-05-28,Europe,Electronics,Marketplace,Consumer Basic,9,841.08,0.045,7569.73,7228.43,4783.83,56.88,2387.72,7.9,0
+ORD-2025-10494,2025-05-29,Latin America,Footwear,Marketplace,Consumer Basic,2,79.35,0.144,158.69,135.87,84.92,19.26,31.69,2.5,0
+ORD-2025-10495,2025-05-29,Europe,Home & Kitchen,Wholesale B2B,Mid-Market,59,112.27,0.11,6624.08,5898.74,3470.98,295.51,2132.25,3.3,0
+ORD-2025-10496,2025-05-29,Latin America,Apparel,Wholesale B2B,Mid-Market,16,106.36,0.186,1701.71,1384.44,1088.07,107.97,188.4,2.0,0
+ORD-2025-10497,2025-05-30,Latin America,Home & Kitchen,Marketplace,Enterprise,19,129.16,0.103,2453.99,2200.61,1593.18,100.3,507.13,6.1,0
+ORD-2025-10498,2025-05-30,Europe,Apparel,Direct Online,VIP Retail,9,141.66,0.125,1274.98,1115.93,670.87,42.86,402.2,4.8,0
+ORD-2025-10499,2025-05-30,Europe,Electronics,Direct Online,VIP Retail,9,727.52,0.021,6547.66,6407.76,4013.08,72.17,2322.51,14.0,0
+ORD-2025-10500,2025-05-31,North America,Home & Kitchen,Wholesale B2B,Mid-Market,46,68.75,0.076,3162.72,2923.38,1866.67,271.16,785.55,2.9,0
+ORD-2025-10501,2025-05-31,Europe,Footwear,Wholesale B2B,Enterprise,48,136.0,0.13,6527.77,5677.87,3546.19,194.91,1936.77,4.6,0
+ORD-2025-10502,2025-05-31,Asia Pacific,Apparel,Direct Online,VIP Retail,4,154.77,0.087,619.07,565.12,385.29,24.74,155.09,3.3,0
+ORD-2025-10503,2025-05-31,North America,Electronics,Direct Online,Enterprise,39,334.31,0.031,13038.24,12638.73,7041.83,205.24,5391.66,8.9,0
+ORD-2025-10504,2025-06-01,North America,Apparel,Direct Online,VIP Retail,10,86.39,0.117,863.89,763.07,530.15,60.1,172.82,4.6,1
+ORD-2025-10505,2025-06-01,North America,Health & Beauty,Marketplace,Enterprise,48,120.96,0.148,5805.98,4946.85,3617.57,179.02,1150.26,3.0,0
+ORD-2025-10506,2025-06-01,North America,Apparel,Direct Online,VIP Retail,7,44.08,0.08,308.58,283.94,161.44,57.07,65.43,3.3,1
+ORD-2025-10507,2025-06-02,North America,Home & Kitchen,Marketplace,Consumer Basic,6,26.44,0.076,158.65,146.53,102.49,50.45,-6.41,2.5,0
+ORD-2025-10508,2025-06-02,North America,Electronics,Direct Online,Mid-Market,28,518.97,0.098,14531.17,13110.42,7006.08,193.93,5910.41,9.8,0
+ORD-2025-10509,2025-06-02,Europe,Electronics,Wholesale B2B,Consumer Basic,6,331.31,0.038,1987.88,1913.13,1056.95,62.48,793.7,13.0,0
+ORD-2025-10510,2025-06-03,Asia Pacific,Apparel,Marketplace,VIP Retail,8,63.15,0.149,505.16,429.72,281.81,49.52,98.39,4.8,0
+ORD-2025-10511,2025-06-03,North America,Home & Kitchen,Direct Online,Consumer Basic,4,165.83,0.026,663.33,646.0,376.9,21.48,247.62,4.4,0
+ORD-2025-10512,2025-06-03,North America,Apparel,Direct Online,Consumer Basic,7,75.35,0.089,527.46,480.67,279.9,44.64,156.13,3.9,0
+ORD-2025-10513,2025-06-03,Europe,Apparel,Direct Online,VIP Retail,8,113.55,0.116,908.41,803.22,525.2,54.45,223.57,2.1,0
+ORD-2025-10514,2025-06-04,North America,Apparel,Marketplace,Enterprise,56,89.38,0.094,5005.1,4535.13,2770.03,454.31,1310.79,4.4,0
+ORD-2025-10515,2025-06-04,Europe,Electronics,Marketplace,Consumer Basic,5,626.85,0.047,3134.23,2987.82,1573.21,56.19,1358.42,14.7,0
+ORD-2025-10516,2025-06-04,Europe,Apparel,Direct Online,Consumer Basic,2,147.43,0.07,294.85,274.2,190.12,16.29,67.79,3.5,0
+ORD-2025-10517,2025-06-05,Latin America,Home & Kitchen,Wholesale B2B,Mid-Market,43,110.17,0.07,4737.21,4407.5,3023.36,165.27,1218.87,6.7,0
+ORD-2025-10518,2025-06-05,Asia Pacific,Home & Kitchen,Wholesale B2B,VIP Retail,1,37.73,0.123,37.73,33.08,21.41,13.6,-1.93,5.1,0
+ORD-2025-10519,2025-06-05,Asia Pacific,Health & Beauty,Marketplace,Mid-Market,24,43.92,0.01,1054.05,1043.89,515.82,137.15,390.92,4.7,0
+ORD-2025-10520,2025-06-06,Europe,Footwear,Direct Online,Consumer Basic,10,37.88,0.146,378.81,323.55,224.45,76.77,22.33,3.3,0
+ORD-2025-10521,2025-06-06,North America,Home & Kitchen,Direct Online,Mid-Market,17,155.05,0.015,2635.89,2595.35,1654.94,130.7,809.71,2.0,0
+ORD-2025-10522,2025-06-06,North America,Apparel,Marketplace,Consumer Basic,11,65.58,0.113,721.4,639.74,389.43,71.8,178.51,7.5,0
+ORD-2025-10523,2025-06-06,North America,Apparel,Marketplace,Enterprise,43,125.09,0.127,5378.9,4695.22,3081.58,175.37,1438.27,4.8,0
+ORD-2025-10524,2025-06-07,North America,Home & Kitchen,Direct Online,Mid-Market,30,36.12,0.088,1083.46,987.93,616.84,131.04,240.05,7.5,0
+ORD-2025-10525,2025-06-07,Europe,Footwear,Direct Online,VIP Retail,8,213.48,0.066,1707.83,1594.92,1035.09,56.67,503.16,2.9,0
+ORD-2025-10526,2025-06-07,North America,Apparel,Direct Online,Consumer Basic,4,142.33,0.194,569.3,458.62,306.49,27.37,124.76,5.0,0
+ORD-2025-10527,2025-06-08,Asia Pacific,Apparel,Direct Online,Consumer Basic,8,136.15,0.151,1089.19,924.8,575.79,57.15,291.86,4.1,0
+ORD-2025-10528,2025-06-08,North America,Footwear,Marketplace,Mid-Market,58,163.88,0.026,9505.21,9254.43,4640.19,333.42,4280.82,2.8,1
+ORD-2025-10529,2025-06-08,Latin America,Footwear,Direct Online,Mid-Market,29,171.98,0.038,4987.29,4797.74,2973.34,192.12,1632.28,8.8,0
+ORD-2025-10530,2025-06-09,Europe,Apparel,Direct Online,VIP Retail,7,71.53,0.094,500.72,453.54,311.26,43.89,98.39,3.3,0
+ORD-2025-10531,2025-06-09,North America,Health & Beauty,Wholesale B2B,Mid-Market,50,144.67,0.033,7233.41,6991.36,3705.96,298.75,2986.65,4.4,0
+ORD-2025-10532,2025-06-09,Asia Pacific,Electronics,Direct Online,Consumer Basic,3,524.91,0.071,1574.72,1462.4,790.75,22.87,648.78,2.5,0
+ORD-2025-10533,2025-06-09,North America,Electronics,Wholesale B2B,Consumer Basic,5,417.22,0.086,2086.12,1907.59,1078.76,26.35,802.48,5.1,1
+ORD-2025-10534,2025-06-10,North America,Electronics,Direct Online,Consumer Basic,2,274.2,0.062,548.39,514.13,327.72,18.58,167.83,3.7,0
+ORD-2025-10535,2025-06-10,Europe,Footwear,Direct Online,Consumer Basic,4,45.87,0.117,183.48,161.99,107.74,35.59,18.66,9.2,0
+ORD-2025-10536,2025-06-10,Asia Pacific,Apparel,Wholesale B2B,VIP Retail,1,56.85,0.181,56.85,46.55,31.87,16.46,-1.78,6.0,0
+ORD-2025-10537,2025-06-11,North America,Electronics,Direct Online,Mid-Market,58,710.21,0.088,41192.36,37565.12,26061.78,452.28,11051.06,3.4,0
+ORD-2025-10538,2025-06-11,North America,Health & Beauty,Direct Online,Consumer Basic,9,202.96,0.027,1826.62,1778.03,942.43,45.27,790.33,2.0,0
+ORD-2025-10539,2025-06-11,Latin America,Footwear,Marketplace,Consumer Basic,1,51.47,0.147,51.47,43.92,27.33,21.95,-5.36,12.0,0
+ORD-2025-10540,2025-06-12,North America,Health & Beauty,Direct Online,Mid-Market,27,216.37,0.094,5841.98,5290.19,3704.03,116.66,1469.5,3.6,0
+ORD-2025-10541,2025-06-12,North America,Electronics,Marketplace,Consumer Basic,5,706.96,0.044,3534.79,3377.95,1964.64,38.63,1374.68,3.5,0
+ORD-2025-10542,2025-06-12,North America,Electronics,Marketplace,Enterprise,40,422.23,0.073,16889.28,15648.26,9929.85,331.08,5387.33,24.3,0
+ORD-2025-10543,2025-06-12,Asia Pacific,Apparel,Wholesale B2B,Consumer Basic,4,66.1,0.187,264.4,215.08,131.12,18.05,65.91,2.5,0
+ORD-2025-10544,2025-06-13,North America,Electronics,Marketplace,Mid-Market,34,519.05,0.036,17647.7,17007.95,10623.09,242.92,6141.94,14.9,0
+ORD-2025-10545,2025-06-13,Europe,Electronics,Wholesale B2B,Consumer Basic,7,471.65,0.073,3301.52,3062.11,2003.66,37.92,1020.53,5.9,0
+ORD-2025-10546,2025-06-13,Latin America,Apparel,Direct Online,Mid-Market,40,78.97,0.116,3158.6,2792.12,1837.03,276.33,678.76,2.2,1
+ORD-2025-10547,2025-06-14,North America,Apparel,Marketplace,Enterprise,15,148.97,0.155,2234.49,1887.45,1122.19,78.33,686.93,4.1,0
+ORD-2025-10548,2025-06-14,North America,Footwear,Marketplace,Consumer Basic,10,145.66,0.012,1456.56,1438.71,925.68,54.2,458.83,2.7,0
+ORD-2025-10549,2025-06-14,Europe,Apparel,Marketplace,Enterprise,55,81.98,0.065,4508.77,4216.28,2303.43,274.73,1638.12,4.9,1
+ORD-2025-10550,2025-06-15,Asia Pacific,Apparel,Wholesale B2B,VIP Retail,11,50.65,0.107,557.19,497.4,330.57,55.76,111.07,2.1,0
+ORD-2025-10551,2025-06-15,Latin America,Electronics,Direct Online,Consumer Basic,11,344.45,0.092,3789.0,3441.34,1821.86,70.93,1548.55,8.0,0
+ORD-2025-10552,2025-06-15,North America,Apparel,Direct Online,Mid-Market,43,101.66,0.199,4371.53,3499.85,2275.95,215.18,1008.72,6.8,0
+ORD-2025-10553,2025-06-15,North America,Electronics,Wholesale B2B,VIP Retail,6,408.85,0.054,2453.11,2321.01,1535.36,35.06,750.59,2.0,0
+ORD-2025-10554,2025-06-16,Asia Pacific,Home & Kitchen,Direct Online,Enterprise,35,148.45,0.135,5195.81,4495.14,3210.28,192.95,1091.91,4.9,0
+ORD-2025-10555,2025-06-16,Asia Pacific,Apparel,Marketplace,VIP Retail,7,148.47,0.063,1039.29,973.7,638.67,46.23,288.8,10.3,0
+ORD-2025-10556,2025-06-16,North America,Health & Beauty,Wholesale B2B,Enterprise,44,54.23,0.081,2386.22,2193.8,1307.51,355.47,530.82,4.6,0
+ORD-2025-10557,2025-06-17,North America,Apparel,Marketplace,Enterprise,59,41.19,0.14,2430.16,2090.17,1539.61,400.87,149.69,3.3,0
+ORD-2025-10558,2025-06-17,North America,Home & Kitchen,Marketplace,Mid-Market,19,88.07,0.123,1673.36,1467.73,1051.38,125.38,290.97,4.3,0
+ORD-2025-10559,2025-06-17,Europe,Footwear,Direct Online,Consumer Basic,5,74.37,0.121,371.87,327.04,237.57,32.81,56.66,7.1,0
+ORD-2025-10560,2025-06-18,Europe,Health & Beauty,Marketplace,Consumer Basic,9,75.83,0.045,682.48,652.09,339.1,38.18,274.81,2.0,0
+ORD-2025-10561,2025-06-18,North America,Health & Beauty,Marketplace,Enterprise,50,146.51,0.053,7325.59,6934.33,3636.63,246.69,3051.01,6.7,0
+ORD-2025-10562,2025-06-18,Asia Pacific,Health & Beauty,Direct Online,Consumer Basic,10,33.68,0.043,336.79,322.18,201.76,74.85,45.57,3.8,0
+ORD-2025-10563,2025-06-18,Asia Pacific,Apparel,Wholesale B2B,Consumer Basic,3,153.78,0.13,461.35,401.21,283.95,20.36,96.9,3.5,0
+ORD-2025-10564,2025-06-19,North America,Apparel,Marketplace,Consumer Basic,6,151.82,0.159,910.91,766.16,560.18,48.38,157.6,9.5,0
+ORD-2025-10565,2025-06-19,North America,Electronics,Wholesale B2B,Mid-Market,30,293.14,0.066,8794.07,8213.07,5252.07,228.64,2732.36,3.5,0
+ORD-2025-10566,2025-06-19,North America,Electronics,Marketplace,Mid-Market,41,366.34,0.038,15019.74,14442.33,9148.8,188.63,5104.9,4.8,0
+ORD-2025-10567,2025-06-20,Europe,Electronics,Marketplace,Mid-Market,29,557.7,0.04,16173.41,15518.42,9035.17,223.92,6259.33,10.4,0
+ORD-2025-10568,2025-06-20,Asia Pacific,Electronics,Direct Online,Mid-Market,50,368.8,0.047,18440.21,17578.08,9108.16,226.49,8243.43,4.9,0
+ORD-2025-10569,2025-06-20,North America,Footwear,Wholesale B2B,Consumer Basic,8,77.6,0.105,620.8,555.39,325.96,60.03,169.4,5.2,0
+ORD-2025-10570,2025-06-21,North America,Electronics,Wholesale B2B,Consumer Basic,11,707.1,0.071,7778.15,7226.11,4230.65,81.08,2914.38,3.4,0
+ORD-2025-10571,2025-06-21,North America,Electronics,Direct Online,Consumer Basic,11,805.24,0.084,8857.63,8115.89,4961.38,99.78,3054.73,8.5,0
+ORD-2025-10572,2025-06-21,Asia Pacific,Electronics,Direct Online,Enterprise,58,450.43,0.119,26124.9,23006.69,14939.18,220.29,7847.22,2.8,0
+ORD-2025-10573,2025-06-21,North America,Electronics,Marketplace,Consumer Basic,2,271.16,0.104,542.32,486.13,327.61,19.01,139.51,2.7,0
+ORD-2025-10574,2025-06-22,North America,Apparel,Marketplace,Consumer Basic,1,72.83,0.119,72.83,64.16,45.31,10.28,8.57,3.0,0
+ORD-2025-10575,2025-06-22,North America,Home & Kitchen,Direct Online,Mid-Market,42,140.73,0.032,5910.74,5724.45,3228.55,196.12,2299.78,2.4,1
+ORD-2025-10576,2025-06-22,North America,Apparel,Direct Online,Enterprise,29,47.62,0.08,1380.91,1270.64,825.27,164.44,280.93,28.4,0
+ORD-2025-10577,2025-06-23,North America,Health & Beauty,Direct Online,Consumer Basic,3,103.49,0.138,310.48,267.63,189.53,30.74,47.36,5.2,0
+ORD-2025-10578,2025-06-23,Asia Pacific,Apparel,Marketplace,VIP Retail,1,121.56,0.087,121.56,111.04,74.95,19.26,16.83,10.0,0
+ORD-2025-10579,2025-06-23,North America,Apparel,Marketplace,Consumer Basic,5,58.8,0.105,293.99,263.12,147.18,43.19,72.75,2.3,0
+ORD-2025-10580,2025-06-24,Europe,Apparel,Wholesale B2B,Consumer Basic,11,56.81,0.107,624.94,558.19,344.54,69.18,144.47,7.6,0
+ORD-2025-10581,2025-06-24,North America,Electronics,Marketplace,Consumer Basic,9,458.15,0.037,4123.39,3971.15,2484.01,39.23,1447.91,2.8,0
+ORD-2025-10582,2025-06-24,North America,Electronics,Direct Online,Consumer Basic,1,548.42,0.082,548.42,503.47,345.55,15.16,142.76,6.4,0
+ORD-2025-10583,2025-06-24,Europe,Electronics,Wholesale B2B,Enterprise,44,758.58,0.054,33377.65,31572.09,19827.89,306.84,11437.36,14.2,0
+ORD-2025-10584,2025-06-25,Latin America,Health & Beauty,Marketplace,Consumer Basic,3,143.32,0.127,429.97,375.18,243.58,17.85,113.75,4.3,0
+ORD-2025-10585,2025-06-25,North America,Apparel,Direct Online,Consumer Basic,2,45.64,0.095,91.29,82.58,58.59,19.02,4.97,6.1,0
+ORD-2025-10586,2025-06-25,North America,Health & Beauty,Direct Online,Consumer Basic,11,85.74,0.117,943.19,832.42,553.94,52.23,226.25,3.8,0
+ORD-2025-10587,2025-06-26,North America,Apparel,Direct Online,Consumer Basic,6,141.08,0.183,846.45,691.3,445.07,34.47,211.76,4.0,0
+ORD-2025-10588,2025-06-26,Europe,Home & Kitchen,Marketplace,Enterprise,22,145.53,0.076,3201.66,2956.97,1642.03,177.67,1137.27,4.4,0
+ORD-2025-10589,2025-06-26,North America,Apparel,Direct Online,Consumer Basic,7,102.26,0.126,715.83,625.42,358.9,41.81,224.71,2.8,0
+ORD-2025-10590,2025-06-27,Europe,Footwear,Direct Online,Consumer Basic,7,148.91,0.121,1042.36,916.38,548.83,66.22,301.33,7.2,0
+ORD-2025-10591,2025-06-27,North America,Home & Kitchen,Marketplace,Enterprise,54,136.0,0.138,7343.99,6329.67,4717.44,431.02,1181.21,12.4,0
+ORD-2025-10592,2025-06-27,Asia Pacific,Electronics,Wholesale B2B,Consumer Basic,8,601.71,0.046,4813.71,4593.76,2722.79,70.57,1800.4,8.5,0
+ORD-2025-10593,2025-06-27,Latin America,Apparel,Wholesale B2B,Mid-Market,57,39.93,0.161,2275.85,1908.99,1133.51,254.96,520.52,7.3,0
+ORD-2025-10594,2025-06-28,Asia Pacific,Home & Kitchen,Marketplace,Consumer Basic,6,218.41,0.04,1310.44,1258.13,648.65,43.23,566.25,7.4,0
+ORD-2025-10595,2025-06-28,Latin America,Home & Kitchen,Direct Online,Consumer Basic,1,89.26,0.066,89.26,83.36,51.17,18.83,13.36,7.8,0
+ORD-2025-10596,2025-06-28,Europe,Footwear,Marketplace,Enterprise,45,105.68,0.045,4755.51,4542.05,2567.4,340.16,1634.49,6.1,0
+ORD-2025-10597,2025-06-29,Europe,Electronics,Direct Online,VIP Retail,11,690.5,0.071,7595.46,7059.89,3823.11,89.37,3147.41,22.8,0
+ORD-2025-10598,2025-06-29,Asia Pacific,Electronics,Direct Online,Consumer Basic,10,510.24,0.038,5102.41,4908.07,3213.9,69.15,1625.02,7.3,0
+ORD-2025-10599,2025-06-29,Europe,Home & Kitchen,Direct Online,Enterprise,34,128.26,0.04,4360.81,4184.94,2117.27,213.17,1854.5,2.1,0
+ORD-2025-10600,2025-06-30,Europe,Footwear,Direct Online,Consumer Basic,7,189.01,0.15,1323.1,1125.26,839.02,36.06,250.18,3.7,0
+ORD-2025-10601,2025-06-30,North America,Apparel,Direct Online,Mid-Market,34,120.76,0.192,4105.89,3316.25,2461.05,253.76,601.44,2.9,0
+ORD-2025-10602,2025-06-30,Latin America,Apparel,Marketplace,Mid-Market,48,91.14,0.169,4374.5,3633.16,2660.31,308.92,663.93,4.4,0
+ORD-2025-10603,2025-06-30,Asia Pacific,Home & Kitchen,Marketplace,Mid-Market,32,104.13,0.146,3332.27,2847.21,1878.43,236.03,732.75,2.4,0
+ORD-2025-10604,2025-07-01,North America,Apparel,Marketplace,Mid-Market,39,83.58,0.117,3259.79,2879.84,1645.18,241.5,993.16,8.7,0
+ORD-2025-10605,2025-07-01,Latin America,Home & Kitchen,Wholesale B2B,Enterprise,27,153.39,0.043,4141.47,3963.32,2589.53,184.2,1189.59,4.5,0
+ORD-2025-10606,2025-07-01,Asia Pacific,Health & Beauty,Marketplace,Consumer Basic,9,70.42,0.127,633.74,553.38,320.97,49.48,182.93,5.9,0
+ORD-2025-10607,2025-07-02,North America,Health & Beauty,Direct Online,VIP Retail,5,29.84,0.125,149.2,130.51,85.68,42.83,2.0,3.4,0
+ORD-2025-10608,2025-07-02,North America,Electronics,Direct Online,Consumer Basic,10,775.14,0.066,7751.42,7239.87,4999.62,68.76,2171.49,5.7,0
+ORD-2025-10609,2025-07-02,Latin America,Apparel,Marketplace,Consumer Basic,1,65.09,0.162,65.09,54.58,37.02,15.38,2.18,6.2,1
+ORD-2025-10610,2025-07-03,Asia Pacific,Health & Beauty,Direct Online,Enterprise,36,172.21,0.143,6199.63,5311.37,3616.47,195.58,1499.32,2.8,0
+ORD-2025-10611,2025-07-03,Asia Pacific,Electronics,Direct Online,Consumer Basic,1,408.57,0.095,408.57,369.86,201.57,15.25,153.04,5.2,0
+ORD-2025-10612,2025-07-03,Latin America,Home & Kitchen,Direct Online,Mid-Market,29,135.94,0.132,3942.25,3420.86,2477.88,182.79,760.19,10.5,0
+ORD-2025-10613,2025-07-03,Asia Pacific,Apparel,Direct Online,Mid-Market,44,79.53,0.077,3499.37,3231.38,1911.9,342.34,977.14,5.6,1
+ORD-2025-10614,2025-07-04,Latin America,Health & Beauty,Direct Online,Consumer Basic,2,209.17,0.032,418.34,405.02,209.11,14.47,181.44,4.2,0
+ORD-2025-10615,2025-07-04,North America,Footwear,Wholesale B2B,Consumer Basic,6,73.32,0.005,439.94,437.54,260.74,40.42,136.38,2.3,0
+ORD-2025-10616,2025-07-04,North America,Electronics,Marketplace,Consumer Basic,10,702.25,0.333,7022.54,4680.99,4335.23,90.78,254.98,16.4,0
+ORD-2025-10617,2025-07-05,Europe,Home & Kitchen,Direct Online,Consumer Basic,7,127.31,0.096,891.18,805.71,466.53,42.18,297.0,3.2,0
+ORD-2025-10618,2025-07-05,Europe,Electronics,Marketplace,Enterprise,52,513.34,0.233,26693.92,20484.49,15924.82,398.23,4161.44,10.2,0
+ORD-2025-10619,2025-07-05,North America,Health & Beauty,Direct Online,Mid-Market,56,106.5,0.038,5964.22,5739.5,3602.39,341.79,1795.32,3.2,0
+ORD-2025-10620,2025-07-06,North America,Health & Beauty,Marketplace,Mid-Market,15,39.2,0.14,588.07,505.8,295.3,81.09,129.41,3.5,0
+ORD-2025-10621,2025-07-06,North America,Electronics,Direct Online,VIP Retail,6,604.63,0.045,3627.81,3463.4,2145.57,35.16,1282.67,5.2,0
+ORD-2025-10622,2025-07-06,Europe,Apparel,Direct Online,Mid-Market,56,78.96,0.132,4421.97,3840.38,2286.26,369.95,1184.17,2.2,0
+ORD-2025-10623,2025-07-06,Asia Pacific,Home & Kitchen,Marketplace,Mid-Market,53,182.73,0.044,9684.55,9256.44,4655.03,246.5,4354.91,4.5,0
+ORD-2025-10624,2025-07-07,Asia Pacific,Health & Beauty,Direct Online,Mid-Market,36,69.33,0.051,2495.8,2368.8,1290.59,153.24,924.97,4.1,1
+ORD-2025-10625,2025-07-07,Asia Pacific,Electronics,Direct Online,Consumer Basic,6,576.17,0.109,3457.03,3081.31,1910.71,53.28,1117.32,10.8,0
+ORD-2025-10626,2025-07-07,North America,Apparel,Wholesale B2B,Consumer Basic,8,92.45,0.084,739.63,677.84,374.51,67.11,236.22,10.1,0
+ORD-2025-10627,2025-07-08,Asia Pacific,Electronics,Direct Online,Enterprise,53,692.05,0.099,36678.57,33047.49,20580.66,431.82,12035.01,6.1,0
+ORD-2025-10628,2025-07-08,Latin America,Electronics,Direct Online,Mid-Market,37,553.78,0.05,20489.82,19456.5,13189.12,162.28,6105.1,2.4,0
+ORD-2025-10629,2025-07-08,Europe,Footwear,Direct Online,Consumer Basic,10,142.36,0.01,1423.56,1409.79,919.28,64.63,425.88,12.8,0
+ORD-2025-10630,2025-07-09,North America,Apparel,Wholesale B2B,Consumer Basic,10,55.59,0.114,555.91,492.27,268.26,53.6,170.41,3.0,0
+ORD-2025-10631,2025-07-09,Europe,Electronics,Marketplace,Consumer Basic,2,363.86,0.26,727.71,538.5,448.9,31.19,58.41,11.0,0
+ORD-2025-10632,2025-07-09,North America,Health & Beauty,Direct Online,Mid-Market,59,116.14,0.043,6852.29,6558.76,3403.31,364.04,2791.41,11.8,0
+ORD-2025-10633,2025-07-09,North America,Electronics,Marketplace,Consumer Basic,5,715.79,0.328,3578.97,2405.44,2061.57,27.88,315.99,4.2,0
+ORD-2025-10634,2025-07-10,Europe,Electronics,Wholesale B2B,Consumer Basic,3,216.66,0.074,649.98,602.18,390.42,40.98,170.78,16.0,0
+ORD-2025-10635,2025-07-10,Latin America,Footwear,Direct Online,Consumer Basic,5,63.46,0.032,317.31,307.15,167.95,44.76,94.44,5.4,0
+ORD-2025-10636,2025-07-10,Latin America,Apparel,Direct Online,Mid-Market,34,48.26,0.151,1640.89,1393.83,1042.8,149.08,201.95,3.0,1
+ORD-2025-10637,2025-07-11,Latin America,Electronics,Direct Online,Consumer Basic,10,480.73,0.08,4807.3,4423.19,2660.49,55.82,1706.88,2.3,0
+ORD-2025-10638,2025-07-11,North America,Home & Kitchen,Marketplace,Consumer Basic,8,218.45,0.094,1747.64,1582.71,1108.93,67.56,406.22,3.4,0
+ORD-2025-10639,2025-07-11,North America,Apparel,Direct Online,Mid-Market,27,107.26,0.194,2895.99,2335.05,1750.86,141.51,442.68,4.1,0
+ORD-2025-10640,2025-07-12,Europe,Apparel,Direct Online,Consumer Basic,10,123.02,0.054,1230.22,1163.21,657.78,58.99,446.44,2.0,0
+ORD-2025-10641,2025-07-12,North America,Footwear,Direct Online,Enterprise,32,124.45,0.069,3982.31,3707.18,2476.73,234.24,996.21,8.9,0
+ORD-2025-10642,2025-07-12,North America,Electronics,Wholesale B2B,Consumer Basic,8,502.66,0.088,4021.32,3667.22,2370.06,52.2,1244.96,9.8,0
+ORD-2025-10643,2025-07-12,Asia Pacific,Electronics,Wholesale B2B,Consumer Basic,3,458.77,0.118,1376.3,1214.19,812.34,19.97,381.88,2.9,0
+ORD-2025-10644,2025-07-13,Europe,Home & Kitchen,Direct Online,Consumer Basic,4,193.87,0.026,775.5,755.47,444.67,37.36,273.44,7.7,0
+ORD-2025-10645,2025-07-13,Asia Pacific,Apparel,Wholesale B2B,Consumer Basic,1,98.95,0.074,98.95,91.64,55.49,8.17,27.98,2.2,0
+ORD-2025-10646,2025-07-13,North America,Apparel,Wholesale B2B,VIP Retail,1,119.13,0.057,119.13,112.33,75.05,10.92,26.36,4.5,0
+ORD-2025-10647,2025-07-14,Asia Pacific,Footwear,Direct Online,VIP Retail,11,43.16,0.07,474.71,441.38,282.52,86.11,72.75,8.6,0
+ORD-2025-10648,2025-07-14,North America,Apparel,Wholesale B2B,Consumer Basic,1,72.27,0.069,72.27,67.29,45.14,16.68,5.47,7.5,1
+ORD-2025-10649,2025-07-14,Europe,Electronics,Marketplace,Consumer Basic,4,375.99,0.213,1503.94,1182.86,919.07,25.06,238.73,6.9,0
+ORD-2025-10650,2025-07-15,Latin America,Apparel,Wholesale B2B,Consumer Basic,6,72.9,0.114,437.41,387.36,212.27,52.43,122.66,3.9,0
+ORD-2025-10651,2025-07-15,North America,Electronics,Wholesale B2B,Consumer Basic,1,626.91,0.111,626.91,557.22,305.05,9.88,242.29,3.7,0
+ORD-2025-10652,2025-07-15,North America,Health & Beauty,Direct Online,Consumer Basic,3,25.05,0.036,75.14,72.42,36.27,16.8,19.35,2.7,0
+ORD-2025-10653,2025-07-15,North America,Home & Kitchen,Direct Online,VIP Retail,4,39.29,0.134,157.18,136.1,97.27,35.44,3.39,2.8,0
+ORD-2025-10654,2025-07-16,Europe,Home & Kitchen,Direct Online,VIP Retail,10,99.78,0.023,997.79,975.01,522.94,71.57,380.5,5.3,0
+ORD-2025-10655,2025-07-16,Latin America,Health & Beauty,Wholesale B2B,Mid-Market,25,193.28,0.04,4831.95,4639.14,2850.02,111.46,1677.66,4.7,0
+ORD-2025-10656,2025-07-16,Asia Pacific,Apparel,Direct Online,Mid-Market,49,95.89,0.182,4698.38,3844.51,2628.82,238.02,977.67,4.2,0
+ORD-2025-10657,2025-07-17,Europe,Health & Beauty,Marketplace,Consumer Basic,8,114.72,0.002,917.78,915.69,510.75,44.66,360.28,3.0,0
+ORD-2025-10658,2025-07-17,Latin America,Electronics,Marketplace,Enterprise,43,193.03,0.375,8300.25,5191.04,4241.81,266.07,683.16,3.0,0
+ORD-2025-10659,2025-07-17,Asia Pacific,Home & Kitchen,Direct Online,Consumer Basic,8,109.39,0.073,875.12,811.56,507.85,54.57,249.14,5.1,0
+ORD-2025-10660,2025-07-18,Latin America,Electronics,Marketplace,Consumer Basic,5,483.05,0.189,2415.25,1959.65,1502.4,23.71,433.54,3.5,0
+ORD-2025-10661,2025-07-18,North America,Health & Beauty,Direct Online,VIP Retail,10,144.61,0.039,1446.13,1389.37,857.41,62.07,469.89,2.2,0
+ORD-2025-10662,2025-07-18,North America,Home & Kitchen,Direct Online,Consumer Basic,9,55.9,0.118,503.08,443.64,242.4,64.57,136.67,3.1,0
+ORD-2025-10663,2025-07-18,Europe,Health & Beauty,Marketplace,Consumer Basic,9,41.07,0.115,369.67,327.21,197.83,73.1,56.28,2.2,0
+ORD-2025-10664,2025-07-19,Europe,Apparel,Direct Online,Consumer Basic,7,127.32,0.18,891.22,730.78,539.33,56.32,135.13,5.0,0
+ORD-2025-10665,2025-07-19,Europe,Apparel,Direct Online,Consumer Basic,5,113.26,0.184,566.31,462.29,331.31,40.99,89.99,4.1,1
+ORD-2025-10666,2025-07-19,Asia Pacific,Footwear,Direct Online,Consumer Basic,5,126.07,0.069,630.37,586.7,381.56,23.78,181.36,3.1,0
+ORD-2025-10667,2025-07-20,Europe,Apparel,Marketplace,Consumer Basic,11,51.5,0.163,566.55,473.96,357.36,61.68,54.92,3.0,0
+ORD-2025-10668,2025-07-20,Europe,Electronics,Wholesale B2B,Consumer Basic,11,321.05,0.07,3531.59,3283.87,2158.18,58.89,1066.8,6.1,0
+ORD-2025-10669,2025-07-20,North America,Home & Kitchen,Marketplace,Consumer Basic,7,134.18,0.073,939.25,870.72,592.41,38.95,239.36,4.1,0
+ORD-2025-10670,2025-07-21,North America,Apparel,Marketplace,Consumer Basic,3,144.37,0.062,433.12,406.09,221.41,28.01,156.67,9.4,0
+ORD-2025-10671,2025-07-21,Asia Pacific,Apparel,Marketplace,Mid-Market,50,68.4,0.126,3420.06,2987.88,1701.81,202.89,1083.18,2.5,1
+ORD-2025-10672,2025-07-21,Europe,Electronics,Wholesale B2B,Consumer Basic,9,542.31,0.117,4880.77,4310.71,2796.13,63.83,1450.75,6.2,0
+ORD-2025-10673,2025-07-21,North America,Home & Kitchen,Marketplace,Mid-Market,28,198.08,0.055,5546.34,5240.31,3286.34,156.38,1797.59,2.5,0
+ORD-2025-10674,2025-07-22,North America,Footwear,Marketplace,Mid-Market,40,34.18,0.1,1367.08,1229.99,695.5,209.98,324.51,8.0,0
+ORD-2025-10675,2025-07-22,Latin America,Health & Beauty,Marketplace,Mid-Market,35,74.54,0.147,2608.76,2224.44,1449.33,184.21,590.9,14.2,0
+ORD-2025-10676,2025-07-22,North America,Home & Kitchen,Wholesale B2B,Enterprise,19,62.34,0.058,1184.47,1115.85,593.95,83.03,438.87,4.0,0
+ORD-2025-10677,2025-07-23,North America,Electronics,Marketplace,Consumer Basic,9,691.61,0.379,6224.53,3868.42,3044.47,46.65,777.3,6.3,0
+ORD-2025-10678,2025-07-23,Europe,Electronics,Marketplace,Mid-Market,20,815.44,0.348,16308.9,10625.37,8122.52,129.54,2373.31,10.1,0
+ORD-2025-10679,2025-07-23,North America,Footwear,Marketplace,Mid-Market,50,149.68,0.019,7484.02,7339.16,4067.58,331.28,2940.3,3.7,0
+ORD-2025-10680,2025-07-24,Asia Pacific,Apparel,Marketplace,Consumer Basic,11,53.93,0.116,593.25,524.27,321.33,51.41,151.53,6.4,0
+ORD-2025-10681,2025-07-24,Europe,Electronics,Direct Online,VIP Retail,3,344.82,0.073,1034.46,958.73,530.62,24.85,403.26,7.6,0
+ORD-2025-10682,2025-07-24,Europe,Electronics,Direct Online,VIP Retail,10,811.26,0.072,8112.64,7529.75,4974.75,86.6,2468.4,6.7,0
+ORD-2025-10683,2025-07-24,North America,Footwear,Marketplace,Consumer Basic,3,93.21,0.064,279.63,261.81,155.85,20.47,85.49,2.4,0
+ORD-2025-10684,2025-07-25,North America,Footwear,Direct Online,Consumer Basic,10,131.17,0.025,1311.7,1278.56,668.88,76.68,533.0,6.3,0
+ORD-2025-10685,2025-07-25,North America,Electronics,Marketplace,Mid-Market,23,310.35,0.326,7137.98,4808.6,4128.98,104.07,575.55,2.7,0
+ORD-2025-10686,2025-07-25,Europe,Home & Kitchen,Direct Online,Consumer Basic,4,48.59,0.012,194.35,192.06,101.58,32.67,57.81,4.2,0
+ORD-2025-10687,2025-07-26,Asia Pacific,Apparel,Wholesale B2B,Consumer Basic,11,112.37,0.092,1236.04,1121.79,653.45,72.61,395.73,8.8,0
+ORD-2025-10688,2025-07-26,Asia Pacific,Electronics,Marketplace,Mid-Market,20,221.28,0.212,4425.55,3485.12,2643.11,113.65,728.36,11.0,0
+ORD-2025-10689,2025-07-26,Europe,Electronics,Marketplace,Consumer Basic,9,523.82,0.279,4714.42,3398.45,2741.48,58.61,598.36,6.6,0
+ORD-2025-10690,2025-07-27,Asia Pacific,Apparel,Marketplace,Consumer Basic,10,73.1,0.077,730.95,674.47,427.43,58.38,188.66,2.3,0
+ORD-2025-10691,2025-07-27,North America,Home & Kitchen,Marketplace,Consumer Basic,7,168.17,0.008,1177.22,1167.49,622.35,51.84,493.3,8.6,0
+ORD-2025-10692,2025-07-27,North America,Electronics,Wholesale B2B,Mid-Market,40,332.45,0.048,13297.91,12660.14,6552.87,167.97,5939.3,2.5,0
+ORD-2025-10693,2025-07-27,Asia Pacific,Apparel,Marketplace,Mid-Market,55,116.35,0.067,6399.44,5967.86,3570.7,366.51,2030.65,4.3,0
+ORD-2025-10694,2025-07-28,North America,Electronics,Wholesale B2B,VIP Retail,1,394.73,0.12,394.73,347.51,250.79,19.36,77.36,9.5,0
+ORD-2025-10695,2025-07-28,Asia Pacific,Apparel,Marketplace,Consumer Basic,9,76.77,0.173,690.91,571.6,400.06,62.98,108.56,2.1,0
+ORD-2025-10696,2025-07-28,Europe,Electronics,Direct Online,Enterprise,59,216.32,0.093,12762.99,11581.8,7002.03,394.69,4185.08,5.3,0
+ORD-2025-10697,2025-07-29,Europe,Footwear,Wholesale B2B,Enterprise,32,102.47,0.051,3279.1,3113.42,1692.55,205.71,1215.16,4.5,0
+ORD-2025-10698,2025-07-29,Latin America,Health & Beauty,Direct Online,Consumer Basic,10,214.45,0.041,2144.46,2055.6,1374.35,63.75,617.5,6.7,0
+ORD-2025-10699,2025-07-29,Latin America,Home & Kitchen,Wholesale B2B,VIP Retail,4,29.4,0.017,117.6,115.61,67.43,34.7,13.48,4.8,0
+ORD-2025-10700,2025-07-30,Asia Pacific,Apparel,Marketplace,VIP Retail,2,151.39,0.168,302.77,251.78,173.52,21.55,56.71,5.9,0
+ORD-2025-10701,2025-07-30,North America,Electronics,Direct Online,Consumer Basic,4,743.1,0.09,2972.39,2704.49,1844.51,41.29,818.69,8.2,0
+ORD-2025-10702,2025-07-30,Asia Pacific,Health & Beauty,Direct Online,Consumer Basic,4,212.46,0.069,849.84,791.33,527.78,30.9,232.65,2.8,0
+ORD-2025-10703,2025-07-30,Europe,Apparel,Marketplace,Consumer Basic,6,91.2,0.078,547.2,504.36,316.02,49.37,138.97,4.1,1
+ORD-2025-10704,2025-07-31,North America,Home & Kitchen,Direct Online,Mid-Market,36,91.69,0.125,3301.0,2888.92,1637.26,284.57,967.09,3.0,0
+ORD-2025-10705,2025-07-31,North America,Home & Kitchen,Direct Online,Mid-Market,47,206.84,0.073,9721.69,9009.91,5776.65,255.38,2977.88,5.0,1
+ORD-2025-10706,2025-07-31,Europe,Electronics,Marketplace,Consumer Basic,6,669.55,0.284,4017.33,2874.91,2573.02,30.25,271.64,5.3,0
+ORD-2025-10707,2025-08-01,Asia Pacific,Footwear,Wholesale B2B,Mid-Market,33,70.11,0.11,2313.51,2058.5,1179.97,206.3,672.23,3.1,0
+ORD-2025-10708,2025-08-01,Europe,Apparel,Direct Online,Consumer Basic,9,77.06,0.082,693.51,636.86,431.99,55.34,149.53,3.1,1
+ORD-2025-10709,2025-08-01,North America,Home & Kitchen,Wholesale B2B,VIP Retail,3,61.95,0.101,185.85,166.99,111.03,20.87,35.09,2.3,0
+ORD-2025-10710,2025-08-02,Europe,Health & Beauty,Wholesale B2B,Consumer Basic,3,120.28,0.09,360.83,328.18,224.59,27.19,76.4,3.2,0
+ORD-2025-10711,2025-08-02,North America,Electronics,Marketplace,VIP Retail,5,832.81,0.189,4164.07,3376.01,2115.36,38.64,1222.01,3.8,0
+ORD-2025-10712,2025-08-02,North America,Electronics,Marketplace,Enterprise,15,278.79,0.195,4181.9,3367.9,2542.86,113.89,711.15,8.7,0
+ORD-2025-10713,2025-08-02,Europe,Apparel,Direct Online,Consumer Basic,9,132.23,0.125,1190.11,1041.28,577.61,65.91,397.76,3.3,0
+ORD-2025-10714,2025-08-03,Asia Pacific,Apparel,Direct Online,Mid-Market,24,156.79,0.198,3762.91,3018.04,2285.53,194.42,538.09,4.2,1
+ORD-2025-10715,2025-08-03,Latin America,Electronics,Marketplace,Consumer Basic,11,503.22,0.199,5535.46,4435.39,2816.43,81.0,1537.96,7.8,0
+ORD-2025-10716,2025-08-03,Asia Pacific,Home & Kitchen,Direct Online,VIP Retail,10,138.57,0.019,1385.67,1359.31,876.55,52.7,430.06,3.9,0
+ORD-2025-10717,2025-08-04,North America,Electronics,Marketplace,Consumer Basic,3,713.18,0.248,2139.53,1608.83,1032.74,14.78,561.31,2.0,0
+ORD-2025-10718,2025-08-04,North America,Apparel,Marketplace,Enterprise,27,53.07,0.154,1432.96,1211.87,701.14,147.69,363.04,2.5,0
+ORD-2025-10719,2025-08-04,Europe,Electronics,Wholesale B2B,Enterprise,22,462.44,0.091,10173.71,9250.41,5194.08,183.23,3873.1,7.5,0
+ORD-2025-10720,2025-08-05,Asia Pacific,Apparel,Marketplace,Consumer Basic,5,125.87,0.137,629.36,543.15,316.37,39.43,187.35,2.5,0
+ORD-2025-10721,2025-08-05,Europe,Apparel,Direct Online,Enterprise,50,150.18,0.069,7508.87,6988.55,3767.89,276.36,2944.3,3.8,0
+ORD-2025-10722,2025-08-05,North America,Home & Kitchen,Wholesale B2B,VIP Retail,7,63.31,0.092,443.14,402.34,283.24,55.21,63.89,2.3,0
+ORD-2025-10723,2025-08-05,Asia Pacific,Apparel,Wholesale B2B,Consumer Basic,5,77.34,0.12,386.72,340.12,207.6,29.86,102.66,7.9,0
+ORD-2025-10724,2025-08-06,Asia Pacific,Health & Beauty,Marketplace,Consumer Basic,8,31.01,0.132,248.09,215.37,131.47,45.44,38.46,2.0,0
+ORD-2025-10725,2025-08-06,Europe,Apparel,Direct Online,Mid-Market,55,154.33,0.141,8488.15,7295.25,4075.35,439.6,2780.3,10.2,0
+ORD-2025-10726,2025-08-06,North America,Electronics,Direct Online,Enterprise,51,840.85,0.052,42883.58,40674.15,27806.62,239.06,12628.47,2.5,0
+ORD-2025-10727,2025-08-07,North America,Health & Beauty,Direct Online,Consumer Basic,11,118.83,0.069,1307.15,1217.05,683.76,90.08,443.21,3.4,0
+ORD-2025-10728,2025-08-07,North America,Home & Kitchen,Direct Online,Consumer Basic,3,166.88,0.068,500.63,466.71,255.98,28.14,182.59,7.8,0
+ORD-2025-10729,2025-08-07,North America,Apparel,Wholesale B2B,Enterprise,36,101.03,0.149,3637.02,3094.08,2173.54,192.1,728.44,2.7,0
+ORD-2025-10730,2025-08-08,Europe,Home & Kitchen,Direct Online,Consumer Basic,2,185.04,0.092,370.09,335.97,185.1,18.15,132.72,7.4,0
+ORD-2025-10731,2025-08-08,Asia Pacific,Home & Kitchen,Direct Online,Consumer Basic,9,107.12,0.062,964.06,904.69,607.28,52.26,245.15,2.8,0
+ORD-2025-10732,2025-08-08,Europe,Electronics,Direct Online,Mid-Market,23,302.57,0.063,6959.03,6520.57,3350.33,199.84,2970.4,21.7,1
+ORD-2025-10733,2025-08-08,Asia Pacific,Footwear,Marketplace,Consumer Basic,4,152.49,0.058,609.95,574.54,335.91,35.13,203.5,5.1,0
+ORD-2025-10734,2025-08-09,Europe,Apparel,Marketplace,Consumer Basic,1,82.97,0.192,82.97,67.06,46.93,13.07,7.06,4.0,0
+ORD-2025-10735,2025-08-09,Asia Pacific,Apparel,Marketplace,Consumer Basic,3,67.21,0.183,201.64,164.79,123.58,27.62,13.59,4.6,0
+ORD-2025-10736,2025-08-09,North America,Electronics,Direct Online,Consumer Basic,11,238.68,0.101,2625.43,2361.4,1500.1,50.58,810.72,6.4,1
+ORD-2025-10737,2025-08-10,Europe,Electronics,Direct Online,Enterprise,46,455.34,0.085,20945.81,19169.95,10187.7,241.38,8740.87,10.0,0
+ORD-2025-10738,2025-08-10,North America,Home & Kitchen,Marketplace,Enterprise,29,43.52,0.109,1261.96,1124.12,662.06,122.17,339.89,3.2,0
+ORD-2025-10739,2025-08-10,North America,Home & Kitchen,Marketplace,Mid-Market,58,150.0,0.135,8699.78,7523.67,5608.74,465.69,1449.24,2.5,0
+ORD-2025-10740,2025-08-11,North America,Home & Kitchen,Direct Online,Enterprise,30,160.19,0.118,4805.79,4240.11,2853.63,228.14,1158.34,7.3,0
+ORD-2025-10741,2025-08-11,Asia Pacific,Electronics,Direct Online,Enterprise,43,493.87,0.08,21236.37,19541.06,12678.46,270.59,6592.01,2.1,0
+ORD-2025-10742,2025-08-11,North America,Electronics,Direct Online,Enterprise,23,204.05,0.111,4693.11,4169.89,2857.02,161.83,1151.04,3.7,0
+ORD-2025-10743,2025-08-11,North America,Electronics,Marketplace,Mid-Market,49,473.91,0.336,23221.59,15409.84,12321.48,329.17,2759.19,8.1,0
+ORD-2025-10744,2025-08-12,Latin America,Home & Kitchen,Marketplace,Consumer Basic,7,212.42,0.094,1486.93,1347.0,943.36,32.14,371.5,2.9,0
+ORD-2025-10745,2025-08-12,North America,Home & Kitchen,Wholesale B2B,Consumer Basic,8,95.93,0.113,767.41,680.32,456.29,34.37,189.66,2.9,0
+ORD-2025-10746,2025-08-12,North America,Health & Beauty,Marketplace,Consumer Basic,5,83.6,0.12,417.98,367.62,215.28,27.55,124.79,3.0,0
+ORD-2025-10747,2025-08-13,Europe,Home & Kitchen,Marketplace,Mid-Market,25,27.08,0.116,677.03,598.17,365.66,170.51,62.0,7.2,0
+ORD-2025-10748,2025-08-13,Asia Pacific,Electronics,Direct Online,Mid-Market,31,752.92,0.055,23340.62,22065.13,13016.59,264.61,8783.93,16.5,0
+ORD-2025-10749,2025-08-13,Asia Pacific,Electronics,Wholesale B2B,Mid-Market,33,495.98,0.091,16367.27,14876.23,8345.09,264.57,6266.57,4.3,0
+ORD-2025-10750,2025-08-14,North America,Health & Beauty,Direct Online,Mid-Market,18,118.73,0.083,2137.07,1960.18,1370.44,84.25,505.49,5.0,0
+ORD-2025-10751,2025-08-14,Europe,Electronics,Direct Online,Consumer Basic,10,562.35,0.064,5623.45,5266.03,2765.39,60.62,2440.02,7.1,0
+ORD-2025-10752,2025-08-14,Asia Pacific,Home & Kitchen,Marketplace,VIP Retail,2,210.53,0.054,421.06,398.23,209.66,22.91,165.66,6.5,0
+ORD-2025-10753,2025-08-14,Asia Pacific,Footwear,Direct Online,VIP Retail,6,193.22,0.066,1159.33,1082.24,582.98,36.61,462.65,4.6,0
+ORD-2025-10754,2025-08-15,Asia Pacific,Apparel,Direct Online,Mid-Market,57,135.92,0.164,7747.34,6473.3,4773.9,359.72,1339.68,3.5,0
+ORD-2025-10755,2025-08-15,Asia Pacific,Apparel,Marketplace,Consumer Basic,6,73.15,0.196,438.91,352.86,235.38,48.89,68.59,5.3,0
+ORD-2025-10756,2025-08-15,Europe,Health & Beauty,Marketplace,VIP Retail,11,157.44,0.148,1731.79,1475.93,1106.12,84.57,285.24,2.1,0
+ORD-2025-10757,2025-08-16,Europe,Health & Beauty,Wholesale B2B,Mid-Market,23,157.88,0.01,3631.35,3596.74,2169.59,127.6,1299.55,3.5,0
+ORD-2025-10758,2025-08-16,Europe,Apparel,Direct Online,Consumer Basic,11,123.59,0.067,1359.44,1268.13,726.7,55.63,485.8,3.1,0
+ORD-2025-10759,2025-08-16,North America,Health & Beauty,Wholesale B2B,Consumer Basic,11,60.34,0.107,663.78,592.89,395.11,72.0,125.78,3.5,0
+ORD-2025-10760,2025-08-17,Asia Pacific,Apparel,Wholesale B2B,Enterprise,43,37.44,0.171,1609.83,1334.78,826.03,311.92,196.83,2.3,0
+ORD-2025-10761,2025-08-17,North America,Apparel,Marketplace,Mid-Market,39,64.5,0.16,2515.54,2114.12,1578.78,191.41,343.93,2.1,1
+ORD-2025-10762,2025-08-17,North America,Electronics,Wholesale B2B,Consumer Basic,6,317.16,0.053,1902.95,1801.18,1041.2,35.45,724.53,3.6,0
+ORD-2025-10763,2025-08-17,North America,Apparel,Marketplace,Mid-Market,49,107.15,0.06,5250.35,4935.94,3351.05,199.91,1384.98,2.6,0
+ORD-2025-10764,2025-08-18,Europe,Health & Beauty,Wholesale B2B,Consumer Basic,5,195.61,0.122,978.07,859.11,618.81,54.79,185.51,13.9,0
+ORD-2025-10765,2025-08-18,Europe,Electronics,Wholesale B2B,Consumer Basic,3,802.25,0.1,2406.75,2165.04,1295.11,21.34,848.59,5.7,0
+ORD-2025-10766,2025-08-18,Asia Pacific,Footwear,Direct Online,Enterprise,46,86.09,0.079,3960.09,3647.19,2269.78,311.23,1066.18,3.2,0
+ORD-2025-10767,2025-08-19,North America,Home & Kitchen,Marketplace,Consumer Basic,5,29.76,0.062,148.82,139.63,80.54,37.35,21.74,3.2,0
+ORD-2025-10768,2025-08-19,Asia Pacific,Apparel,Wholesale B2B,Consumer Basic,8,60.53,0.087,484.24,442.07,247.31,60.63,134.13,18.6,0
+ORD-2025-10769,2025-08-19,Europe,Electronics,Marketplace,VIP Retail,4,203.28,0.244,813.1,614.72,456.65,41.63,116.44,8.6,0
+ORD-2025-10770,2025-08-20,Europe,Health & Beauty,Direct Online,VIP Retail,1,151.6,0.025,151.6,147.88,83.03,6.77,58.08,2.1,0
+ORD-2025-10771,2025-08-20,Asia Pacific,Footwear,Direct Online,Consumer Basic,5,190.22,0.066,951.11,888.15,613.28,36.18,238.69,2.1,0
+ORD-2025-10772,2025-08-20,Asia Pacific,Electronics,Wholesale B2B,Consumer Basic,7,611.76,0.023,4282.34,4184.56,2404.54,54.26,1725.76,9.1,0
+ORD-2025-10773,2025-08-20,Europe,Electronics,Marketplace,VIP Retail,11,688.06,0.339,7568.69,5004.97,3981.24,53.19,970.54,8.8,0
+ORD-2025-10774,2025-08-21,North America,Apparel,Wholesale B2B,Consumer Basic,8,142.22,0.124,1137.77,996.41,585.99,47.52,362.9,2.4,1
+ORD-2025-10775,2025-08-21,North America,Health & Beauty,Wholesale B2B,VIP Retail,5,115.59,0.112,577.97,513.44,319.85,42.53,151.06,4.9,0
+ORD-2025-10776,2025-08-21,Europe,Footwear,Marketplace,Consumer Basic,7,185.21,0.083,1296.45,1188.62,625.03,56.11,507.48,2.6,0
+ORD-2025-10777,2025-08-22,Asia Pacific,Home & Kitchen,Direct Online,Consumer Basic,1,212.65,0.125,212.65,186.04,109.2,10.96,65.88,4.0,0
+ORD-2025-10778,2025-08-22,North America,Apparel,Direct Online,Consumer Basic,5,51.58,0.085,257.88,235.96,154.64,37.86,43.46,3.8,0
+ORD-2025-10779,2025-08-22,Europe,Health & Beauty,Direct Online,Consumer Basic,2,159.4,0.091,318.81,289.75,174.06,15.01,100.68,4.3,0
+ORD-2025-10780,2025-08-23,Europe,Home & Kitchen,Marketplace,Mid-Market,42,154.27,0.128,6479.2,5650.63,3848.91,284.23,1517.49,2.9,0
+ORD-2025-10781,2025-08-23,Latin America,Apparel,Marketplace,VIP Retail,4,128.28,0.076,513.13,473.96,297.75,25.4,150.81,2.2,0
+ORD-2025-10782,2025-08-23,Europe,Footwear,Wholesale B2B,Consumer Basic,7,129.98,0.068,909.89,847.86,502.32,30.65,314.89,2.7,1
+ORD-2025-10783,2025-08-23,North America,Apparel,Wholesale B2B,Consumer Basic,8,130.16,0.193,1041.28,840.01,600.84,68.23,170.94,8.6,0
+ORD-2025-10784,2025-08-24,North America,Home & Kitchen,Direct Online,Enterprise,19,50.42,0.046,957.91,913.47,460.05,144.57,308.85,2.4,1
+ORD-2025-10785,2025-08-24,North America,Home & Kitchen,Direct Online,Consumer Basic,11,106.89,0.029,1175.77,1141.94,698.14,46.88,396.92,3.2,0
+ORD-2025-10786,2025-08-24,Europe,Electronics,Direct Online,Consumer Basic,1,355.09,0.118,355.09,313.01,217.87,16.25,78.89,6.5,0
+ORD-2025-10787,2025-08-25,Europe,Home & Kitchen,Wholesale B2B,Enterprise,22,150.35,0.057,3307.76,3118.24,2005.47,162.01,950.76,11.4,0
+ORD-2025-10788,2025-08-25,Europe,Apparel,Wholesale B2B,Enterprise,47,73.61,0.142,3459.48,2969.26,1673.81,194.26,1101.19,12.0,1
+ORD-2025-10789,2025-08-25,Asia Pacific,Footwear,Marketplace,Consumer Basic,9,177.48,0.023,1597.33,1560.04,880.64,49.56,629.84,3.5,1
+ORD-2025-10790,2025-08-26,Asia Pacific,Electronics,Direct Online,VIP Retail,5,237.9,0.1,1189.52,1070.66,760.77,38.41,271.48,11.2,0
+ORD-2025-10791,2025-08-26,Europe,Footwear,Direct Online,Mid-Market,24,107.78,0.046,2586.63,2466.61,1534.05,163.09,769.47,3.0,0
+ORD-2025-10792,2025-08-26,North America,Electronics,Wholesale B2B,VIP Retail,7,772.33,0.065,5406.31,5053.77,2888.5,47.12,2118.15,9.8,0
+ORD-2025-10793,2025-08-26,Europe,Footwear,Wholesale B2B,Consumer Basic,10,107.76,0.024,1077.56,1052.22,606.55,71.9,373.77,3.7,0
+ORD-2025-10794,2025-08-27,Europe,Apparel,Wholesale B2B,Enterprise,56,83.75,0.111,4690.11,4169.55,2509.5,237.21,1422.84,4.6,0
+ORD-2025-10795,2025-08-27,Asia Pacific,Apparel,Marketplace,Consumer Basic,6,135.53,0.149,813.2,692.14,503.12,47.95,141.07,3.5,0
+ORD-2025-10796,2025-08-27,Latin America,Electronics,Wholesale B2B,Mid-Market,30,224.15,0.037,6724.47,6477.64,3304.44,217.78,2955.42,21.8,0
+ORD-2025-10797,2025-08-28,North America,Health & Beauty,Wholesale B2B,Consumer Basic,10,196.96,0.073,1969.62,1826.25,1108.76,55.67,661.82,4.3,0
+ORD-2025-10798,2025-08-28,Europe,Footwear,Direct Online,Mid-Market,32,79.74,0.15,2551.63,2169.15,1510.78,158.73,499.64,2.9,0
+ORD-2025-10799,2025-08-28,North America,Electronics,Direct Online,Enterprise,55,719.11,0.034,39551.05,38214.64,22434.27,370.49,15409.88,8.0,0
+ORD-2025-10800,2025-08-29,Europe,Electronics,Wholesale B2B,Consumer Basic,6,543.7,0.073,3262.22,3024.19,1789.2,31.1,1203.89,6.7,0
+ORD-2025-10801,2025-08-29,Asia Pacific,Health & Beauty,Wholesale B2B,Consumer Basic,10,147.97,0.012,1479.74,1462.09,931.01,59.83,471.25,4.0,0
+ORD-2025-10802,2025-08-29,North America,Footwear,Direct Online,VIP Retail,5,211.87,0.015,1059.37,1043.84,526.91,39.57,477.36,2.0,0
+ORD-2025-10803,2025-08-29,Europe,Footwear,Wholesale B2B,Consumer Basic,6,92.36,0.039,554.19,532.61,329.53,32.51,170.57,3.7,1
+ORD-2025-10804,2025-08-30,North America,Apparel,Wholesale B2B,Consumer Basic,11,92.13,0.141,1013.41,870.54,551.67,66.37,252.5,4.8,0
+ORD-2025-10805,2025-08-30,Europe,Home & Kitchen,Direct Online,VIP Retail,3,139.77,0.061,419.32,393.67,269.76,24.98,98.93,5.2,0
+ORD-2025-10806,2025-08-30,Europe,Apparel,Wholesale B2B,Mid-Market,33,154.17,0.123,5087.46,4462.87,2472.78,208.84,1781.25,12.9,0
+ORD-2025-10807,2025-08-31,Asia Pacific,Home & Kitchen,Direct Online,Mid-Market,18,183.09,0.142,3295.66,2827.43,1887.77,69.43,870.23,2.4,0
+ORD-2025-10808,2025-08-31,Europe,Apparel,Direct Online,Mid-Market,29,148.05,0.2,4293.46,3435.48,2348.92,213.72,872.84,15.1,0
+ORD-2025-10809,2025-08-31,North America,Home & Kitchen,Marketplace,Consumer Basic,10,29.77,0.119,297.74,262.43,143.22,54.98,64.23,2.0,0
+ORD-2025-10810,2025-09-01,Europe,Footwear,Marketplace,Mid-Market,58,147.36,0.118,8547.09,7541.43,4835.53,404.9,2301.0,5.1,0
+ORD-2025-10811,2025-09-01,Asia Pacific,Electronics,Wholesale B2B,Mid-Market,22,624.96,0.063,13749.21,12887.7,6748.9,96.33,6042.47,10.8,0
+ORD-2025-10812,2025-09-01,Asia Pacific,Footwear,Marketplace,Consumer Basic,3,166.7,0.141,500.1,429.39,274.38,24.43,130.58,7.4,0
+ORD-2025-10813,2025-09-01,North America,Apparel,Marketplace,Mid-Market,42,91.77,0.108,3854.38,3438.57,2143.65,190.92,1104.0,14.1,0
+ORD-2025-10814,2025-09-02,North America,Apparel,Direct Online,Mid-Market,50,126.76,0.055,6337.96,5991.8,3154.1,210.13,2627.57,4.9,1
+ORD-2025-10815,2025-09-02,North America,Home & Kitchen,Direct Online,Mid-Market,39,211.78,0.128,8259.34,7200.55,4550.89,269.96,2379.7,2.8,0
+ORD-2025-10816,2025-09-02,North America,Health & Beauty,Direct Online,Consumer Basic,9,38.67,0.004,348.06,346.69,177.14,46.18,123.37,2.9,0
+ORD-2025-10817,2025-09-03,Europe,Home & Kitchen,Wholesale B2B,Enterprise,58,214.87,0.035,12462.46,12031.31,6726.13,424.6,4880.58,6.4,0
+ORD-2025-10818,2025-09-03,Europe,Electronics,Marketplace,Enterprise,19,258.42,0.217,4909.98,3844.59,3161.96,118.26,564.37,5.5,0
+ORD-2025-10819,2025-09-03,North America,Apparel,Direct Online,Consumer Basic,8,95.45,0.074,763.61,707.35,410.54,42.79,254.02,6.3,0
+ORD-2025-10820,2025-09-04,North America,Health & Beauty,Direct Online,Consumer Basic,7,55.29,0.1,387.04,348.34,241.43,42.59,64.32,4.8,0
+ORD-2025-10821,2025-09-04,Europe,Home & Kitchen,Direct Online,Consumer Basic,8,91.74,0.013,733.93,724.7,361.31,84.83,278.56,16.8,0
+ORD-2025-10822,2025-09-04,North America,Home & Kitchen,Direct Online,Mid-Market,32,91.89,0.062,2940.59,2759.43,1883.17,126.77,749.49,5.8,0
+ORD-2025-10823,2025-09-04,Latin America,Home & Kitchen,Direct Online,Consumer Basic,4,191.46,0.036,765.83,738.04,462.96,43.2,231.88,8.3,0
+ORD-2025-10824,2025-09-05,North America,Apparel,Wholesale B2B,Consumer Basic,8,38.62,0.153,309.0,261.58,159.58,36.28,65.72,4.0,0
+ORD-2025-10825,2025-09-05,Europe,Home & Kitchen,Wholesale B2B,VIP Retail,8,145.05,0.002,1160.37,1158.15,668.54,59.71,429.9,5.6,0
+ORD-2025-10826,2025-09-05,North America,Footwear,Marketplace,Enterprise,56,205.31,0.017,11497.19,11303.17,7306.9,242.18,3754.09,2.3,0
+ORD-2025-10827,2025-09-06,Latin America,Footwear,Wholesale B2B,Consumer Basic,9,94.46,0.001,850.15,849.22,453.02,38.82,357.38,2.2,0
+ORD-2025-10828,2025-09-06,Latin America,Health & Beauty,Marketplace,Enterprise,37,52.31,0.048,1935.42,1841.92,1102.47,190.51,548.94,4.6,0
+ORD-2025-10829,2025-09-06,North America,Apparel,Direct Online,Consumer Basic,6,143.98,0.153,863.9,731.63,559.54,44.3,127.79,2.4,0
+ORD-2025-10830,2025-09-07,North America,Health & Beauty,Direct Online,Consumer Basic,3,125.25,0.124,375.74,329.01,187.41,27.78,113.82,3.8,0
+ORD-2025-10831,2025-09-07,Europe,Home & Kitchen,Marketplace,Enterprise,57,140.53,0.127,8009.98,6991.82,4380.92,262.82,2348.08,3.3,0
+ORD-2025-10832,2025-09-07,Europe,Home & Kitchen,Marketplace,Enterprise,29,199.24,0.058,5777.94,5440.57,3720.68,121.14,1598.75,3.1,0
+ORD-2025-10833,2025-09-07,North America,Health & Beauty,Direct Online,Consumer Basic,7,217.48,0.084,1522.37,1395.2,732.12,46.76,616.32,3.0,0
+ORD-2025-10834,2025-09-08,Europe,Apparel,Wholesale B2B,Consumer Basic,9,141.65,0.09,1274.82,1160.48,753.77,76.44,330.27,4.2,0
+ORD-2025-10835,2025-09-08,Europe,Health & Beauty,Direct Online,Consumer Basic,6,132.15,0.102,792.9,712.21,391.33,39.81,281.07,4.8,0
+ORD-2025-10836,2025-09-08,Asia Pacific,Apparel,Marketplace,Mid-Market,25,129.36,0.147,3233.98,2757.6,1888.72,137.09,731.79,5.0,0
+ORD-2025-10837,2025-09-09,Europe,Health & Beauty,Marketplace,Consumer Basic,5,150.25,0.102,751.26,674.65,381.72,46.18,246.75,4.5,0
+ORD-2025-10838,2025-09-09,Latin America,Footwear,Marketplace,Consumer Basic,1,110.03,0.095,110.03,99.63,60.34,9.1,30.19,3.2,0
+ORD-2025-10839,2025-09-09,Latin America,Health & Beauty,Marketplace,Consumer Basic,6,203.32,0.014,1219.92,1203.43,754.15,31.67,417.61,6.4,0
+ORD-2025-10840,2025-09-10,Asia Pacific,Apparel,Marketplace,Mid-Market,52,99.7,0.107,5184.65,4628.37,2813.06,218.01,1597.3,4.5,1
+ORD-2025-10841,2025-09-10,North America,Apparel,Marketplace,Enterprise,36,100.07,0.109,3602.57,3210.73,2179.81,167.17,863.75,4.6,0
+ORD-2025-10842,2025-09-10,Latin America,Apparel,Direct Online,Consumer Basic,4,38.75,0.11,155.01,138.02,100.54,37.51,-0.03,4.5,0
+ORD-2025-10843,2025-09-10,Asia Pacific,Electronics,Wholesale B2B,Mid-Market,37,419.72,0.114,15529.49,13756.59,8988.13,297.16,4471.3,7.0,0
+ORD-2025-10844,2025-09-11,Asia Pacific,Home & Kitchen,Direct Online,Consumer Basic,2,78.84,0.14,157.69,135.68,82.83,16.67,36.18,3.4,0
+ORD-2025-10845,2025-09-11,Asia Pacific,Home & Kitchen,Marketplace,Consumer Basic,6,33.8,0.14,202.79,174.4,113.54,38.43,22.43,5.7,0
+ORD-2025-10846,2025-09-11,North America,Apparel,Direct Online,VIP Retail,2,63.24,0.142,126.47,108.53,62.9,17.97,27.66,3.7,0
+ORD-2025-10847,2025-09-12,Europe,Electronics,Wholesale B2B,Consumer Basic,3,528.18,0.097,1584.53,1430.58,794.17,24.98,611.43,8.0,0
+ORD-2025-10848,2025-09-12,Asia Pacific,Footwear,Direct Online,Consumer Basic,3,76.79,0.106,230.38,206.04,112.22,29.23,64.59,6.9,0
+ORD-2025-10849,2025-09-12,Europe,Apparel,Marketplace,Mid-Market,46,84.72,0.114,3896.94,3451.84,2130.85,372.64,948.35,8.4,0
+ORD-2025-10850,2025-09-13,Asia Pacific,Home & Kitchen,Wholesale B2B,Mid-Market,42,170.5,0.078,7160.81,6601.39,4109.43,276.33,2215.63,2.9,0
+ORD-2025-10851,2025-09-13,Europe,Apparel,Direct Online,Mid-Market,17,155.21,0.127,2638.49,2304.14,1454.81,107.33,742.0,6.0,1
+ORD-2025-10852,2025-09-13,Asia Pacific,Health & Beauty,Direct Online,Consumer Basic,10,184.57,0.096,1845.71,1668.29,951.98,53.99,662.32,3.1,0
+ORD-2025-10853,2025-09-13,North America,Home & Kitchen,Wholesale B2B,Mid-Market,57,67.7,0.074,3858.85,3571.43,2080.87,237.83,1252.73,3.0,0
+ORD-2025-10854,2025-09-14,North America,Apparel,Marketplace,Consumer Basic,8,110.17,0.132,881.36,765.1,424.34,36.74,304.02,4.7,0
+ORD-2025-10855,2025-09-14,North America,Electronics,Marketplace,Consumer Basic,1,844.49,0.225,844.49,654.16,522.25,12.8,119.11,3.5,1
+ORD-2025-10856,2025-09-14,Asia Pacific,Footwear,Wholesale B2B,Enterprise,47,169.06,0.144,7945.9,6801.79,4372.19,358.06,2071.54,5.4,0
+ORD-2025-10857,2025-09-15,Europe,Health & Beauty,Direct Online,Mid-Market,19,161.66,0.139,3071.53,2644.52,1764.06,139.69,740.77,3.4,1
+ORD-2025-10858,2025-09-15,Europe,Home & Kitchen,Direct Online,Consumer Basic,10,73.16,0.118,731.58,644.9,424.44,66.47,153.99,5.0,0
+ORD-2025-10859,2025-09-15,Latin America,Health & Beauty,Direct Online,VIP Retail,3,99.87,0.111,299.61,266.5,182.39,19.43,64.68,3.9,0
+ORD-2025-10860,2025-09-16,North America,Health & Beauty,Marketplace,Mid-Market,36,49.66,0.062,1787.89,1676.73,1070.53,243.1,363.1,2.0,0
+ORD-2025-10861,2025-09-16,Europe,Footwear,Marketplace,Mid-Market,45,84.99,0.006,3824.67,3800.38,2405.86,208.82,1185.7,5.0,0
+ORD-2025-10862,2025-09-16,North America,Health & Beauty,Wholesale B2B,Mid-Market,24,74.69,0.116,1792.48,1584.84,1053.37,177.12,354.35,3.7,0
+ORD-2025-10863,2025-09-16,North America,Apparel,Direct Online,Mid-Market,28,73.72,0.128,2064.18,1799.38,1243.28,148.26,407.84,5.3,0
+ORD-2025-10864,2025-09-17,North America,Apparel,Direct Online,Consumer Basic,10,152.86,0.158,1528.64,1286.77,952.28,67.38,267.11,2.3,0
+ORD-2025-10865,2025-09-17,Europe,Apparel,Marketplace,VIP Retail,6,93.41,0.136,560.47,484.22,354.99,50.29,78.94,3.8,0
+ORD-2025-10866,2025-09-17,North America,Footwear,Direct Online,Consumer Basic,10,190.07,0.076,1900.74,1756.71,1071.83,83.83,601.05,6.1,0
+ORD-2025-10867,2025-09-18,North America,Apparel,Marketplace,Consumer Basic,1,148.02,0.14,148.02,127.25,94.89,11.16,21.2,4.0,0
+ORD-2025-10868,2025-09-18,Europe,Home & Kitchen,Wholesale B2B,Consumer Basic,2,39.49,0.147,78.99,67.41,42.45,25.64,-0.68,7.6,0
+ORD-2025-10869,2025-09-18,Europe,Health & Beauty,Marketplace,Mid-Market,16,66.2,0.095,1059.14,958.63,633.57,100.54,224.52,13.2,0
+ORD-2025-10870,2025-09-19,Europe,Health & Beauty,Direct Online,Mid-Market,30,142.82,0.132,4284.6,3719.13,2352.79,185.48,1180.86,3.2,0
+ORD-2025-10871,2025-09-19,North America,Health & Beauty,Marketplace,Consumer Basic,10,139.25,0.027,1392.5,1354.98,791.52,81.34,482.12,6.0,0
+ORD-2025-10872,2025-09-19,North America,Electronics,Marketplace,Consumer Basic,7,719.74,0.338,5038.17,3333.91,2582.57,34.3,717.04,5.5,0
+ORD-2025-10873,2025-09-19,North America,Electronics,Marketplace,Consumer Basic,11,767.13,0.24,8438.43,6416.62,5465.54,76.97,874.11,2.0,0
+ORD-2025-10874,2025-09-20,Asia Pacific,Electronics,Wholesale B2B,Consumer Basic,7,407.22,0.027,2850.52,2773.41,1413.92,52.67,1306.82,5.5,0
+ORD-2025-10875,2025-09-20,Europe,Health & Beauty,Direct Online,Consumer Basic,1,102.17,0.027,102.17,99.41,54.46,14.85,30.1,7.5,0
+ORD-2025-10876,2025-09-20,North America,Apparel,Marketplace,Enterprise,21,122.71,0.058,2577.0,2427.8,1441.9,83.47,902.43,2.2,0
+ORD-2025-10877,2025-09-21,Europe,Apparel,Marketplace,VIP Retail,9,103.64,0.137,932.72,804.52,570.94,48.37,185.21,3.5,0
+ORD-2025-10878,2025-09-21,Asia Pacific,Apparel,Wholesale B2B,Mid-Market,59,122.64,0.094,7235.92,6558.66,4181.88,395.99,1980.79,3.1,0
+ORD-2025-10879,2025-09-21,Europe,Electronics,Direct Online,Consumer Basic,9,226.57,0.117,2039.14,1800.12,1173.83,44.54,581.75,5.1,0
+ORD-2025-10880,2025-09-22,Asia Pacific,Health & Beauty,Direct Online,Consumer Basic,5,94.22,0.011,471.12,465.99,250.56,47.81,167.62,5.4,0
+ORD-2025-10881,2025-09-22,Europe,Home & Kitchen,Direct Online,Consumer Basic,5,75.44,0.107,377.21,336.72,213.9,34.36,88.46,5.8,0
+ORD-2025-10882,2025-09-22,Asia Pacific,Home & Kitchen,Direct Online,VIP Retail,9,183.96,0.147,1655.64,1412.55,899.87,71.95,440.73,8.4,0
+ORD-2025-10883,2025-09-22,North America,Electronics,Marketplace,Enterprise,54,235.17,0.181,12699.39,10406.64,7472.36,267.34,2666.94,4.3,0
+ORD-2025-10884,2025-09-23,Asia Pacific,Electronics,Marketplace,Consumer Basic,8,320.55,0.195,2564.4,2064.8,1456.15,61.25,547.4,4.5,0
+ORD-2025-10885,2025-09-23,North America,Footwear,Marketplace,Enterprise,45,143.75,0.043,6468.97,6189.3,4159.24,190.03,1840.03,2.5,0
+ORD-2025-10886,2025-09-23,North America,Health & Beauty,Direct Online,Consumer Basic,7,78.84,0.033,551.86,533.86,342.97,37.78,153.11,2.9,0
+ORD-2025-10887,2025-09-24,Latin America,Apparel,Direct Online,Mid-Market,43,126.18,0.195,5425.67,4369.88,3383.45,235.22,751.21,2.5,0
+ORD-2025-10888,2025-09-24,Asia Pacific,Home & Kitchen,Direct Online,Consumer Basic,2,61.41,0.052,122.83,116.46,59.88,15.47,41.11,3.3,0
+ORD-2025-10889,2025-09-24,Asia Pacific,Apparel,Direct Online,Consumer Basic,5,77.24,0.096,386.22,348.95,239.67,35.04,74.24,10.1,0
+ORD-2025-10890,2025-09-25,Europe,Home & Kitchen,Wholesale B2B,Enterprise,58,159.69,0.08,9261.83,8519.92,4462.51,322.78,3734.63,3.4,0
+ORD-2025-10891,2025-09-25,North America,Apparel,Wholesale B2B,Mid-Market,56,60.81,0.153,3405.12,2883.78,2050.05,388.15,445.58,3.3,1
+ORD-2025-10892,2025-09-25,North America,Electronics,Marketplace,Enterprise,38,269.74,0.369,10250.14,6470.32,5810.04,223.59,436.69,8.5,0
+ORD-2025-10893,2025-09-25,Europe,Home & Kitchen,Direct Online,Consumer Basic,5,163.03,0.023,815.17,796.43,438.83,37.02,320.58,9.4,0
+ORD-2025-10894,2025-09-26,Asia Pacific,Electronics,Direct Online,Enterprise,53,617.98,0.097,32752.84,29562.92,19826.23,365.47,9371.22,8.7,0
+ORD-2025-10895,2025-09-26,North America,Footwear,Wholesale B2B,VIP Retail,7,159.14,0.141,1113.98,957.12,614.83,42.05,300.24,5.8,0
+ORD-2025-10896,2025-09-26,North America,Footwear,Marketplace,Consumer Basic,8,108.29,0.035,866.33,835.98,439.14,79.47,317.37,17.6,0
+ORD-2025-10897,2025-09-27,North America,Home & Kitchen,Direct Online,VIP Retail,8,28.61,0.066,228.9,213.87,117.39,55.14,41.34,2.1,0
+ORD-2025-10898,2025-09-27,North America,Apparel,Direct Online,Consumer Basic,1,158.4,0.098,158.4,142.93,80.39,11.04,51.5,4.3,0
+ORD-2025-10899,2025-09-27,Europe,Apparel,Wholesale B2B,Mid-Market,24,115.21,0.173,2765.03,2287.82,1736.35,129.49,421.98,4.5,0
+ORD-2025-10900,2025-09-28,North America,Electronics,Direct Online,Consumer Basic,3,443.11,0.078,1329.33,1225.94,725.75,20.0,480.19,4.9,0
+ORD-2025-10901,2025-09-28,Latin America,Home & Kitchen,Direct Online,Consumer Basic,9,89.14,0.076,802.25,741.08,509.79,35.45,195.84,2.1,0
+ORD-2025-10902,2025-09-28,Europe,Apparel,Direct Online,Enterprise,28,69.35,0.066,1941.77,1812.82,1072.97,175.41,564.44,5.2,0
+ORD-2025-10903,2025-09-28,Europe,Home & Kitchen,Wholesale B2B,Consumer Basic,6,66.93,0.107,401.56,358.45,258.68,56.67,43.1,6.8,0
+ORD-2025-10904,2025-09-29,North America,Apparel,Direct Online,Consumer Basic,6,87.72,0.072,526.32,488.41,271.88,34.27,182.26,4.0,0
+ORD-2025-10905,2025-09-29,Asia Pacific,Home & Kitchen,Marketplace,Consumer Basic,8,168.51,0.021,1348.06,1320.1,774.19,66.95,478.96,12.2,0
+ORD-2025-10906,2025-09-29,North America,Apparel,Wholesale B2B,Mid-Market,57,139.84,0.114,7970.77,7059.83,3850.84,288.31,2920.68,5.9,0
+ORD-2025-10907,2025-09-30,North America,Electronics,Wholesale B2B,Consumer Basic,9,357.8,0.089,3220.18,2934.24,2056.32,57.91,820.01,8.3,0
+ORD-2025-10908,2025-09-30,Asia Pacific,Apparel,Direct Online,Mid-Market,23,65.34,0.199,1502.81,1204.13,721.84,159.61,322.68,2.7,0
+ORD-2025-10909,2025-09-30,North America,Home & Kitchen,Wholesale B2B,Enterprise,57,172.31,0.04,9821.62,9428.16,5167.46,252.92,4007.78,3.9,0
+ORD-2025-10910,2025-10-01,Europe,Apparel,Direct Online,Enterprise,23,86.28,0.066,1984.52,1853.57,1187.26,191.21,475.1,9.1,0
+ORD-2025-10911,2025-10-01,North America,Health & Beauty,Direct Online,Consumer Basic,2,28.9,0.038,57.8,55.61,28.12,17.67,9.82,4.2,0
+ORD-2025-10912,2025-10-01,Latin America,Health & Beauty,Direct Online,Enterprise,28,71.2,0.116,1993.62,1761.51,1060.43,171.09,529.99,12.7,0
+ORD-2025-10913,2025-10-01,Europe,Apparel,Direct Online,Mid-Market,56,117.67,0.055,6589.67,6228.49,4146.4,392.14,1689.95,2.3,1
+ORD-2025-10914,2025-10-02,North America,Apparel,Marketplace,Consumer Basic,4,142.86,0.121,571.43,502.11,359.98,50.72,91.41,17.6,0
+ORD-2025-10915,2025-10-02,North America,Apparel,Direct Online,Consumer Basic,1,110.45,0.187,110.45,89.74,67.84,8.34,13.56,2.2,1
+ORD-2025-10916,2025-10-02,Asia Pacific,Footwear,Direct Online,Consumer Basic,9,157.72,0.118,1419.46,1251.26,770.06,66.04,415.16,7.1,0
+ORD-2025-10917,2025-10-03,Latin America,Home & Kitchen,Direct Online,Consumer Basic,8,193.29,0.072,1546.32,1434.66,830.55,36.93,567.18,2.2,0
+ORD-2025-10918,2025-10-03,Europe,Apparel,Marketplace,VIP Retail,7,126.05,0.147,882.34,753.02,560.14,34.84,158.04,3.2,0
+ORD-2025-10919,2025-10-03,North America,Apparel,Direct Online,Consumer Basic,1,46.12,0.059,46.12,43.41,27.9,11.18,4.33,3.4,0
+ORD-2025-10920,2025-10-04,Latin America,Home & Kitchen,Direct Online,Consumer Basic,7,97.14,0.042,679.97,651.52,351.29,34.71,265.52,2.6,0
+ORD-2025-10921,2025-10-04,Asia Pacific,Health & Beauty,Marketplace,VIP Retail,4,136.79,0.033,547.16,529.08,301.17,34.44,193.47,7.9,0
+ORD-2025-10922,2025-10-04,North America,Footwear,Wholesale B2B,VIP Retail,7,147.95,0.087,1035.66,945.59,657.01,32.63,255.95,3.4,0
+ORD-2025-10923,2025-10-04,Latin America,Apparel,Direct Online,Mid-Market,35,38.69,0.115,1354.25,1198.39,654.75,209.16,334.48,3.0,0
+ORD-2025-10924,2025-10-05,Europe,Electronics,Marketplace,Consumer Basic,7,700.19,0.242,4901.33,3713.9,2542.15,37.13,1134.62,8.4,0
+ORD-2025-10925,2025-10-05,Europe,Electronics,Marketplace,VIP Retail,8,681.98,0.368,5455.8,3449.61,3395.11,38.67,15.83,5.2,0
+ORD-2025-10926,2025-10-05,North America,Apparel,Wholesale B2B,Consumer Basic,10,106.14,0.189,1061.44,860.6,554.84,48.88,256.88,4.3,0
+ORD-2025-10927,2025-10-06,Asia Pacific,Home & Kitchen,Marketplace,Mid-Market,16,139.68,0.086,2234.83,2043.52,1072.79,88.07,882.66,4.0,0
+ORD-2025-10928,2025-10-06,North America,Home & Kitchen,Direct Online,Mid-Market,55,135.73,0.125,7464.96,6533.78,4145.69,253.73,2134.36,10.1,0
+ORD-2025-10929,2025-10-06,Latin America,Health & Beauty,Marketplace,Mid-Market,33,142.65,0.047,4707.4,4487.09,2746.28,162.0,1578.81,9.2,0
+ORD-2025-10930,2025-10-07,North America,Home & Kitchen,Direct Online,Consumer Basic,1,209.83,0.073,209.83,194.56,131.31,21.18,42.07,9.1,0
+ORD-2025-10931,2025-10-07,North America,Apparel,Direct Online,Mid-Market,45,57.02,0.141,2565.87,2203.85,1369.92,353.63,480.3,3.9,0
+ORD-2025-10932,2025-10-07,Asia Pacific,Electronics,Marketplace,Consumer Basic,8,508.23,0.186,4065.83,3307.82,1956.41,45.52,1305.89,5.9,0
+ORD-2025-10933,2025-10-07,North America,Apparel,Direct Online,VIP Retail,9,36.03,0.16,324.25,272.24,171.02,58.71,42.51,2.5,0
+ORD-2025-10934,2025-10-08,Europe,Apparel,Wholesale B2B,Consumer Basic,5,152.02,0.194,760.09,612.7,402.51,34.21,175.98,2.7,1
+ORD-2025-10935,2025-10-08,North America,Footwear,Direct Online,Consumer Basic,3,174.0,0.093,521.99,473.5,252.81,23.37,197.32,2.8,0
+ORD-2025-10936,2025-10-08,Europe,Health & Beauty,Marketplace,Consumer Basic,6,51.7,0.051,310.2,294.33,176.67,33.49,84.17,2.6,0
+ORD-2025-10937,2025-10-09,Europe,Electronics,Direct Online,Enterprise,16,618.07,0.088,9889.06,9017.63,6259.54,130.79,2627.3,10.6,0
+ORD-2025-10938,2025-10-09,North America,Electronics,Direct Online,Enterprise,47,530.5,0.083,24933.37,22856.35,15820.23,177.16,6858.96,5.5,0
+ORD-2025-10939,2025-10-09,Asia Pacific,Home & Kitchen,Direct Online,Enterprise,30,145.52,0.009,4365.56,4324.24,2259.69,130.3,1934.25,2.3,0
+ORD-2025-10940,2025-10-10,Asia Pacific,Health & Beauty,Direct Online,Consumer Basic,4,165.56,0.036,662.24,638.28,386.2,26.63,225.45,2.6,0
+ORD-2025-10941,2025-10-10,Europe,Electronics,Direct Online,Consumer Basic,3,632.38,0.083,1897.13,1739.04,1002.49,22.05,714.5,7.5,0
+ORD-2025-10942,2025-10-10,Europe,Apparel,Marketplace,VIP Retail,7,154.77,0.052,1083.36,1027.48,638.53,48.87,340.08,15.9,0
+ORD-2025-10943,2025-10-10,Asia Pacific,Electronics,Direct Online,Consumer Basic,7,471.32,0.04,3299.22,3167.0,1841.8,29.43,1295.77,2.5,1
+ORD-2025-10944,2025-10-11,Europe,Electronics,Marketplace,Consumer Basic,4,201.34,0.274,805.38,584.82,493.35,51.12,40.35,15.3,0
+ORD-2025-10945,2025-10-11,North America,Health & Beauty,Wholesale B2B,Mid-Market,35,79.64,0.008,2787.48,2765.27,1460.09,190.33,1114.85,6.8,0
+ORD-2025-10946,2025-10-11,Europe,Electronics,Wholesale B2B,Consumer Basic,1,455.75,0.072,455.75,422.99,251.18,12.76,159.05,5.1,0
+ORD-2025-10947,2025-10-12,Europe,Apparel,Direct Online,Consumer Basic,2,65.3,0.078,130.6,120.46,78.0,14.53,27.93,2.2,0
+ORD-2025-10948,2025-10-12,Europe,Apparel,Marketplace,Mid-Market,50,146.38,0.1,7319.09,6587.45,3529.86,273.86,2783.73,2.5,0
+ORD-2025-10949,2025-10-12,Europe,Electronics,Marketplace,Enterprise,41,488.82,0.329,20041.49,13453.34,10306.31,219.74,2927.29,22.0,0
+ORD-2025-10950,2025-10-13,North America,Electronics,Direct Online,Mid-Market,38,317.47,0.099,12063.95,10871.37,6771.21,223.49,3876.67,2.7,0
+ORD-2025-10951,2025-10-13,Asia Pacific,Home & Kitchen,Wholesale B2B,VIP Retail,2,161.54,0.075,323.08,298.74,171.09,13.37,114.28,2.5,0
+ORD-2025-10952,2025-10-13,Asia Pacific,Health & Beauty,Marketplace,Consumer Basic,4,156.06,0.091,624.25,567.39,354.04,25.37,187.98,3.6,0
+ORD-2025-10953,2025-10-13,Asia Pacific,Apparel,Marketplace,Consumer Basic,10,76.58,0.175,765.84,632.04,395.47,60.84,175.73,3.0,0
+ORD-2025-10954,2025-10-14,Latin America,Apparel,Direct Online,Consumer Basic,1,158.02,0.053,158.02,149.65,100.73,15.47,33.45,5.6,0
+ORD-2025-10955,2025-10-14,North America,Home & Kitchen,Wholesale B2B,Mid-Market,30,66.55,0.041,1996.4,1915.23,1185.35,236.85,493.03,3.1,0
+ORD-2025-10956,2025-10-14,Europe,Electronics,Direct Online,Mid-Market,19,482.4,0.058,9165.52,8630.08,5519.8,119.87,2990.41,7.3,0
+ORD-2025-10957,2025-10-15,North America,Home & Kitchen,Marketplace,Consumer Basic,10,139.07,0.15,1390.73,1182.74,863.53,45.64,273.57,3.8,0
+ORD-2025-10958,2025-10-15,North America,Apparel,Marketplace,Enterprise,26,100.3,0.051,2607.71,2474.5,1408.64,191.76,874.1,3.1,0
+ORD-2025-10959,2025-10-15,North America,Apparel,Direct Online,Consumer Basic,10,135.76,0.092,1357.6,1232.85,711.33,72.65,448.87,3.4,0
+ORD-2025-10960,2025-10-16,Latin America,Electronics,Direct Online,VIP Retail,8,368.44,0.115,2947.55,2607.57,1886.0,46.71,674.86,2.2,0
+ORD-2025-10961,2025-10-16,Asia Pacific,Electronics,Direct Online,Consumer Basic,7,350.04,0.062,2450.31,2297.78,1200.99,62.36,1034.43,8.2,0
+ORD-2025-10962,2025-10-16,North America,Home & Kitchen,Marketplace,Mid-Market,39,90.05,0.006,3512.14,3492.15,1835.13,213.41,1443.61,2.5,0
+ORD-2025-10963,2025-10-16,North America,Health & Beauty,Marketplace,Enterprise,38,162.44,0.136,6172.54,5334.55,3201.17,139.94,1993.44,3.7,0
+ORD-2025-10964,2025-10-17,North America,Apparel,Direct Online,Consumer Basic,6,93.79,0.098,562.76,507.83,306.19,31.1,170.54,4.9,0
+ORD-2025-10965,2025-10-17,Asia Pacific,Health & Beauty,Wholesale B2B,VIP Retail,4,25.42,0.057,101.67,95.87,59.2,35.59,1.08,7.1,0
+ORD-2025-10966,2025-10-17,Europe,Footwear,Marketplace,VIP Retail,10,121.23,0.027,1212.33,1179.89,745.86,43.47,390.56,4.2,0
+ORD-2025-10967,2025-10-18,Europe,Home & Kitchen,Direct Online,Enterprise,58,185.92,0.021,10783.18,10552.33,6813.35,439.01,3299.97,3.1,0
+ORD-2025-10968,2025-10-18,Europe,Home & Kitchen,Direct Online,Consumer Basic,8,123.54,0.097,988.32,892.3,503.26,44.18,344.86,4.1,0
+ORD-2025-10969,2025-10-18,Latin America,Electronics,Direct Online,Mid-Market,53,575.7,0.081,30511.84,28039.84,18718.54,246.1,9075.2,2.7,0
+ORD-2025-10970,2025-10-19,Asia Pacific,Footwear,Marketplace,Enterprise,52,106.56,0.084,5541.2,5076.32,3111.72,360.44,1604.16,2.6,0
+ORD-2025-10971,2025-10-19,North America,Apparel,Marketplace,Consumer Basic,9,82.05,0.094,738.44,668.66,438.6,84.5,145.56,8.6,0
+ORD-2025-10972,2025-10-19,North America,Home & Kitchen,Direct Online,Enterprise,20,185.44,0.14,3708.73,3190.77,2393.56,101.39,695.82,4.9,0
+ORD-2025-10973,2025-10-19,Europe,Apparel,Marketplace,VIP Retail,9,126.11,0.193,1135.01,916.1,607.95,54.34,253.81,7.4,0
+ORD-2025-10974,2025-10-20,Europe,Electronics,Direct Online,Consumer Basic,8,488.85,0.022,3910.81,3824.58,1984.7,48.88,1791.0,5.1,0
+ORD-2025-10975,2025-10-20,Asia Pacific,Apparel,Marketplace,Consumer Basic,3,141.63,0.171,424.88,352.27,237.3,26.43,88.54,2.4,0
+ORD-2025-10976,2025-10-20,Latin America,Apparel,Marketplace,Consumer Basic,1,66.54,0.112,66.54,59.07,41.54,6.93,10.6,2.3,0
+ORD-2025-10977,2025-10-21,North America,Home & Kitchen,Direct Online,Enterprise,29,70.92,0.021,2056.59,2014.1,1165.29,206.27,642.54,4.8,0
+ORD-2025-10978,2025-10-21,Asia Pacific,Home & Kitchen,Direct Online,Enterprise,35,128.71,0.009,4504.7,4462.72,2509.16,212.83,1740.73,6.4,0
+ORD-2025-10979,2025-10-21,North America,Apparel,Marketplace,Mid-Market,23,90.31,0.147,2077.16,1771.73,1189.2,163.14,419.39,4.0,0
+ORD-2025-10980,2025-10-22,Europe,Apparel,Wholesale B2B,Consumer Basic,11,86.6,0.165,952.55,795.73,601.69,46.95,147.09,4.6,0
+ORD-2025-10981,2025-10-22,Latin America,Health & Beauty,Direct Online,Consumer Basic,9,108.43,0.05,975.86,927.46,566.64,68.12,292.7,2.3,0
+ORD-2025-10982,2025-10-22,North America,Electronics,Direct Online,Mid-Market,33,621.39,0.082,20505.76,18817.86,10398.02,187.25,8232.59,4.7,0
+ORD-2025-10983,2025-10-22,Europe,Home & Kitchen,Marketplace,Consumer Basic,2,45.44,0.129,90.88,79.18,45.44,20.29,13.45,3.1,0
+ORD-2025-10984,2025-10-23,North America,Electronics,Marketplace,VIP Retail,2,470.83,0.366,941.66,597.29,506.97,19.49,70.83,5.6,0
+ORD-2025-10985,2025-10-23,North America,Electronics,Direct Online,Consumer Basic,7,753.62,0.049,5275.33,5018.35,3334.25,29.03,1655.07,2.8,0
+ORD-2025-10986,2025-10-23,North America,Apparel,Direct Online,Mid-Market,51,144.73,0.122,7381.18,6478.6,4056.36,243.52,2178.72,4.5,0
+ORD-2025-10987,2025-10-24,Europe,Home & Kitchen,Marketplace,Enterprise,15,117.41,0.029,1761.22,1710.05,1118.22,83.81,508.02,2.7,0
+ORD-2025-10988,2025-10-24,Asia Pacific,Home & Kitchen,Marketplace,VIP Retail,5,129.63,0.113,648.14,575.04,376.57,39.2,159.27,2.5,0
+ORD-2025-10989,2025-10-24,Latin America,Electronics,Wholesale B2B,Consumer Basic,4,184.35,0.031,737.41,714.57,474.59,33.87,206.11,5.4,0
+ORD-2025-10990,2025-10-25,North America,Apparel,Marketplace,Consumer Basic,4,127.81,0.083,511.23,468.81,328.77,27.06,112.98,3.4,0
+ORD-2025-10991,2025-10-25,North America,Health & Beauty,Marketplace,VIP Retail,2,117.66,0.142,235.33,201.97,140.46,15.32,46.19,2.7,0
+ORD-2025-10992,2025-10-25,North America,Footwear,Direct Online,Mid-Market,29,199.48,0.075,5784.81,5353.79,3306.59,166.84,1880.36,4.7,0
+ORD-2025-10993,2025-10-25,North America,Apparel,Wholesale B2B,Consumer Basic,8,108.62,0.071,868.94,807.35,427.4,45.9,334.05,2.0,0
+ORD-2025-10994,2025-10-26,Asia Pacific,Apparel,Direct Online,Mid-Market,58,128.57,0.116,7457.09,6595.28,3817.99,285.96,2491.33,5.7,0
+ORD-2025-10995,2025-10-26,North America,Footwear,Marketplace,Consumer Basic,2,83.08,0.068,166.16,154.8,88.47,19.26,47.07,2.2,1
+ORD-2025-10996,2025-10-26,North America,Electronics,Wholesale B2B,VIP Retail,9,227.87,0.023,2050.85,2003.18,1030.78,43.59,928.81,7.5,0
+ORD-2025-10997,2025-10-27,North America,Apparel,Direct Online,Consumer Basic,2,75.79,0.159,151.58,127.45,87.06,13.03,27.36,2.3,0
+ORD-2025-10998,2025-10-27,Latin America,Health & Beauty,Direct Online,Mid-Market,28,63.11,0.002,1767.01,1764.05,947.02,114.2,702.83,2.8,0
+ORD-2025-10999,2025-10-27,Asia Pacific,Apparel,Direct Online,Consumer Basic,5,100.56,0.197,502.78,403.66,292.95,27.39,83.32,4.4,0
+ORD-2025-11000,2025-10-28,Europe,Health & Beauty,Marketplace,Enterprise,47,120.96,0.059,5684.9,5348.97,2950.05,283.14,2115.78,4.8,0
+ORD-2025-11001,2025-10-28,Asia Pacific,Home & Kitchen,Wholesale B2B,Consumer Basic,10,28.0,0.064,279.96,262.05,168.87,55.01,38.17,4.8,0
+ORD-2025-11002,2025-10-28,North America,Electronics,Marketplace,Enterprise,59,304.64,0.367,17973.93,11379.16,9398.1,301.26,1679.8,17.1,0
+ORD-2025-11003,2025-10-28,Latin America,Electronics,Direct Online,VIP Retail,3,512.14,0.097,1536.42,1387.17,793.36,13.59,580.22,2.0,0
+ORD-2025-11004,2025-10-29,Asia Pacific,Home & Kitchen,Direct Online,VIP Retail,9,122.97,0.138,1106.72,954.49,657.16,65.64,231.69,5.7,0
+ORD-2025-11005,2025-10-29,Asia Pacific,Health & Beauty,Marketplace,Consumer Basic,10,98.49,0.106,984.87,880.38,529.81,61.39,289.18,5.3,0
+ORD-2025-11006,2025-10-29,North America,Health & Beauty,Direct Online,Consumer Basic,2,38.03,0.141,76.05,65.3,37.33,30.81,-2.84,14.9,0
+ORD-2025-11007,2025-10-30,Asia Pacific,Apparel,Direct Online,Mid-Market,46,67.02,0.088,3082.87,2810.99,1946.08,322.34,542.57,10.9,0
+ORD-2025-11008,2025-10-30,Europe,Apparel,Direct Online,VIP Retail,4,51.07,0.155,204.29,172.7,109.97,23.49,39.24,4.1,1
+ORD-2025-11009,2025-10-30,North America,Footwear,Direct Online,VIP Retail,7,132.05,0.119,924.32,813.87,583.51,48.2,182.16,2.1,0
+ORD-2025-11010,2025-10-31,Europe,Health & Beauty,Wholesale B2B,Mid-Market,16,50.12,0.128,801.9,699.02,518.39,114.24,66.39,4.7,0
+ORD-2025-11011,2025-10-31,North America,Health & Beauty,Direct Online,Mid-Market,33,45.4,0.115,1498.34,1326.74,873.59,262.72,190.43,4.1,0
+ORD-2025-11012,2025-10-31,Europe,Electronics,Direct Online,VIP Retail,2,205.92,0.095,411.84,372.57,202.29,24.57,145.71,8.0,0
+ORD-2025-11013,2025-10-31,Latin America,Apparel,Direct Online,Consumer Basic,3,102.97,0.065,308.91,288.82,171.16,33.11,84.55,10.1,0
+ORD-2025-11014,2025-11-01,Europe,Electronics,Marketplace,Consumer Basic,2,337.08,0.326,674.16,454.17,419.23,19.53,15.41,6.2,0
+ORD-2025-11015,2025-11-01,North America,Electronics,Direct Online,Enterprise,37,389.31,0.071,14404.54,13375.5,8854.02,220.21,4301.27,5.6,0
+ORD-2025-11016,2025-11-01,Europe,Electronics,Wholesale B2B,Mid-Market,39,300.61,0.063,11723.87,10981.04,7401.51,304.63,3274.9,11.6,0
+ORD-2025-11017,2025-11-02,Europe,Electronics,Marketplace,Mid-Market,58,660.25,0.299,38294.76,26845.27,21512.97,321.03,5011.27,6.6,0
+ORD-2025-11018,2025-11-02,Asia Pacific,Footwear,Direct Online,Mid-Market,46,31.24,0.045,1437.2,1373.23,926.67,179.56,267.0,4.6,0
+ORD-2025-11019,2025-11-02,Europe,Health & Beauty,Direct Online,Mid-Market,16,88.13,0.145,1410.16,1205.83,839.93,74.11,291.79,9.3,0
+ORD-2025-11020,2025-11-03,Latin America,Electronics,Direct Online,Consumer Basic,1,329.69,0.028,329.69,320.43,180.87,22.13,117.43,10.3,0
+ORD-2025-11021,2025-11-03,North America,Health & Beauty,Marketplace,Consumer Basic,10,94.01,0.134,940.12,814.41,597.15,42.98,174.28,2.5,0
+ORD-2025-11022,2025-11-03,North America,Electronics,Direct Online,Mid-Market,50,798.2,0.02,39909.83,39100.98,22263.59,319.56,16517.83,11.0,0
+ORD-2025-11023,2025-11-03,Asia Pacific,Home & Kitchen,Direct Online,Mid-Market,39,66.7,0.006,2601.24,2586.5,1548.59,255.62,782.29,2.1,0
+ORD-2025-11024,2025-11-04,Europe,Health & Beauty,Wholesale B2B,Mid-Market,20,205.71,0.105,4114.16,3683.0,2386.12,156.91,1139.97,2.9,0
+ORD-2025-11025,2025-11-04,North America,Apparel,Marketplace,Enterprise,57,143.71,0.151,8191.54,6951.47,4645.89,398.59,1906.99,17.2,0
+ORD-2025-11026,2025-11-04,Asia Pacific,Apparel,Wholesale B2B,Consumer Basic,2,151.41,0.11,302.82,269.61,147.95,29.75,91.91,11.2,1
+ORD-2025-11027,2025-11-05,North America,Home & Kitchen,Wholesale B2B,Consumer Basic,1,43.22,0.106,43.22,38.64,20.76,11.39,6.49,4.0,0
+ORD-2025-11028,2025-11-05,Latin America,Health & Beauty,Marketplace,Mid-Market,55,205.21,0.116,11286.49,9973.9,6124.32,375.82,3473.76,4.6,0
+ORD-2025-11029,2025-11-05,Europe,Apparel,Direct Online,Enterprise,24,51.67,0.148,1240.14,1056.36,690.0,139.9,226.46,6.9,0
+ORD-2025-11030,2025-11-06,North America,Apparel,Direct Online,Mid-Market,39,125.08,0.057,4878.26,4598.82,2409.45,197.03,1992.34,5.2,0
+ORD-2025-11031,2025-11-06,North America,Home & Kitchen,Wholesale B2B,VIP Retail,3,111.52,0.119,334.57,294.67,176.17,15.33,103.17,2.0,0
+ORD-2025-11032,2025-11-06,North America,Footwear,Direct Online,Consumer Basic,2,165.1,0.059,330.19,310.77,164.4,27.51,118.86,9.1,0
+ORD-2025-11033,2025-11-06,Asia Pacific,Home & Kitchen,Marketplace,Mid-Market,19,129.64,0.144,2463.21,2109.25,1488.59,158.08,462.58,4.7,0
+ORD-2025-11034,2025-11-07,Asia Pacific,Health & Beauty,Direct Online,Consumer Basic,10,45.29,0.118,452.95,399.32,286.55,64.79,47.98,4.3,0
+ORD-2025-11035,2025-11-07,Latin America,Health & Beauty,Direct Online,Mid-Market,59,184.06,0.06,10859.74,10202.84,6023.7,419.92,3759.22,10.2,0
+ORD-2025-11036,2025-11-07,Europe,Apparel,Direct Online,Consumer Basic,6,139.44,0.11,836.65,744.73,459.98,50.06,234.69,3.8,0
+ORD-2025-11037,2025-11-08,Latin America,Footwear,Direct Online,Consumer Basic,7,74.92,0.099,524.42,472.45,320.1,59.21,93.14,3.4,0
+ORD-2025-11038,2025-11-08,North America,Health & Beauty,Marketplace,Consumer Basic,5,92.62,0.129,463.09,403.18,235.04,45.81,122.33,7.8,0
+ORD-2025-11039,2025-11-08,Europe,Electronics,Direct Online,Consumer Basic,7,211.9,0.116,1483.32,1311.38,793.88,58.74,458.76,5.3,0
+ORD-2025-11040,2025-11-09,Europe,Apparel,Direct Online,Mid-Market,38,95.73,0.063,3637.65,3408.86,1876.27,202.27,1330.32,7.6,0
+ORD-2025-11041,2025-11-09,North America,Home & Kitchen,Direct Online,Mid-Market,50,59.07,0.049,2953.32,2809.17,1817.03,310.36,681.78,2.7,0
+ORD-2025-11042,2025-11-09,North America,Footwear,Marketplace,Mid-Market,18,149.82,0.091,2696.72,2450.93,1579.41,77.14,794.38,2.5,0
+ORD-2025-11043,2025-11-09,North America,Health & Beauty,Marketplace,VIP Retail,6,69.29,0.058,415.76,391.46,269.39,28.41,93.66,4.8,0
+ORD-2025-11044,2025-11-10,North America,Apparel,Wholesale B2B,VIP Retail,7,57.57,0.056,403.02,380.55,213.59,30.74,136.22,3.0,1
+ORD-2025-11045,2025-11-10,Latin America,Apparel,Direct Online,Consumer Basic,7,47.74,0.124,334.19,292.74,184.48,55.0,53.26,5.6,0
+ORD-2025-11046,2025-11-10,Europe,Apparel,Marketplace,Consumer Basic,5,48.82,0.144,244.12,208.93,139.14,41.14,28.65,2.6,0
+ORD-2025-11047,2025-11-11,North America,Apparel,Wholesale B2B,Mid-Market,57,88.23,0.078,5029.31,4636.64,3237.21,298.46,1100.97,6.5,0
+ORD-2025-11048,2025-11-11,Latin America,Home & Kitchen,Wholesale B2B,Consumer Basic,9,25.21,0.135,226.91,196.25,123.45,74.58,-1.78,4.5,0
+ORD-2025-11049,2025-11-11,North America,Apparel,Marketplace,Consumer Basic,5,125.84,0.184,629.21,513.29,401.79,31.5,80.0,5.4,0
+ORD-2025-11050,2025-11-12,Europe,Electronics,Direct Online,Enterprise,49,381.02,0.048,18670.0,17770.75,11391.37,199.81,6179.57,8.7,0
+ORD-2025-11051,2025-11-12,Asia Pacific,Home & Kitchen,Marketplace,Mid-Market,36,35.42,0.092,1274.96,1157.32,660.87,275.77,220.68,2.1,0
+ORD-2025-11052,2025-11-12,Asia Pacific,Electronics,Direct Online,Mid-Market,16,738.97,0.051,11823.46,11221.89,6545.29,76.4,4600.2,4.1,0
+ORD-2025-11053,2025-11-12,North America,Electronics,Direct Online,VIP Retail,8,275.33,0.091,2202.65,2002.54,1247.82,48.16,706.56,2.3,0
+ORD-2025-11054,2025-11-13,Asia Pacific,Footwear,Marketplace,Consumer Basic,2,94.45,0.142,188.91,162.07,91.1,20.32,50.65,4.8,1
+ORD-2025-11055,2025-11-13,Europe,Home & Kitchen,Direct Online,Consumer Basic,4,38.33,0.124,153.31,134.31,92.61,21.33,20.37,2.9,0
+ORD-2025-11056,2025-11-13,North America,Apparel,Wholesale B2B,Consumer Basic,11,84.82,0.075,933.0,862.57,505.44,90.78,266.35,3.4,0
+ORD-2025-11057,2025-11-14,North America,Electronics,Wholesale B2B,Mid-Market,22,182.93,0.047,4024.47,3833.76,1944.66,98.07,1791.03,5.6,0
+ORD-2025-11058,2025-11-14,North America,Footwear,Direct Online,Mid-Market,49,28.41,0.029,1391.91,1351.75,840.62,273.32,237.81,6.2,0
+ORD-2025-11059,2025-11-14,Latin America,Apparel,Wholesale B2B,Mid-Market,28,134.78,0.115,3773.77,3339.93,2288.91,171.07,879.95,9.5,0
+ORD-2025-11060,2025-11-15,Europe,Electronics,Marketplace,Consumer Basic,4,641.38,0.236,2565.53,1958.87,1492.33,33.29,433.25,7.6,0
+ORD-2025-11061,2025-11-15,Europe,Apparel,Direct Online,VIP Retail,10,90.64,0.145,906.39,774.86,541.08,53.14,180.64,2.4,0
+ORD-2025-11062,2025-11-15,Europe,Electronics,Wholesale B2B,Consumer Basic,9,742.51,0.079,6682.59,6154.5,3782.46,56.42,2315.62,5.9,0
+ORD-2025-11063,2025-11-15,North America,Apparel,Direct Online,Consumer Basic,10,73.17,0.189,731.73,593.56,387.41,52.11,154.04,3.4,0
+ORD-2025-11064,2025-11-16,Europe,Apparel,Marketplace,Enterprise,43,109.32,0.138,4700.7,4050.09,2636.15,195.99,1217.95,5.5,0
+ORD-2025-11065,2025-11-16,Europe,Footwear,Wholesale B2B,Consumer Basic,5,121.69,0.14,608.44,523.52,302.28,33.07,188.17,8.6,0
+ORD-2025-11066,2025-11-16,Europe,Footwear,Marketplace,Consumer Basic,2,106.41,0.114,212.82,188.62,108.46,17.85,62.31,3.5,1
+ORD-2025-11067,2025-11-17,Latin America,Apparel,Direct Online,Consumer Basic,4,73.39,0.186,293.57,239.04,168.7,31.9,38.44,8.1,0
+ORD-2025-11068,2025-11-17,Latin America,Apparel,Marketplace,Mid-Market,17,115.63,0.177,1965.69,1617.2,995.13,127.75,494.32,3.5,0
+ORD-2025-11069,2025-11-17,Europe,Electronics,Wholesale B2B,Consumer Basic,5,565.31,0.032,2826.54,2737.46,1633.88,31.97,1071.61,7.2,0
+ORD-2025-11070,2025-11-18,Europe,Apparel,Marketplace,Consumer Basic,11,152.54,0.094,1677.93,1520.12,961.16,71.0,487.96,3.6,1
+ORD-2025-11071,2025-11-18,North America,Apparel,Wholesale B2B,Mid-Market,36,145.56,0.151,5240.23,4446.68,3264.09,273.98,908.61,3.3,0
+ORD-2025-11072,2025-11-18,North America,Apparel,Direct Online,Consumer Basic,3,141.85,0.107,425.56,379.92,231.45,21.47,127.0,6.0,0
+ORD-2025-11073,2025-11-18,Europe,Health & Beauty,Direct Online,Mid-Market,54,38.55,0.086,2081.62,1903.52,1088.51,338.45,476.56,6.2,0
+ORD-2025-11074,2025-11-19,North America,Electronics,Direct Online,Consumer Basic,2,414.57,0.042,829.14,793.95,475.06,19.3,299.59,3.7,0
+ORD-2025-11075,2025-11-19,North America,Apparel,Direct Online,Consumer Basic,4,72.7,0.142,290.8,249.53,166.69,34.35,48.49,2.1,0
+ORD-2025-11076,2025-11-19,Asia Pacific,Home & Kitchen,Marketplace,Consumer Basic,8,135.14,0.129,1081.11,941.5,577.17,50.84,313.49,7.2,0
+ORD-2025-11077,2025-11-20,North America,Electronics,Direct Online,Enterprise,35,410.28,0.079,14359.93,13219.94,8866.18,208.73,4145.03,2.8,0
+ORD-2025-11078,2025-11-20,North America,Apparel,Wholesale B2B,Enterprise,49,153.49,0.136,7521.12,6499.88,3749.47,231.43,2518.98,3.1,0
+ORD-2025-11079,2025-11-20,Europe,Home & Kitchen,Marketplace,Consumer Basic,5,33.69,0.118,168.44,148.62,106.62,33.17,8.83,5.4,0
+ORD-2025-11080,2025-11-21,Asia Pacific,Health & Beauty,Marketplace,Enterprise,54,66.94,0.098,3614.7,3258.89,1930.66,207.5,1120.73,3.5,0
+ORD-2025-11081,2025-11-21,Europe,Health & Beauty,Wholesale B2B,Enterprise,56,42.11,0.126,2358.05,2061.5,1214.65,452.1,394.75,7.8,1
+ORD-2025-11082,2025-11-21,North America,Health & Beauty,Direct Online,VIP Retail,4,52.23,0.083,208.92,191.63,128.38,29.27,33.98,3.0,0
+ORD-2025-11083,2025-11-21,North America,Apparel,Marketplace,Consumer Basic,8,107.97,0.092,863.75,784.08,544.5,42.87,196.71,2.2,0
+ORD-2025-11084,2025-11-22,Europe,Home & Kitchen,Marketplace,Consumer Basic,11,217.31,0.123,2390.36,2095.94,1507.65,45.27,543.02,3.7,0
+ORD-2025-11085,2025-11-22,Europe,Apparel,Direct Online,Mid-Market,43,82.66,0.125,3554.3,3109.51,2243.64,284.87,581.0,11.1,0
+ORD-2025-11086,2025-11-22,North America,Footwear,Direct Online,VIP Retail,10,219.73,0.094,2197.29,1989.76,1168.78,76.45,744.53,6.8,0
+ORD-2025-11087,2025-11-23,North America,Electronics,Wholesale B2B,Consumer Basic,6,844.81,0.06,5068.84,4766.34,2699.8,43.88,2022.66,4.2,0
+ORD-2025-11088,2025-11-23,North America,Electronics,Direct Online,Consumer Basic,10,361.69,0.115,3616.89,3201.81,2200.99,46.16,954.66,4.5,0
+ORD-2025-11089,2025-11-23,North America,Home & Kitchen,Direct Online,VIP Retail,3,197.6,0.007,592.79,588.79,377.97,26.5,184.32,2.6,0
+ORD-2025-11090,2025-11-24,Europe,Electronics,Direct Online,Mid-Market,32,279.42,0.084,8941.38,8193.84,4397.94,174.26,3621.64,16.9,0
+ORD-2025-11091,2025-11-24,Europe,Electronics,Marketplace,Mid-Market,43,360.05,0.31,15482.04,10676.23,9452.91,190.66,1032.66,5.6,0
+ORD-2025-11092,2025-11-24,North America,Health & Beauty,Direct Online,VIP Retail,1,62.71,0.123,62.71,54.98,31.21,13.41,10.36,4.5,0
+ORD-2025-11093,2025-11-24,Europe,Apparel,Direct Online,Consumer Basic,11,112.93,0.147,1242.22,1060.04,758.57,76.42,225.05,5.8,0
+ORD-2025-11094,2025-11-25,North America,Footwear,Direct Online,VIP Retail,4,36.81,0.133,147.24,127.65,89.56,33.15,4.94,5.8,0
+ORD-2025-11095,2025-11-25,North America,Health & Beauty,Direct Online,VIP Retail,11,125.87,0.011,1384.58,1369.13,723.14,70.5,575.49,7.1,0
+ORD-2025-11096,2025-11-25,North America,Apparel,Direct Online,Enterprise,33,36.04,0.067,1189.44,1110.28,770.47,165.17,174.64,2.8,1
+ORD-2025-11097,2025-11-26,Asia Pacific,Apparel,Marketplace,Mid-Market,51,105.2,0.157,5365.3,4521.72,3369.61,387.05,765.06,5.9,0
+ORD-2025-11098,2025-11-26,Europe,Apparel,Wholesale B2B,Enterprise,58,159.0,0.077,9221.98,8507.88,5616.54,226.59,2664.75,3.9,0
+ORD-2025-11099,2025-11-26,Asia Pacific,Footwear,Direct Online,Mid-Market,43,155.11,0.134,6669.63,5773.38,4024.55,167.39,1581.44,4.6,1
+ORD-2025-11100,2025-11-27,Latin America,Electronics,Wholesale B2B,Mid-Market,54,288.32,0.044,15569.31,14883.43,8380.77,384.26,6118.4,4.9,0
+ORD-2025-11101,2025-11-27,Europe,Electronics,Marketplace,VIP Retail,8,306.29,0.341,2450.3,1614.28,1566.02,42.27,5.99,5.6,0
+ORD-2025-11102,2025-11-27,Asia Pacific,Apparel,Marketplace,VIP Retail,1,101.65,0.065,101.65,95.04,63.37,11.67,20.0,4.7,1
+ORD-2025-11103,2025-11-27,Europe,Home & Kitchen,Direct Online,Consumer Basic,6,95.47,0.094,572.82,519.03,305.55,50.42,163.06,2.1,0
+ORD-2025-11104,2025-11-28,Asia Pacific,Health & Beauty,Marketplace,Consumer Basic,6,48.4,0.08,290.4,267.23,152.87,42.9,71.46,3.3,0
+ORD-2025-11105,2025-11-28,Europe,Home & Kitchen,Marketplace,VIP Retail,5,142.39,0.118,711.94,628.04,417.94,48.54,161.56,5.9,0
+ORD-2025-11106,2025-11-28,Europe,Apparel,Wholesale B2B,VIP Retail,1,135.39,0.114,135.39,119.96,67.74,14.18,38.04,5.0,1
+ORD-2025-11107,2025-11-29,North America,Apparel,Wholesale B2B,VIP Retail,11,154.84,0.116,1703.29,1505.21,1012.94,48.91,443.36,5.1,1
+ORD-2025-11108,2025-11-29,North America,Apparel,Direct Online,Enterprise,38,146.96,0.154,5584.67,4725.9,3310.15,226.66,1189.09,2.4,1
+ORD-2025-11109,2025-11-29,Latin America,Apparel,Wholesale B2B,Consumer Basic,5,63.44,0.065,317.2,296.49,191.18,42.8,62.51,3.6,0
+ORD-2025-11110,2025-11-30,North America,Electronics,Direct Online,Consumer Basic,5,342.73,0.093,1713.67,1553.55,851.24,49.49,652.82,6.6,0
+ORD-2025-11111,2025-11-30,North America,Health & Beauty,Direct Online,Consumer Basic,8,71.55,0.103,572.39,513.16,341.51,50.59,121.06,4.5,0
+ORD-2025-11112,2025-11-30,Europe,Health & Beauty,Marketplace,VIP Retail,5,203.6,0.042,1017.99,975.58,618.67,29.76,327.15,2.6,0
+ORD-2025-11113,2025-11-30,North America,Electronics,Direct Online,Mid-Market,48,638.2,0.022,30633.71,29960.59,19104.27,242.87,10613.45,2.5,0
+ORD-2025-11114,2025-12-01,North America,Home & Kitchen,Direct Online,Mid-Market,35,51.76,0.088,1811.49,1651.41,1009.02,274.02,368.37,8.9,0
+ORD-2025-11115,2025-12-01,Asia Pacific,Apparel,Direct Online,Mid-Market,58,83.39,0.143,4836.88,4143.32,2651.71,214.17,1277.44,2.5,0
+ORD-2025-11116,2025-12-01,Europe,Health & Beauty,Direct Online,Enterprise,37,136.71,0.06,5058.18,4753.54,2664.99,164.2,1924.35,3.7,0
+ORD-2025-11117,2025-12-02,North America,Footwear,Direct Online,VIP Retail,8,32.37,0.147,258.94,220.97,167.71,50.8,2.46,2.0,0
+ORD-2025-11118,2025-12-02,Asia Pacific,Apparel,Marketplace,Consumer Basic,10,45.62,0.066,456.21,426.11,286.44,58.82,80.85,2.4,0
+ORD-2025-11119,2025-12-02,North America,Footwear,Wholesale B2B,Consumer Basic,11,66.08,0.094,726.91,658.84,461.36,87.16,110.32,2.2,0
+ORD-2025-11120,2025-12-03,Europe,Home & Kitchen,Wholesale B2B,Mid-Market,45,124.48,0.1,5601.47,5040.48,3115.21,223.25,1702.02,2.1,0
+ORD-2025-11121,2025-12-03,Asia Pacific,Apparel,Marketplace,VIP Retail,7,102.94,0.086,720.6,658.82,371.23,55.71,231.88,7.7,0
+ORD-2025-11122,2025-12-03,Europe,Health & Beauty,Marketplace,Enterprise,54,102.22,0.147,5520.14,4706.0,2959.17,357.48,1389.35,7.0,0
+ORD-2025-11123,2025-12-03,Europe,Home & Kitchen,Wholesale B2B,Consumer Basic,5,49.16,0.085,245.78,224.97,126.68,37.01,61.28,11.1,0
+ORD-2025-11124,2025-12-04,Europe,Electronics,Direct Online,Consumer Basic,6,606.76,0.117,3640.57,3213.72,1839.75,54.79,1319.18,5.3,0
+ORD-2025-11125,2025-12-04,North America,Health & Beauty,Marketplace,Enterprise,38,174.02,0.087,6612.87,6036.64,3257.74,189.83,2589.07,4.9,0
+ORD-2025-11126,2025-12-04,Europe,Home & Kitchen,Marketplace,Mid-Market,32,72.68,0.021,2325.73,2277.92,1457.28,173.23,647.41,7.7,0
+ORD-2025-11127,2025-12-05,North America,Health & Beauty,Direct Online,Enterprise,29,30.65,0.017,888.89,873.84,554.74,206.08,113.02,3.7,0
+ORD-2025-11128,2025-12-05,North America,Apparel,Direct Online,Consumer Basic,10,68.44,0.173,684.39,565.98,383.54,98.52,83.92,18.3,0
+ORD-2025-11129,2025-12-05,North America,Health & Beauty,Marketplace,Consumer Basic,11,214.92,0.049,2364.1,2247.95,1532.27,86.22,629.46,9.7,0
+ORD-2025-11130,2025-12-06,North America,Home & Kitchen,Direct Online,Enterprise,24,47.24,0.052,1133.76,1074.63,699.27,159.95,215.41,6.3,0
+ORD-2025-11131,2025-12-06,Europe,Home & Kitchen,Marketplace,Mid-Market,22,113.37,0.023,2494.04,2435.59,1252.0,119.13,1064.46,11.5,0
+ORD-2025-11132,2025-12-06,North America,Apparel,Marketplace,Consumer Basic,2,71.81,0.052,143.62,136.14,89.41,15.62,31.11,2.2,0
+ORD-2025-11133,2025-12-06,North America,Footwear,Wholesale B2B,Consumer Basic,6,98.49,0.0,590.97,590.85,320.06,36.52,234.27,3.8,0
+ORD-2025-11134,2025-12-07,Latin America,Electronics,Marketplace,Consumer Basic,8,205.46,0.301,1643.67,1148.75,943.66,65.46,139.63,4.7,0
+ORD-2025-11135,2025-12-07,Europe,Home & Kitchen,Wholesale B2B,VIP Retail,5,149.63,0.123,748.17,656.06,434.58,26.03,195.45,2.2,0
+ORD-2025-11136,2025-12-07,North America,Home & Kitchen,Direct Online,Consumer Basic,8,56.52,0.044,452.12,432.26,255.65,42.44,134.17,5.4,0
+ORD-2025-11137,2025-12-08,Asia Pacific,Footwear,Wholesale B2B,VIP Retail,7,199.32,0.116,1395.24,1232.78,790.45,64.44,377.89,5.8,0
+ORD-2025-11138,2025-12-08,Europe,Home & Kitchen,Marketplace,Consumer Basic,9,44.81,0.049,403.26,383.4,225.56,38.91,118.93,2.2,0
+ORD-2025-11139,2025-12-08,Europe,Apparel,Marketplace,Mid-Market,50,141.28,0.103,7063.82,6333.9,3778.0,194.37,2361.53,2.8,1
+ORD-2025-11140,2025-12-09,Europe,Home & Kitchen,Marketplace,Consumer Basic,9,32.63,0.14,293.71,252.47,147.64,70.59,34.24,2.3,0
+ORD-2025-11141,2025-12-09,Europe,Electronics,Direct Online,Consumer Basic,1,615.89,0.041,615.89,590.48,358.01,15.23,217.24,6.9,0
+ORD-2025-11142,2025-12-09,Asia Pacific,Apparel,Wholesale B2B,Consumer Basic,1,130.42,0.065,130.42,121.95,63.47,14.88,43.6,6.5,0
+ORD-2025-11143,2025-12-09,Latin America,Electronics,Direct Online,VIP Retail,1,653.78,0.053,653.78,619.15,404.46,12.25,202.44,4.0,0
+ORD-2025-11144,2025-12-10,North America,Home & Kitchen,Marketplace,Consumer Basic,6,217.22,0.032,1303.32,1261.5,690.39,30.3,540.81,4.7,1
+ORD-2025-11145,2025-12-10,Europe,Apparel,Wholesale B2B,Consumer Basic,2,67.05,0.184,134.1,109.47,74.19,21.63,13.65,4.0,0
+ORD-2025-11146,2025-12-10,North America,Apparel,Direct Online,Consumer Basic,4,158.65,0.183,634.59,518.26,376.83,19.1,122.33,3.2,0
+ORD-2025-11147,2025-12-11,Asia Pacific,Health & Beauty,Direct Online,Consumer Basic,7,27.42,0.06,191.91,180.41,123.76,43.88,12.77,3.9,0
+ORD-2025-11148,2025-12-11,Europe,Electronics,Direct Online,Consumer Basic,5,705.08,0.031,3525.41,3415.2,1721.6,41.92,1651.68,14.7,0
+ORD-2025-11149,2025-12-11,North America,Electronics,Marketplace,Consumer Basic,9,453.91,0.319,4085.15,2783.8,2203.94,70.1,509.76,2.9,0
+ORD-2025-11150,2025-12-12,North America,Health & Beauty,Marketplace,Enterprise,25,26.1,0.008,652.61,647.54,408.1,130.08,109.36,9.4,0
+ORD-2025-11151,2025-12-12,North America,Apparel,Wholesale B2B,Consumer Basic,9,53.16,0.12,478.45,421.24,250.15,54.43,116.66,6.5,1
+ORD-2025-11152,2025-12-12,North America,Apparel,Wholesale B2B,Consumer Basic,3,130.63,0.193,391.88,316.18,212.75,25.87,77.56,7.7,0
+ORD-2025-11153,2025-12-12,North America,Health & Beauty,Marketplace,Consumer Basic,6,200.67,0.047,1204.02,1147.5,690.81,40.04,416.65,4.6,1
+ORD-2025-11154,2025-12-13,Asia Pacific,Health & Beauty,Marketplace,Consumer Basic,9,212.34,0.018,1911.09,1876.7,1186.16,55.11,635.43,6.0,0
+ORD-2025-11155,2025-12-13,Europe,Electronics,Direct Online,Consumer Basic,4,533.8,0.061,2135.2,2004.69,1093.79,26.74,884.16,6.3,0
+ORD-2025-11156,2025-12-13,North America,Home & Kitchen,Direct Online,Consumer Basic,1,77.67,0.059,77.67,73.1,38.62,9.31,25.17,3.5,0
+ORD-2025-11157,2025-12-14,North America,Health & Beauty,Wholesale B2B,Consumer Basic,1,54.34,0.07,54.34,50.54,30.17,14.12,6.25,5.4,0
+ORD-2025-11158,2025-12-14,Europe,Health & Beauty,Direct Online,Enterprise,29,107.75,0.002,3124.78,3117.46,1699.41,234.03,1184.02,3.1,0
+ORD-2025-11159,2025-12-14,North America,Apparel,Marketplace,Mid-Market,26,112.04,0.073,2912.96,2699.52,1419.28,146.98,1133.26,4.6,0
+ORD-2025-11160,2025-12-15,Europe,Health & Beauty,Marketplace,Consumer Basic,2,134.15,0.054,268.31,253.89,168.52,19.13,66.24,2.3,0
+ORD-2025-11161,2025-12-15,Europe,Health & Beauty,Marketplace,Consumer Basic,4,140.98,0.052,563.93,534.43,314.2,22.6,197.63,3.2,0
+ORD-2025-11162,2025-12-15,Europe,Health & Beauty,Marketplace,Consumer Basic,2,109.01,0.009,218.02,216.14,119.03,16.18,80.93,3.8,1
+ORD-2025-11163,2025-12-15,North America,Apparel,Marketplace,Consumer Basic,8,140.0,0.137,1120.01,966.27,577.03,44.85,344.39,3.2,1
+ORD-2025-11164,2025-12-16,Latin America,Electronics,Marketplace,Consumer Basic,7,692.88,0.348,4850.19,3162.25,2580.45,58.39,523.41,8.6,0
+ORD-2025-11165,2025-12-16,North America,Footwear,Marketplace,Mid-Market,51,40.62,0.06,2071.52,1946.22,1049.86,302.11,594.25,3.4,0
+ORD-2025-11166,2025-12-16,Europe,Apparel,Wholesale B2B,Consumer Basic,3,110.51,0.058,331.53,312.24,209.65,25.49,77.1,7.5,0
+ORD-2025-11167,2025-12-17,Latin America,Health & Beauty,Direct Online,Mid-Market,41,89.52,0.143,3670.28,3144.71,1957.28,175.89,1011.54,3.2,0
+ORD-2025-11168,2025-12-17,Asia Pacific,Home & Kitchen,Direct Online,Enterprise,46,40.34,0.064,1855.79,1737.16,984.25,263.06,489.85,10.7,0
+ORD-2025-11169,2025-12-17,Europe,Apparel,Direct Online,Consumer Basic,4,87.21,0.129,348.85,303.92,203.81,27.11,73.0,2.4,0
+ORD-2025-11170,2025-12-18,Asia Pacific,Home & Kitchen,Marketplace,Consumer Basic,4,73.5,0.102,293.99,264.08,186.09,32.59,45.4,9.0,0
+ORD-2025-11171,2025-12-18,Europe,Electronics,Marketplace,Consumer Basic,11,388.31,0.281,4271.42,3072.23,2075.63,73.87,922.73,5.7,0
+ORD-2025-11172,2025-12-18,Asia Pacific,Electronics,Wholesale B2B,Consumer Basic,8,731.02,0.042,5848.18,5604.61,3487.54,52.05,2065.02,3.2,0
+ORD-2025-11173,2025-12-18,Europe,Electronics,Direct Online,Enterprise,52,599.12,0.07,31154.39,28988.49,17276.13,320.65,11391.71,6.3,0
+ORD-2025-11174,2025-12-19,Europe,Apparel,Marketplace,Mid-Market,47,137.58,0.118,6466.47,5705.53,4132.63,336.07,1236.83,4.8,0
+ORD-2025-11175,2025-12-19,North America,Electronics,Marketplace,Consumer Basic,5,840.86,0.284,4204.32,3008.59,2129.34,45.19,834.06,9.0,0
+ORD-2025-11176,2025-12-19,Latin America,Health & Beauty,Direct Online,Mid-Market,23,71.86,0.054,1652.85,1563.9,815.52,124.27,624.11,9.4,0
+ORD-2025-11177,2025-12-20,North America,Home & Kitchen,Direct Online,Mid-Market,35,58.92,0.126,2062.19,1801.52,1251.53,190.64,359.35,3.0,0
+ORD-2025-11178,2025-12-20,Latin America,Health & Beauty,Direct Online,Consumer Basic,8,57.3,0.031,458.37,444.34,265.44,38.82,140.08,5.5,0
+ORD-2025-11179,2025-12-20,Latin America,Electronics,Wholesale B2B,Consumer Basic,2,799.23,0.071,1598.45,1485.72,839.6,17.13,628.99,3.1,0
+ORD-2025-11180,2025-12-21,Europe,Home & Kitchen,Direct Online,Consumer Basic,5,172.9,0.048,864.48,822.82,503.56,33.56,285.7,2.3,0
+ORD-2025-11181,2025-12-21,Europe,Health & Beauty,Marketplace,Mid-Market,49,197.22,0.025,9663.65,9421.52,5867.01,263.27,3291.24,2.8,0
+ORD-2025-11182,2025-12-21,Latin America,Apparel,Marketplace,Mid-Market,42,120.34,0.114,5054.47,4477.85,3274.5,259.85,943.5,4.7,0
+ORD-2025-11183,2025-12-21,North America,Electronics,Direct Online,Mid-Market,56,370.37,0.093,20740.78,18805.83,12615.97,381.54,5808.32,2.5,0
+ORD-2025-11184,2025-12-22,North America,Health & Beauty,Marketplace,Consumer Basic,10,89.01,0.024,890.13,869.0,493.33,42.98,332.69,2.6,0
+ORD-2025-11185,2025-12-22,North America,Health & Beauty,Marketplace,Enterprise,58,188.27,0.092,10919.75,9915.66,6925.41,389.09,2601.16,2.6,0
+ORD-2025-11186,2025-12-22,Asia Pacific,Health & Beauty,Marketplace,Mid-Market,48,67.47,0.049,3238.6,3079.65,2085.15,376.52,617.98,5.0,0
+ORD-2025-11187,2025-12-23,Latin America,Home & Kitchen,Direct Online,Enterprise,31,30.81,0.085,955.14,874.43,547.0,190.01,137.42,6.3,0
+ORD-2025-11188,2025-12-23,North America,Apparel,Direct Online,Consumer Basic,4,138.68,0.17,554.71,460.25,345.19,29.56,85.5,5.9,0
+ORD-2025-11189,2025-12-23,North America,Electronics,Direct Online,Consumer Basic,8,461.31,0.081,3690.5,3390.36,2382.95,48.92,958.49,7.7,0
+ORD-2025-11190,2025-12-24,Asia Pacific,Electronics,Marketplace,Consumer Basic,2,729.78,0.249,1459.55,1096.73,744.82,19.61,332.3,2.9,0
+ORD-2025-11191,2025-12-24,Europe,Apparel,Wholesale B2B,Enterprise,28,66.3,0.131,1856.31,1612.38,1026.76,195.3,390.32,6.8,0
+ORD-2025-11192,2025-12-24,North America,Footwear,Marketplace,Consumer Basic,11,62.92,0.112,692.13,614.27,411.53,64.48,138.26,3.0,0
+ORD-2025-11193,2025-12-24,Europe,Electronics,Direct Online,Consumer Basic,6,732.71,0.044,4396.29,4204.14,2463.66,51.11,1689.37,6.6,0
+ORD-2025-11194,2025-12-25,North America,Electronics,Marketplace,VIP Retail,6,299.67,0.376,1798.0,1121.08,1019.75,30.8,70.53,3.9,0
+ORD-2025-11195,2025-12-25,Europe,Electronics,Wholesale B2B,Mid-Market,37,692.26,0.022,25613.53,25041.06,16417.02,152.82,8471.22,6.9,0
+ORD-2025-11196,2025-12-25,Europe,Apparel,Direct Online,Consumer Basic,1,154.96,0.119,154.96,136.56,89.44,11.88,35.24,4.2,0
+ORD-2025-11197,2025-12-26,North America,Apparel,Wholesale B2B,VIP Retail,7,45.49,0.127,318.41,277.81,200.3,45.26,32.25,2.8,0
+ORD-2025-11198,2025-12-26,Asia Pacific,Electronics,Marketplace,Consumer Basic,5,325.71,0.247,1628.57,1226.56,997.97,42.93,185.66,14.9,0
+ORD-2025-11199,2025-12-26,Asia Pacific,Apparel,Marketplace,Consumer Basic,1,88.19,0.059,88.19,82.96,43.46,14.47,25.03,4.4,0
