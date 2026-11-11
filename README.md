@@ -267,4 +267,3 @@ MSc Information Technology Student
 
 ---
 
-*Business Analytics Consultant – Transforming business data into explainable insights and informed decisions.*
